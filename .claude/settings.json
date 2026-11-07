@@ -1,0 +1,19 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "D:/Dev/conda-envs/py312/python.exe",
+            "args": [
+              "${CLAUDE_PROJECT_DIR}/hooks/rea_upstream.py",
+              "session-start"
+            ],
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

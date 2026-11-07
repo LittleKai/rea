@@ -1,136 +1,143 @@
-# Repository Guidelines
+# Instructions for agents — REA (Reverse Engineer Anything)
 
-## Product and Authority
+`REA` (`rea-agents`) là bộ công cụ dịch ngược (reverse engineering) chạy cục bộ với luồng phân tích dùng chung giữa CLI (`rea` / `rea-agents`) và MCP server, hỗ trợ phân tích binary thực thi, ứng dụng JavaScript/Electron, .NET assemblies, APK/Flutter, firmware, gói tin mạng, crash dumps và hành vi runtime kèm bằng chứng (`Evidence`) có truy vết nguồn gốc.
 
-REA is a local-only reverse-engineering tool with shared CLI/MCP workflows. Distinguish observations, derivations, inferences, and unknowns; preserve Evidence provenance and session semantics through both adapters. Provider support and setup live in [README.md](README.md#choosing-a-deep-analysis-provider) and its linked guides.
+File này là **bộ định tuyến dùng chung cho Codex, Antigravity và Claude Code** (`CLAUDE.md` là shim 1 dòng `@AGENTS.md`) — nó nói _đọc gì_ và _luật nào không được bỏ qua_. Mọi chi tiết nằm ở file nó trỏ tới; **thêm vào đây là lựa chọn cuối cùng, không phải mặc định.**
 
-Follow the [contribution scope and fail-closed integration rule](CONTRIBUTING.md#contribution-scope). Do not integrate capabilities while material scope, authority, side-effect, or required verification questions remain unresolved. For new providers or capabilities involving target execution, injection, mutation, or protection recovery, seek the required maintainer scope decision before substantial implementation for integration. Welcome early proposals, small exploratory prototypes, and draft PRs that help resolve questions; they do not authorize integration.
+Text files are UTF-8 without BOM. In PowerShell read them with `Get-Content -Encoding UTF8`; plain `Get-Content` under `-NoProfile` garbles Vietnamese, and writing that text back corrupts the file.
 
-Ghidra uses ephemeral databases without modifying executable bytes or controlling a GUI; Windows Ghidra P0 has no mutation authority. IDA analysis is read-only; never save or close an attached GUI database.
+---
 
-Configuration changes must be additive and idempotent, with backups. Installers must not install or upgrade unrelated software, including Homebrew, Node.js, npm, Java, or Ghidra. Ghidra and IDA are bring-your-own. `rea setup` must show its planned changes and require approval before writing files or installing Hopper.
+## 🎯 ĐẦU RA LÀ GÌ
 
-Preserve caller-selected inputs and local evidence, including output, URLs, paths, digests, and metadata. Redact transport authentication credentials and explicitly marked sensitive values; do not infer secrecy from names or text patterns. Do not persist the ambient environment merely because a child inherits it.
+Artifact bàn giao là gói npm `rea-agents` (`dist/`, `scripts/rea.mjs`, `skills/`, `bridge/**`, native Windows addon `native/windows/build/rea-windows-x64.node`, `.claude-plugin/plugin.json`, `.codex-plugin/plugin.json`, `.codex-plugin/mcp.json`) cung cấp CLI và MCP server dùng chung.
 
-## Architecture and Cleanup
+**Bàn giao bắt buộc:**
 
-Dependencies flow inward: domain semantics and contracts, provider adapters, shared application workflows, then CLI/MCP adapters. Keep engine protocols and provider-specific code out of domain/application layers. See [docs/architecture.mermaid](docs/architecture.mermaid) when changing composition.
+- Phân biệt rõ quan sát (`observations`), suy dẫn (`derivations`), suy luận (`inferences`) và phần chưa rõ (`unknowns`); bảo toàn nguồn gốc `Evidence` và ngữ nghĩa phiên (`session`) qua cả hai adapter CLI và MCP.
+- Tuân thủ quy tắc phạm vi đóng góp và tích hợp fail-closed tại [CONTRIBUTING.md](CONTRIBUTING.md#contribution-scope): không tích hợp năng lực mới khi phạm vi, quyền hạn, tác dụng phụ hoặc yêu cầu kiểm chứng còn bỏ ngỏ; cần quyết định phạm vi của maintainer trước khi triển khai lớn cho provider/năng lực thực thi, tiêm mã, biến đổi (mutation) hoặc khôi phục bảo vệ.
+- `docs/public/product-catalog.json`, `docs/verification/managed-conformance-*.json` và `skills/` là đầu ra sinh tự động (đã gitignore): chỉ sửa contract nguồn và `.agents/skills/reverse-engineer-anything/`, sau đó chạy lệnh generate tương ứng. `.cache/mcp-tool-catalog.json` là test metadata; không bao giờ commit binary, tài liệu project của provider, credential, `dist/`, `node_modules/` hay planning artifacts.
 
-Give each interpretation and resource a clear owner. Consumers must use that owner's parsed facts rather than reinterpret raw source. Preserve identity, omission, uncertainty, and source evidence across boundaries. Retain ownership of resources whose cleanup failed. Reuse `src/process/` supervision and identity primitives; a PID and executable path alone do not establish ownership after exit or reuse.
+**Phạm vi:** "toàn workspace" giữ root và các thành phần liên quan; tên hoặc đường dẫn cụ thể chọn đúng đơn vị đó. Không tự chọn project từ memory/file vừa đọc; chỉ hỏi khi thông tin thiếu làm thay đổi kết quả.
 
-Keep proof of ownership separate from validity, editability, and readiness. Malformed owned data may still be safely removable. Unresolved identity or applicability must remain unknown rather than be treated as absent, foreign, or aligned.
+---
 
-For lifecycle changes, follow [ownership and completion invariants](docs/tool-design.md#own-the-lifecycle) and select the applicable [lifecycle regressions](docs/testing.md#lifecycle-regressions). Include late handshakes, cancellation during final cleanup, mixed child outcomes, and cleanup retry where those stages exist; active-execution cancellation alone does not cover finalization.
+## 📖 ĐỌC GÌ — theo việc đang làm
 
-Before adding complexity for a speculative or vanishingly unlikely race or security edge case, explain the concrete failure mode, likelihood, and complexity cost to the user and get their buy-in. Do not silently expand scope for theoretical robustness.
+**Luôn luôn, trước mọi việc:** `.claude/PROJECT_SUMMARY.md` (trạng thái dự án — đọc nó, đừng đọc lại toàn bộ code). Bảng bên dưới định tuyến các tài liệu bổ sung theo task; nó không thay thế summary lõi.
 
-Assess brittleness in touched code during implementation, debugging, review, and maintenance. Fix the producing representation or ownership rule before adding downstream repairs. Normalize once at the owning boundary using format-aware parsers. Remove superseded representations, aliases, wrappers, and redundant tests after verifying affected consumers. Introduce abstractions only when they remove observed complexity.
+| Task đụng tới                                                                                                  | Đọc trước                                                                                                                                                                                                 |
+| -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Thêm/sửa code TypeScript, quy ước đặt tên, xử lý lỗi `Result`, kiểm rào chắn kiến trúc, hoặc chuẩn bị Issue/PR | `.claude/CONVENTIONS.md` + [CONTRIBUTING.md](CONTRIBUTING.md)                                                                                                                                             |
+| Thiết kế hoặc sửa công cụ điều tra, hợp đồng CLI/MCP, schema JSON, hoặc ngữ nghĩa `Evidence`                   | [docs/tool-design.md](docs/tool-design.md) + `.agents/skills/rea-tool-design/SKILL.md`                                                                                                                    |
+| Thay đổi cấu trúc liên tầng, đăng ký provider mới, hoặc vòng đời phiên / tài nguyên                            | [docs/architecture.mermaid](docs/architecture.mermaid) + [docs/capability-composition.md](docs/capability-composition.md)                                                                                 |
+| Thay đổi giới hạn đầu vào, ngân sách bộ nhớ, timeout hoặc phục hồi lỗi                                         | [docs/design/limits-and-recovery.md](docs/design/limits-and-recovery.md)                                                                                                                                  |
+| Thay đổi installer, tải file phát hành hoặc kiểm thử vòng đời / biên ranh giới                                 | [docs/testing.md#checking-installers-and-publisher-downloads](docs/testing.md#checking-installers-and-publisher-downloads) + [docs/testing.md#boundary-regressions](docs/testing.md#boundary-regressions) |
+| Tối ưu hiệu năng phân tích, giảm token ngữ cảnh agent, thiết kế cache hoặc giảm độ trễ/bộ nhớ                  | `.agents/skills/rea-analysis-optimization/SKILL.md` + mục [Performance](#performance) bên dưới                                                                                                            |
+| Thêm/sửa test, kiểm thử vòng đời (lifecycle regressions), hoặc kiểm toán CI/test suite                         | [docs/testing.md](docs/testing.md) + `.agents/skills/rea-ci-tests-audit/SKILL.md`                                                                                                                         |
+| Cập nhật changelog phát hành hoặc ghi chú Release Please                                                       | `.agents/skills/rea-changelog-update/SKILL.md`                                                                                                                                                            |
+| Dùng REA phân tích repo/binary/ứng dụng mục tiêu hoặc tiếp tục phiên phân tích trước đó                        | [`_reference/INDEX.md`](_reference/INDEX.md) + `.agents/skills/reverse-engineer-anything/SKILL.md`                                                                                                        |
+| Kiểm tra bản mới từ repo gốc (`upstream/main`) hoặc đồng bộ upstream mà không mất cấu hình Setup v2            | `.agents/skills/rea-upstream-sync/SKILL.md` + `hooks/rea_upstream.py`                                                                                                                                     |
+| Tóm tắt output/log lớn (`> 150` dòng), đọc lướt 3+ file lạ, giao code 1 file cô lập hoặc điều phối worker Orca | `~/.agents/skills/delegate/SKILL.md` (`$HOME/.agents/skills/delegate/scripts/delegate.mjs`, không clone vào repo)                                                                                         |
 
-When fixing a bug, inspect the producing boundary and affected consumers for duplicated interpretation or unclear ownership. Complete any directly related refactor in the same change and remove superseded code. Passing regression tests alone does not establish that the brittleness is resolved. If related cleanup remains, explain what remains and why.
+**KHÔNG đọc:**
 
-After confirming a bug, search sibling adapters, consumers and similar workflows
-for the same failure. Verify suspected matches, record working comparisons, and
-group findings by root cause instead of filing duplicate reports.
+- ❌ Toàn bộ `src/` hoặc `tests/` chỉ để "hiểu dự án" khi đã có `.claude/PROJECT_SUMMARY.md`
+- ❌ File đã được tóm tắt trong `.claude/PROJECT_SUMMARY.md` nếu task không đụng tới
+- ❌ `.claude/archive/` — lịch sử đã hết hiệu lực; chỉ mở để biết **vì sao** một quyết định cũ được đưa ra, và không bao giờ làm theo nó
+- ❌ Các thư mục build/vendor/generated và bản dịch README: `dist/`, `build/`, `node_modules/`, `third_party/`, `_reference/` (trừ `_reference/INDEX.md` và `_reference/targets/<slug>/` của mục tiêu đang phân tích), `website/_site/`, `skills/`, `docs/readme/README_*.md`, `CHANGELOG.md` (trừ khi task yêu cầu sửa đúng file đó)
 
-When addressing a review thread, inspect the producing boundary and affected consumers for brittleness. Complete directly related refactoring in the same change. Before resolving the thread, explain the root cause, structural fix, validation, and any remaining cleanup.
+---
 
-Parse unknown boundary values and model expected failures with the tagged error algebra and `Result`. Preserve partial facts and meaningful failure reasons. Keep identity and lookup values separate from display formatting; preserve source values and explicit unknowns when normalization loses information. Absolute paths, file URLs, and HTTP paths have different semantics.
+## ⚙️ CONTRACT VẬN HÀNH (§0.7)
 
-Validate advertised JSON Schemas after SDK conversion against their declared dialect and actual clients. Bind handlers to named contracts with exact types; catalog ordering must never select an operation or schema.
+1. **Entrypoint, script và file tạm:** Giữ nguyên đường dẫn entrypoint đang được `package.json`, plugin và CI sử dụng (`scripts/rea.mjs`, `scripts/plugin-mcp-launcher.mjs`, `scripts/prepack.mjs`, `scripts/prepare.mjs`, `src/cli.ts`, `src/main.ts`, `bridge/**`, `native/windows/build/**`). Chỉ dời script/alias sau khi truy vết mọi tham chiếu động, verifier, subprocess và test theo `CONTRIBUTING.md`.
+2. **Dependency & nhiều runtime:** Dùng đúng toolchain khoá trong [.nvmrc](.nvmrc) (`24.22.1`) và `package.json#packageManager` (`npm@11.16.0` + `package-lock.json`; cài bằng `npm ci`). Trên Cursor Cloud có thể cần tiền tố `PATH="/usr/local/bin:$PATH"` trước `node` và `npm`. Dùng Node.js và npm cho build và verifier scripts (hỗ trợ Bun chỉ dành cho package đã cài). Trên máy Windows này, mọi lệnh Python chạy qua Conda env đã khoá (`D:\Dev\conda-envs\py312\python.exe` hoặc `D:\Dev\conda-envs\py310\python.exe`), cấm dùng Python hệ thống hay conda base. Ghidra và IDA là bring-your-own; installer không tự cài/nâng cấp Homebrew, Node.js, npm, Java hay Ghidra.
+3. **Biến môi trường & cấu hình:** Cấu hình thay đổi bởi `rea setup` phải chỉ cộng thêm (additive), idempotent, có tạo backup và hiển thị kế hoạch chờ người dùng duyệt trước khi ghi file hoặc cài Hopper. Không lưu trữ môi trường xung quanh (ambient environment) chỉ vì tiến trình con kế thừa nó (`src/process/snapshotEnvironment.ts`).
+4. **Kiến trúc tầng & Bridge/IPC:** Phụ thuộc chảy vào trong (`docs/architecture.mermaid`): Domain (`src/domain/`) + Contracts (`src/contracts/`) → Provider Adapters (`src/<provider>/`, `src/providers/`, `src/process/`) → Shared Application Workflows (`src/application/`) → Composition & Entry Adapters (`src/composition/`, `src/cli.ts`, `src/main.ts`, `src/server/`). Giữ giao thức engine và code đặc thù provider ngoài domain/application. Kiểm tra JSON Schema quảng cáo sau khi chuyển đổi SDK với dialect đã khai báo và client thực tế; gắn handler vào named contracts với kiểu chính xác (`src/server/contractToolHandler.ts`), thứ tự catalog không bao giờ được dùng để chọn thao tác hay schema.
+5. **Quyền hạn Provider & An toàn dữ liệu:** Ghidra dùng database tạm thời không sửa byte thực thi hay điều khiển GUI (Windows Ghidra P0 không có quyền mutate). Phân tích IDA là chỉ đọc — tuyệt đối không lưu hoặc đóng database GUI đang đính kèm. Giới hạn tài nguyên phải bám sát ràng buộc thực tế của định dạng/giao thức (`docs/design/limits-and-recovery.md`, `src/process/LinuxResourceLimits.ts`), tính cả độ nở biểu diễn trước khi cấp phát.
+6. **Sở hữu tài nguyên, Timeout & Vòng đời tiến trình:** Mỗi diễn giải và tài nguyên phải có một chủ sở hữu (owner) rõ ràng; consumer dùng dữ kiện đã parse của owner thay vì đọc lại nguồn thô. Tái sử dụng nguyên hàm giám sát và định danh trong `src/process/`; chỉ PID và đường dẫn thực thi không đủ chứng minh quyền sở hữu sau khi tiến trình thoát hoặc tái sử dụng. Tách biệt bằng chứng sở hữu với tính hợp lệ, khả năng chỉnh sửa và trạng thái sẵn sàng; dữ liệu thuộc sở hữu bị lỗi định dạng vẫn có thể được dọn an toàn. Giữ lại quyền sở hữu tài nguyên có bước dọn dẹp thất bại để thử lại (`CapabilityScope`, `src/providers/`). Thay đổi vòng đời phải tuân thủ [ownership and completion invariants](docs/tool-design.md#own-the-lifecycle) và kiểm thử [lifecycle regressions](docs/testing.md#lifecycle-regressions) (bắt tay muộn, huỷ trong lúc dọn dẹp cuối cùng, kết quả con hỗn hợp và thử lại dọn dẹp).
+7. **Lưu trữ phân tích & Cache cục bộ tại root (`_reference/`):** Khi dùng REA phân tích bất kỳ repo/binary/ứng dụng nào, lưu toàn bộ cache công cụ (`_reference/cache/`, ví dụ `REA_KUNA_CACHE_DIR=D:\Dev\7.REA\rea\_reference\cache\kuna`), snapshot (`_reference/targets/<slug>/snapshots/`), evidence bundle (`_reference/targets/<slug>/evidence/`), artifact/repo (`_reference/targets/<slug>/artifacts/`) và báo cáo (`_reference/targets/<slug>/REPORT.md`) ngay tại `D:\Dev\7.REA\rea\_reference\` (đã gitignore). Luôn đọc `_reference/INDEX.md` đầu phiên để nạp lại snapshot/evidence cũ và cập nhật lại `_reference/INDEX.md` khi kết thúc phiên.
+
+<a id="performance"></a>
 
 ## Performance
 
-Design analysis workflows and agent interfaces for efficiency from the first
-implementation. Correctness, useful answers, Evidence provenance, caller choices,
-compatibility and safe resource bounds remain required.
+Thiết kế luồng phân tích và giao diện agent tối ưu ngay từ đầu trong khi giữ nguyên tính đúng đắn, `Evidence` provenance, lựa chọn của caller và giới hạn tài nguyên an toàn. Thứ tự ưu tiên:
 
-Optimize in this order:
+1. **Agent tokens và context:** Trả về câu trả lời nhỏ nhất đủ dùng kèm provenance, độ phủ và giới hạn cần thiết. Dùng chọn lọc tác vụ, tóm tắt (`detail: "summary"`), phân trang và `Evidence` lưu giữ nơi hỗ trợ; tính chi phí trên toàn bộ tác vụ (gồm cả schema, lệnh gọi phụ và retry).
+2. **Thời gian phân tích:** Tái sử dụng kết quả đã xác thực và công việc dùng chung. Khóa cache phải bao phủ mọi đầu vào ảnh hưởng kết quả; xác định rõ điều kiện vô hiệu hóa/vòng đời và kiểm tra độ mới trước khi báo trạng thái live đã cache là hiện hành.
+3. **CPU và bộ nhớ:** Tránh công việc và sao chép thừa; giới hạn độ đồng thời, trạng thái lưu giữ và độ phình tuần tự hóa.
 
-1. Agent tokens and context. Return the smallest sufficient answer with
-   necessary provenance, coverage and limitations. Use task selection,
-   summaries, paging and retained Evidence where supported; honor requested
-   detail and keep complete Evidence accessible. Count the whole task,
-   including schemas, extra calls and retries.
-2. Analysis time. Reuse validated results and shared work. Cache keys must
-   cover result-affecting inputs; define invalidation and lifetime. Validate
-   freshness before reporting cached live state as current.
-3. CPU and memory. Avoid unnecessary work and copies; bound concurrency,
-   retained state and serialization growth.
+Chỉ đo hiệu năng khi thay đổi nhắm vào hiệu năng hoặc có nguy cơ suy giảm cụ thể (dọn dẹp thông thường dùng kiểm tra tính đúng đắn). Khi đo, so sánh tác vụ hoàn chỉnh tương đương trước/sau, báo cáo token, thời gian thực thi, CPU time và đỉnh bộ nhớ họ tiến trình (tách riêng lần chạy lạnh/ấm, gắn nhãn ước tính và nêu phần chưa đo). Phối hợp các phép kiểm nặng giữa các agent; nếu test ngốn CPU bất thường, dừng họ tiến trình thuộc sở hữu của nó và profile một ca đại diện giới hạn trước khi chạy lại ([docs/testing.md](docs/testing.md#developer-commands)).
 
-Reserve performance measurements for changes that target performance or have a
-concrete regression concern. Routine cleanup uses correctness checks; changes
-to helper calls, imports, or representations alone do not require synthetic
-benchmarks. When measurement is warranted, measure representative completed
-tasks and compare equivalent workflows before and after where available. Report
-token usage, elapsed time, CPU time and peak process-family memory. Separate cold
-and warm runs, label estimates, and state unmeasured costs. Fewer bytes alone
-do not establish fewer tokens or faster analysis.
+---
 
-## Development
+## 🧪 VERIFY — chưa nhìn thấy thì chưa xong
 
-Use [.nvmrc](.nvmrc) and `package.json#packageManager` for the pinned toolchain. Cursor Cloud may place older Node.js first on `PATH`; environment setup installs the pinned toolchain under `/usr/local/bin`. Prefix `PATH="/usr/local/bin:$PATH"` before `node` and `npm`.
+Bắt buộc chạy và nhìn thấy kết quả **của lần chạy này** trước khi kết thúc task (nêu rõ phạm vi chưa kiểm hoặc provider thật không có sẵn là `UNVERIFIED` / `NOT_ENOUGH_INFO`, không dùng simulated provider để tuyên bố hành vi real-provider):
 
-- `npm ci`: install locked dependencies.
-- `npm run build:cached`: build the runtime and packaged skill.
-- `npm run test:local -- PATH...`: source tests without building.
-- `npm run test:focused -- PATH...`: exact tests with their required artifacts.
-- `npm run check:fast`: cached typecheck/lint and the pre-push check.
-- `npm run docs:check`: validate generated documentation.
+1. **Chỉ sửa tài liệu setup (`AGENTS.md`, `CLAUDE.md`, `.claude/*`):** Chạy `D:\Dev\conda-envs\py312\python.exe D:\Dev\3.lib_pj\hybrid-ai-skills\.claude\0.Claude_set_up\audit_setup_v2.py .` (`0 FAIL, 0 MISSING`), `node scripts/check-doc-facts.mjs` (hoặc `npm run docs:check`), và `npx oxfmt --check AGENTS.md`.
+2. **Sửa code TypeScript / contracts / adapters (`src/`, `tests/`, `scripts/`):**
+   - `npm run check:fast` (typecheck + `oxlint` + `verify:module-boundaries`) và `npm run verify:architecture-guards`.
+   - `npm run test:local -- <PATH...>` (test nguồn không cần build) hoặc `npm run test:focused -- <PATH...>` (test kèm artifact cần thiết). Thêm/dời file test phải chạy `npm run verify:test-discovery`.
+3. **Sửa CLI / MCP / skills / docs projections:** Chạy `npm run build:cached`, chạy thử artifact CLI/MCP thật (`node scripts/rea.mjs --help` hoặc lệnh phân tích liên quan), và `npm run docs:check`.
+4. **Sửa bridge Python (`bridge/**/*.py`, `scripts/run-python-tests.py`):** Chạy `npm run test:python` (trên Linux/macOS hoặc qua `D:\Dev\conda-envs\py312\python.exe scripts/run-python-tests.py`; lưu ý các bridge POSIX cần `resource`/`fcntl` chạy trên Linux/WSL).
+5. **Thay đổi rộng hoặc chẩn đoán CI:** Chạy `npm run check:pr`.
 
-Use relevant checks for the change. The complete local gate, `npm run check:pr`, is optional for broad changes or CI diagnosis. See [CONTRIBUTING.md](CONTRIBUTING.md) for development, generated-file ownership, and release conventions.
+---
 
-When changing installers or setup recovery, follow
-[Checking installers and publisher downloads](docs/testing.md#checking-installers-and-publisher-downloads).
+## ✍️ SAU MỖI TASK — viết lại vào đâu
 
-Coordinate expensive checks across agents. If a test unexpectedly consumes heavy CPU, stop its owned process family and profile a bounded representative case before retrying. Inspect production work, fixture generation, subprocesses, and repeated setup; preserve regression coverage when optimizing. Follow the [test resource guidance](docs/testing.md#developer-commands).
+Cập nhật `.claude/PROJECT_SUMMARY.md` theo luật ngay đầu file đó. Học được điều **đúng cho cả lần sau** thì nâng lên tầng dùng chung:
 
-`docs/public/product-catalog.json`, `docs/verification/managed-conformance-*.json`, and `skills/` are ignored outputs. Edit source contracts and `.agents/skills/reverse-engineer-anything/`, then regenerate as needed. `.cache/mcp-tool-catalog.json` is test metadata; runtime builds and source checking do not consume it. Never commit binaries, provider project documents, credentials, `dist/`, `node_modules/`, or local planning artifacts.
+| Loại                                                            | Ghi vào                                                                                          | Viết thế nào                                                                                                      |
+| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
+| Quy ước code, đặt tên, kiến trúc, PR/Issue                      | `.claude/CONVENTIONS.md`                                                                         | Câu mệnh lệnh kèm ≥2 ví dụ `file::symbol`; quy ước công cụ đã cưỡng chế thì đưa vào bảng công cụ và xoá văn xuôi  |
+| Lỗi im lặng, dễ tái phát (khi phát sinh bẫy đầu tiên theo §0.5) | `.claude/IMPORTANT_FIXED_BUGS.md`                                                                | Triệu chứng → nguyên nhân → Do Not Repeat + một dòng trong Bảng bẫy (có CỬA RA ✅/🔶/❌ xuống `.claude/archive/`) |
+| Rào chắn AST / biên module / quy tắc lint dùng chung            | `scripts/verify/architecture-guards.mjs` · `scripts/lib/module-boundaries.mjs` · `scripts/lint/` | Cưỡng chế trực tiếp bằng code trong luồng `npm run check`                                                         |
 
-## Tool and Test Changes
+---
 
-For tool design, follow [docs/tool-design.md](docs/tool-design.md): start from the analyst question, reuse existing contracts, preserve caller choices, and return useful evidence inline. Limits must follow real format, protocol, authority, or resource constraints. Account for representation expansion before allocation; derive completeness from examined coverage.
+## 🔒 BẢO MẬT
 
-For user- or agent-facing tool problems, prioritize fixing the owning behavior,
-contract, and actionable result or recovery at the point of use. Document the
-result in product docs when explanation is needed. Add skill guidance only for
-workflow judgment or context that the tool cannot reasonably convey; do not use
-a skill as the primary repair for a discoverability or contract defect.
+- **Không** ghi API key, token, password, credential hay dữ liệu mục tiêu nhạy cảm thật vào bất kỳ file nào bị Git theo dõi — kể cả comment, test fixture và markdown. Chỉ dùng placeholder `<YOUR_API_KEY>`.
+- Bảo toàn đầu vào do caller chọn và bằng chứng cục bộ (output, URL, đường dẫn, digest, metadata). Che dấu (redact) thông tin xác thực transport và các giá trị nhạy cảm được đánh dấu tường minh; không suy đoán tính bí mật chỉ từ tên biến hay mẫu văn bản.
 
-For test changes or provider claims, use [docs/testing.md](docs/testing.md). Select applicable [boundary regressions](docs/testing.md#boundary-regressions) for parser, inventory, snapshot, and projection fixes. Prefer real public CLI/MCP workflows, then production-boundary integration, then producer goldens. Keep module tests for distinct semantics stronger workflows cannot reliably reproduce. Preserve malformed-input, cancellation, cleanup, permission, capacity, and target-identity coverage when pruning. Report unverified coverage explicitly; simulated providers do not establish real-provider behavior.
+---
 
-Use Conventional Commit subjects and PR titles. Mark breaking changes with `!` or a `BREAKING CHANGE:` footer. Describe behavior changes, relevant validation, and real-provider verification scope.
+## 🧭 CÁCH LÀM
 
-## Issue Reports
+1. **Đừng đoán & không mở rộng phạm vi ngầm:** Trước khi thêm độ phức tạp cho một race condition hoặc góc cạnh bảo mật suy đoán/hiếm gặp, giải thích rõ chế độ lỗi cụ thể, xác suất và chi phí độ phức tạp cho người dùng để xin ý kiến.
+2. **Sửa tận gốc độ giòn (brittleness):** Khi sửa lỗi hoặc trả lời review thread, kiểm tra biên sản sinh dữ liệu (producing boundary) và mọi consumer/sibling adapter có diễn giải trùng lặp hoặc sở hữu mơ hồ. Chuẩn hóa một lần tại biên sở hữu bằng parser hiểu định dạng; hoàn tất refactor trực tiếp và xoá biểu diễn/wrapper/test dư thừa trong cùng thay đổi. Trước khi đóng review thread, giải thích nguyên nhân gốc, cách sửa cấu trúc, bước kiểm chứng và phần dọn dẹp còn lại.
+3. **Mô hình hóa lỗi tường minh:** Parse các giá trị chưa biết ở biên và mô hình hóa lỗi dự kiến bằng đại số lỗi gắn thẻ (`AnalysisErrorTag` trong `src/domain/analysisErrorBase.ts`) và `Result` (`src/domain/result.ts`). Bảo toàn dữ kiện một phần (partial facts) và lý do thất bại có nghĩa; tách biệt giá trị định danh/tra cứu với định dạng hiển thị; giữ nguyên giá trị gốc và trạng thái `unknown` tường minh khi chuẩn hóa làm mất thông tin (đường dẫn tuyệt đối, `file://` URL và đường dẫn HTTP có ngữ nghĩa khác nhau).
+4. **Báo cáo Issue & Pull Request Readiness:** Tuân thủ [CONTRIBUTING.md](CONTRIBUTING.md#reporting-issues), [human ownership and readiness](CONTRIBUTING.md#pull-request-ownership-and-readiness) và chi tiết tại `.claude/CONVENTIONS.md`. Dùng Conventional Commits và tiêu đề PR chuẩn (`feat:`, `fix:`, v.v.), đánh dấu breaking changes bằng `!` hoặc `BREAKING CHANGE:`. Giữ nguyên trạng thái draft của PR trừ khi được yêu cầu đổi; **để trống** các ô **Author readiness** cho chủ sở hữu con người tự đánh dấu, tuyệt đối không xác nhận thay mặt họ.
+5. **Sửa lỗi công cụ trước, hướng dẫn skill là phụ:** Khi người dùng hoặc agent gặp vấn đề về công cụ, ưu tiên sửa hành vi sở hữu, hợp đồng và kết quả/phục hồi khả thi ngay tại điểm sử dụng. Chỉ bổ sung hướng dẫn skill cho phán đoán workflow hoặc ngữ cảnh mà công cụ không thể truyền tải hợp lý; không dùng skill làm giải pháp chính cho lỗi hợp đồng hoặc khả năng phát hiện.
 
-Follow [issue reporting guidance](CONTRIBUTING.md#reporting-issues) and the matching
-issue form. Keep reports concise and cite the smallest useful evidence.
-Distinguish observed results, source-derived reasoning, hypotheses, and proposed
-checks. Never claim runtime reproduction or measurements you did not perform.
-Use `NOT_ENOUGH_INFO` with an explanation for missing narrative answers or evidence.
-Incomplete reports, source-only findings, and early feature or design ideas are
-welcome when their limitations are explicit; a completed diagnosis or fix is not
-required to open an issue.
+---
 
-## Pull Request Readiness
+## 🗂️ BỘ KHUNG
 
-Follow [human ownership and readiness](CONTRIBUTING.md#pull-request-ownership-and-readiness)
-when preparing a PR. AI-assisted contributions are welcome; a human must review
-and own the final diff, check the validation evidence and its limitations, and
-explicitly declare the PR ready for initial maintainer review.
+**Công cụ:** TypeScript 7 (`tsgo` / `tsrs`), Node.js (`24.22.1` theo `.nvmrc`), `npm@11.16.0`, Turborepo, Rolldown, Vitest 5, Oxlint + Oxfmt, Knip, Stryker, VitePress; Python tooling: `D:\Dev\conda-envs\py312\python.exe`.
 
-Keep the PR body concise and current, with the concrete problem, observable
-outcome, approach, and evidence. Report only checks that actually ran as executed;
-distinguish source-derived conclusions, proposed checks, and unavailable coverage.
-Address actionable automated review findings and explain disagreements.
+| Tầng                       | Ở đâu                                                                                                            | Vai trò                                                                                                                     |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Điều hướng                 | `AGENTS.md` (file này) + `CLAUDE.md` shim                                                                        | Định tuyến tài liệu, hợp đồng vận hành §0.7 và cổng `VERIFY`                                                                |
+| Văn bản dùng chung         | `.claude/*.md` + `docs/*.md` + `.agents/skills/`                                                                 | Tóm tắt trạng thái, quy ước code, hướng dẫn thiết kế công cụ/kiểm thử và skills (`archive/` là lịch sử, **không làm theo**) |
+| Lõi nền tảng & hợp đồng    | `src/domain/`, `src/contracts/`, `src/process/`, `src/filesystem/`, `src/providers/`, `src/config/`              | Ngữ nghĩa domain thuần, schema CLI/MCP, giám sát tiến trình con, quản lý file và cấu hình                                   |
+| Luồng nghiệp vụ & Adapters | `src/application/`, `src/composition/`, `src/server/`, `src/cli.ts`, `src/main.ts`, `src/<provider>/`, `bridge/` | Luồng điều tra dùng chung, фабрика kết nối provider, CLI/MCP entrypoints và cầu nối engine                                  |
 
-Leave the template's **Author readiness** declarations unchecked for the human
-owner to complete. Never attest to human review on their behalf. Draft status
-is optional; preserve the PR's current draft status unless the user asks to change
-it. Later pushes do not invalidate the readiness declaration or require another
-human sign-off. Keep the PR body and affected validation current as work changes.
-The readiness check validates the filled declaration or the author exemption
-listed in CONTRIBUTING.md; CI and automated review results do not establish that
-human review occurred, maintainer scope approval, or merge permission.
+---
+
+## ⚠️ TRƯỜNG HỢP RIÊNG
+
+- **"Review toàn bộ dự án"** hoặc **`.claude/PROJECT_SUMMARY.md` không có** → đọc toàn bộ cấu trúc và dựng lại summary đầy đủ.
+- **`.claude/PROJECT_SUMMARY.md` lệch so với code** → sửa drift trong cùng task nếu code xác nhận được; chỉ hỏi user khi có nhiều cách hiểu làm thay đổi kết quả.
+- **Phát hiện thay đổi dang dở của phiên khác** → không tự ý revert hay gộp; ghi rõ trong báo cáo cuối những file nào do phiên hiện tại sửa.
+
+---
+
+**📌 Tài liệu = nguồn sự thật duy nhất. Artifact đã build & lệnh kiểm chứng chạy xanh ở lần chạy này = bằng chứng duy nhất.**
 
 <!-- BEGIN:turborepo-agent-rules -->
 

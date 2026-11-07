@@ -1,0 +1,12 @@
+{
+  "rea-upstream-check": {
+    "enabled": true,
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "D:/Dev/conda-envs/py312/python.exe D:/Dev/7.REA/rea/hooks/rea_upstream.py pre-invocation",
+        "timeout": 15
+      }
+    ]
+  }
+}
