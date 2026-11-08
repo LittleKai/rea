@@ -132,6 +132,10 @@ def _backup_local_customizations() -> Path:
         ".codex/hooks.json",
         ".agents/hooks.json",
         ".agents/skills/rea-upstream-sync",
+        ".agents/skills/rea-js-reverse-lab",
+        ".agents/skills/rea-android-kotlin-recovery",
+        ".agents/skills/rea-case-review",
+        ".agents/skills/tests",
         "hooks/rea_upstream.py",
     ):
         src = ROOT / rel
