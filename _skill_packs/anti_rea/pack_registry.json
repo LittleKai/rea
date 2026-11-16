@@ -1,0 +1,44 @@
+{
+  "schema": "rea-skill-packs/v1",
+  "domain": "anti-rea",
+  "orchestrator_skill": ".agents/skills/anti-rea/SKILL.md",
+  "zero_context_inflation": true,
+  "packs": [
+    {
+      "id": "bla-counter-rea",
+      "title": "Counter-REA Packaging Gates, 106 REA Limits & Score Honesty Caps",
+      "source_repo": "https://github.com/qybaihe/bla",
+      "commit_sha": "98e01cc47b3ac8eabeed69b91dc393c37467388f",
+      "license": "MIT",
+      "subcommands": ["lint-gates"],
+      "playbook": "_skill_packs/anti_rea/bla_counter_rea/PLAYBOOK.md"
+    },
+    {
+      "id": "web-edge-metering",
+      "title": "Streaming Source-Map Build Verifier & Server-Side Metering Controls",
+      "source_repo": "https://github.com/dankezo/antiRea",
+      "commit_sha": "bacba71ff082245913a8afed73bb374131d5e446",
+      "license": "MIT",
+      "subcommands": ["verify-build", "audit-dir"],
+      "playbook": "_skill_packs/anti_rea/web_edge_metering/PLAYBOOK.md"
+    },
+    {
+      "id": "static-hardener-configs",
+      "title": "Multi-Platform Config Emitter, REA Resistance Simulator & Python AST Hardener",
+      "source_repo": "https://github.com/Ameya343/Anti-REA",
+      "commit_sha": "3251a2a96bcc8554c7acaf2d1ad2a6bcb16d7416",
+      "license": "MIT",
+      "subcommands": ["scan-score", "gen-config", "harden-py"],
+      "playbook": "_skill_packs/anti_rea/static_hardener_configs/PLAYBOOK.md"
+    },
+    {
+      "id": "apk-exposure-inspector",
+      "title": "Bounded Pure-Python Android APK Binary-AXML / DEX / WebView / ELF Inspector",
+      "source_repo": "https://github.com/zhcalvin/DeRea",
+      "commit_sha": "7d4917b4e3c0acbbd1e1b384afb72024ecfbb860",
+      "license": "Apache-2.0",
+      "subcommands": ["inspect-apk"],
+      "playbook": "_skill_packs/anti_rea/apk_exposure_inspector/PLAYBOOK.md"
+    }
+  ]
+}

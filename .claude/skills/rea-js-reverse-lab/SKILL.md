@@ -33,7 +33,7 @@ D:\Dev\conda-envs\py312\python.exe -X utf8 -I -B <script_path> ...
    - `record` & `summary`: Tracks `not_sent`, `transport_error`, `rejected`, `accepted`, and `target_ok` outcomes separately so local transport errors never pollute server rejection counts.
 
 3. **[`scripts/project_baseline.py`](scripts/project_baseline.py)** — Portable bundle SHA-256 fixity checker:
-   - `create --root <dir> --manifest <rel_json> --files <rel_files...> [--identity k=v...]`
+   - `create --root <dir> --manifest <rel_json> --files <rel_files...> [--identity k1=v1 --identity k2=v2]`: Writes `<rel_json>` via exclusive `"x"` open (`FileExistsError` if `<rel_json>` already exists — delete stale manifest before re-creating). Repeat `--identity` once per `name=value` pair; do NOT pass multiple space-separated pairs after one `--identity` (`unrecognized arguments`).
    - `check --root <dir> --manifest <rel_json>`: Returns `exit 0` (`"status": "unchanged"`) or `exit 1` (`"status": "changed"`).
 
 ## Reference Playbook
