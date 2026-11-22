@@ -1,12 +1,12 @@
 # PROJECT SUMMARY — REA (Reverse Engineer Anything)
 
-**Last Updated:** 2026-11-16 · **Session:** 6 · **Setup baseline:** 2026-11-03
+**Last Updated:** 2026-11-22 · **Session:** 7 · **Setup baseline:** 2026-11-22 · **applied:** 2026-11-22 · **mode:** upgrade, foreign
 
 > File này phản ánh **trạng thái hiện tại** của dự án `REA` (`rea-agents`). Không dùng làm changelog hay bug-fix log — lỗi quan trọng thì ghi vào `.claude/IMPORTANT_FIXED_BUGS.md` (khi lập theo §0.5); lỗi vặt thì không ghi đâu cả.
 
-**Cập nhật sau MỌI task đụng tới dự án này:**
+**Chỉ cập nhật file này khi trạng thái đổi** (bảng Trạng thái, Known Issues, cấu trúc file, giả định, phụ thuộc):
 
-- dòng `Last Updated` + số session — **luôn**
+- dòng `Last Updated` + số session — mỗi lần sửa file này
 - bảng Trạng thái: đổi ⏳ → 🚧 → ✅ nếu có thay đổi
 - `Known Issues & TODOs`: mục đã xong thì **xoá** (không tick `[x]` rồi để đó — git giữ lịch sử); nó để lại cơ chế / quyết định còn hiệu lực thì ghi vào `DESIGN_DECISIONS.md` trước khi xoá. Thêm mục mới nếu có
 - `Cấu trúc file` / `Phụ thuộc`: chỉ khi có file/dependency mới
@@ -36,7 +36,7 @@ Không tồn tại file này ⇒ coi như task "review toàn bộ dự án". Th�
 | Mobile, Firmware, Captures & Live Debuggers              | ✅         | `src/android/`, `src/adb/`, `src/apktool/`, `src/jeb/`, `src/firmware/`, `src/captures/`, `src/pcap/`, `src/signals/`, `src/sqlite/`, `src/frida/`, `src/gdb/`, `src/rizin/`, `src/cutter/`, `src/objdump/` | Tích hợp JADX, ADB, Apktool, JEB MCP, Binwalk/Unblob, TShark/pcap, sigrok, SQLite, Frida, GDB/MI, Rizin, Cutter và objdump                                                                                |
 | Process Supervision & Windows Host Boundary              | ✅         | `src/process/`, `src/filesystem/`, `src/windows/`, `native/windows/src/`                                                                                                                                    | Giám sát tiến trình con thuộc sở hữu, giới hạn `prlimit` trên Linux, DACL/Job Object qua Node-API trên Windows và thu hồi tài nguyên an toàn                                                              |
 | Application Workflows, Composition & CLI/MCP Adapters    | ✅         | `src/application/`, `src/composition/`, `src/server/`, `src/cli.ts`, `src/main.ts`, `scripts/rea.mjs`                                                                                                       | Kết nối các provider vào luồng điều tra dùng chung, định tuyến phiên nhị phân và xuất bản qua CLI hoặc stdio/HTTP MCP                                                                                     |
-| Chuẩn hoá tài liệu Setup v2 (`2026-11-03`)               | ✅         | `AGENTS.md`, `CLAUDE.md`, `.claude/PROJECT_SUMMARY.md`, `.claude/CONVENTIONS.md`, `.claude/SETUP_REPORT.md`                                                                                                 | Hợp nhất router `AGENTS.md` (< 200 dòng), tạo shim `CLAUDE.md`, summary trạng thái, quy ước từ code thật và hợp đồng §0.7                                                                                 |
+| Chuẩn hoá tài liệu Setup v2 (`2026-11-22`)               | ✅         | `AGENTS.md`, `CLAUDE.md`, `.claude/PROJECT_SUMMARY.md`, `.claude/CONVENTIONS.md`, `.claude/SETUP_REPORT.md`                                                                                                 | Hợp nhất router `AGENTS.md` (< 200 dòng, tự đứng được), shim `CLAUDE.md`, summary trạng thái (`mode: upgrade, foreign`), quy ước từ code thật và hợp đồng §0.7                                            |
 | Không gian lưu trữ phân tích & cache tại root            | ✅         | `_reference/INDEX.md`, `_reference/targets/`, `_reference/cache/`, `AGENTS.md`                                                                                                                              | Tổ chức lưu trữ tập trung repo mục tiêu, snapshot, evidence bundle, báo cáo và cache công cụ ngay tại `_reference/` (đã gitignore)                                                                        |
 | Hook báo bản mới & Skill đồng bộ Upstream 3 chiều        | ✅         | `hooks/rea_upstream.py`, `.claude/settings.json`, `.codex/hooks.json`, `.agents/hooks.json`, `.agents/skills/rea-upstream-sync/SKILL.md`                                                                    | Kiểm tra `origin/main` đầu phiên (TTL 24h, fail-open) và đồng bộ 3-way merge bảo toàn `AGENTS.md`, `.claude/*`, `_reference/*`                                                                            |
 | Bộ 4 Skill RE & Orchestrator `anti-rea` (`_skill_packs`) | ✅         | `.agents/skills/{rea-js-reverse-lab,rea-android-kotlin-recovery,rea-case-review,anti-rea}/`, `.claude/skills/*`, `_skill_packs/{INDEX.md,anti_rea/*}`, `.agents/skills/tests/test_rea_skills.py`            | Phân tích JSVMP (`CC0-1.0`), khôi phục Kotlin R8 (`Apache-2.0`), kiểm toán `Evidence` (`MIT`) và 1 skill điều phối `anti-rea` gọi 4 gói ngủ đông (`bla`, `antiRea`, `Ameya`, `DeRea`) không tăng ngữ cảnh |
@@ -51,6 +51,7 @@ Không tồn tại file này ⇒ coi như task "review toàn bộ dự án". Th�
 | Môi trường Python cho kiểm toán/tooling trên máy Windows hiện tại | `D:\Dev\conda-envs\py312\python.exe` (hoặc `py310`), không dùng Python hệ thống hay conda base                                                                                | Quy tắc môi trường Conda cố định của máy phát triển        |
 | Quyền hạn của Ghidra và IDA đối với mục tiêu phân tích            | Ghidra dùng database tạm thời không sửa binary; IDA hoàn toàn chỉ đọc (không lưu/đóng GUI DB)                                                                                 | `AGENTS.md` và `src/ghidra/`, `src/ida/`                   |
 | Các file catalog và skill bundle ở gốc là đầu ra dẫn xuất         | `docs/public/product-catalog.json`, `docs/verification/managed-conformance-*.json` và `skills/` bị gitignore và sinh lại qua `npm run docs:generate` / `npm run build:cached` | `.gitignore`, `package.json`, `scripts/lib/docs-facts.mjs` |
+| Quản lý nhánh & tracking giữa fork `origin` và `upstream`         | Fork `origin` (`LittleKai/rea`) track `AGENTS.md`, `CLAUDE.md`, `.claude/*`, `hooks/rea_upstream.py`; `upstream` (`morluto/rea`) chỉ track `AGENTS.md`                        | `git remote -v`, `hooks/rea_upstream.py`                   |
 
 ## 4. Cấu trúc file
 
@@ -121,12 +122,14 @@ flowchart LR
 
 ### 🔴 Cao
 
-- [ ] `node` mặc định trên `PATH` của máy là `v23.10.0` (trong khi `.nvmrc` ghim `24.22.1` và `package.json#engines.node` yêu cầu `^22.23.4 || ^24.22.1 || >=26.12.1`); cần chuyển đúng phiên bản Node.js khi chạy các lệnh kiểm tra yêu cầu khớp `engines.node`.
+- (Trống — `node` trên `PATH` hiện là `v24.22.3`, khớp `package.json#engines.node`.)
 
 ### 🟡 Trung bình
 
-- [ ] Khi chạy `D:\Dev\conda-envs\py312\python.exe scripts/run-python-tests.py` trực tiếp trên Windows, 9/22 bài test pass và 13 bài báo lỗi `ModuleNotFoundError: No module named 'resource'` (hoặc `fcntl`) do `bridge/pwndbg/core_context.py`, `bridge/mitmproxy/capture.py` và các test đường ống của `bridge/native/rea_lldb_tracer.py` được thiết kế cho môi trường POSIX (Linux/macOS).
+- [ ] Chạy `D:\Dev\conda-envs\py312\python.exe scripts/run-python-tests.py` trực tiếp trên Windows báo 13 lỗi `ModuleNotFoundError: No module named 'resource'`/`fcntl` tại `bridge/{pwndbg/core_context.py,mitmproxy/capture.py,native/rea_lldb_tracer.py}` (thiết kế cho Linux/macOS/WSL).
+- [ ] `test_rea_skills.py::test_review_regressions_future_imports_rename_boundaries_and_url_safety` báo `IndexError: 4` tại `_discover_repo_root` (`here.parents[4]`) khi `TEMP`/`TMP` trên Windows trỏ thư mục nông (`D:\Temp`).
 
 ### 🟢 Thấp
 
-- [ ] Trong `.gitignore` của repo, `.codex/`, `.devin/`, `.factory/` đã được ignore nhưng `CLAUDE.md` và `.claude/` hiện chưa có trong `.gitignore` (hiện đang ở trạng thái untracked trên máy local).
+- [ ] Quản trị fork `foreign` (`upstream=morluto/rea`, `origin=LittleKai/rea`): không ghi đường dẫn máy cá nhân vào `AGENTS.md`; đồng bộ `upstream/main` qua `hooks/rea_upstream.py sync` hoặc `git stash` → `git pull` → `git stash pop` (**cấm** `--skip-worktree`/`--assume-unchanged`). PR lên `upstream` tách nhánh từ `upstream/main`, loại bỏ `CLAUDE.md`, `.claude/*`, `hooks/`.
+- [ ] Worktree mới chưa có `node_modules/`, `dist/`, `skills/` (gitignore); cần `npm ci && npm run build:cached` trước `npm run docs:check` hoặc Vitest.
