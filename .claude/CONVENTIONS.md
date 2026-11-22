@@ -1,6 +1,6 @@
 # Conventions — REA (Reverse Engineer Anything)
 
-**Last Updated:** 2026-11-07
+**Last Updated:** 2026-11-16
 
 > Chỉ ghi quy ước có ≥2 ví dụ thật trong repo kèm `đường_dẫn_file::tên_symbol`. Quy ước nào linter, formatter, type-check hoặc script guard đã cưỡng chế được thì cấu hình công cụ và liệt kê ở bảng cuối file.
 
@@ -49,6 +49,7 @@
 - **DON'T** kiểm tra trực tiếp `isTSAsExpression`, `isTSSatisfiesExpression`, `isTSNonNullExpression`, `isParenthesizedExpression` rải rác ngoài module sở hữu vì dễ bỏ sót cú pháp bọc mới (đã chặn tại `scripts/verify/architecture-guards.mjs`) — **DO** dùng `src/domain/javascript/javascriptAstValues.ts::unwrapJavaScriptExpression`.
 - **DON'T** tự duyệt cây Babel AST bằng `VISITOR_KEYS` hoặc `Object.values` vì dễ lệch trên trường `loc`/`comments` và tràn ngăn xếp với chuỗi sinh sâu (đã chặn tại `scripts/verify/architecture-guards.mjs`) — **DO** dùng `src/domain/javascript/javascriptSemanticTraversal.ts::traverseJavaScriptAst`.
 - **DON'T** truyền cờ `--core=0` trần hoặc tự ghép chuỗi giới hạn `prlimit` riêng lẻ cho các producer cặp giới hạn trên Linux (đã chặn tại `scripts/verify/architecture-guards.mjs`) — **DO** dùng `src/process/LinuxResourceLimits.ts::prlimitArgumentVector` hoặc `src/process/LinuxResourceLimits.ts::prlimitCeilingArguments` cùng `BOUNDED_PRODUCER_LIMITS`.
+- **DON'T** dùng `ast.parse()` để xác nhận code Python đã biến đổi AST hợp lệ hoặc đổi tên `ast.Name` mà bỏ sót định danh chuỗi gắn trên node không phải `ast.Name` (`ExceptHandler.name`, `alias`, `MatchAs.name`, `MatchStar.name`, `MatchMapping.rest`, `type_params`) — **DO** đưa các `from __future__ import ...` lên đầu trước header phụ trợ, kiểm tra bằng `compile(out, dst_path, "exec")` (`_skill_packs/anti_rea/static_hardener_configs/antirea_core/hardeners/pystrings.py::harden_source`, `_skill_packs/anti_rea/static_hardener_configs/antirea_core/hardeners/pystrings.py::harden_file`) và loại trừ tập `_non_name_binding_ids` khi đổi tên biến cục bộ (`_skill_packs/anti_rea/static_hardener_configs/antirea_core/hardeners/pynames.py::_non_name_binding_ids`, `_skill_packs/anti_rea/static_hardener_configs/antirea_core/hardeners/pynames.py::_renameable_for`).
 
 **Cưỡng chế bằng công cụ (không cần ghi lại bằng chữ):**
 
