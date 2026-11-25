@@ -1,0 +1,2641 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "label": "review_case.py",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_field_value",
+      "label": "field_value()",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L43",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_first_field",
+      "label": "first_field()",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L64",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_section_text",
+      "label": "section_text()",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L72",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_ids_in",
+      "label": "ids_in()",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L78",
+      "_callable": true
+    },
+    {
+      "id": "pattern",
+      "label": "Pattern",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/rea-case-review/scripts/review_case.py"
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_issue",
+      "label": "issue()",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L82",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_relative_path",
+      "label": "relative_path()",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L86",
+      "_callable": true
+    },
+    {
+      "id": "path",
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/rea-case-review/scripts/review_case.py"
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_split_table_row",
+      "label": "split_table_row()",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L97",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_parse_workitems",
+      "label": "parse_workitems()",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L104",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_parse_timeline",
+      "label": "parse_timeline()",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L143",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "label": "parse_scope()",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L173",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_report_sections",
+      "label": "report_sections()",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L236",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "label": "parse_reports()",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L248",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_normalize_hash",
+      "label": "normalize_hash()",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L303",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_is_within",
+      "label": "is_within()",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L312",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_sha256_file",
+      "label": "sha256_file()",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L321",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_verify_artifact",
+      "label": "verify_artifact()",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L329",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "label": "parse_evidence()",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L372",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_build_traceability",
+      "label": "build_traceability()",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L445",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_review_case",
+      "label": "review_case()",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L462",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_render_markdown",
+      "label": "render_markdown()",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L536",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L587",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_scripts_review_case_rationale_3",
+      "label": "Review a reverse-engineering case directory for scope, traceability, and\u2026",
+      "file_type": "rationale",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "argparse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "argparse",
+      "_python_import_bindings": [["argparse", "argparse"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "hashlib",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "hashlib",
+      "_python_import_bindings": [["hashlib", "hashlib"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "json",
+      "_python_import_bindings": [["json", "json"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "os",
+      "_python_import_bindings": [["os", "os"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "re",
+      "_python_import_bindings": [["re", "re"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_python_import_module": "sys",
+      "_python_import_bindings": [["sys", "sys"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "datetime",
+      "_python_import_bindings": [
+        ["datetime", "datetime"],
+        ["timezone", "timezone"]
+      ]
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_python_import_module": "pathlib",
+      "_python_import_bindings": [["Path", "Path"]]
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_field_value",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_first_field",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_section_text",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_ids_in",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_ids_in",
+      "target": "pattern",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_ids_in",
+      "target": "pattern",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_issue",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_relative_path",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_relative_path",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_split_table_row",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_parse_workitems",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_workitems",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_parse_timeline",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_timeline",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_report_sections",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L236",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_report_sections",
+      "target": "pattern",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L236",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_report_sections",
+      "target": "pattern",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L236",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L248",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L248",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_normalize_hash",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L303",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_is_within",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L312",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_is_within",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L312",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_sha256_file",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L321",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_sha256_file",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L321",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_verify_artifact",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L329",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_verify_artifact",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L329",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L372",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L372",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_build_traceability",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L445",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_review_case",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L462",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_review_case",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L462",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_render_markdown",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L536",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L587",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_first_field",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_field_value",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_workitems",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_issue",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_workitems",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_split_table_row",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_workitems",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_ids_in",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_timeline",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_issue",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_timeline",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_ids_in",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L161",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_timeline",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_field_value",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L161",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_issue",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L177",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_section_text",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L181",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_field_value",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_first_field",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L226",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_issue",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L257",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_relative_path",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L262",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_report_sections",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L263",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_first_field",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L264",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_ids_in",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L267",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_verify_artifact",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_issue",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L337",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_verify_artifact",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_is_within",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L349",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_verify_artifact",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_sha256_file",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L361",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_issue",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L382",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_relative_path",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L392",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_first_field",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L399",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_ids_in",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L405",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_normalize_hash",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L422",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_verify_artifact",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L426",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_review_case",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_issue",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L466",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_review_case",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_parse_workitems",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L485",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_review_case",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_parse_timeline",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L486",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_review_case",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L487",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_review_case",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L488",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_review_case",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L489",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_review_case",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_build_traceability",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L502",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_main",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_review_case",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L599",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_main",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_render_markdown",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L603",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_scripts_review_case_rationale_3",
+      "target": "$graphify-root$_rea_case_review_scripts_review_case_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L3",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_field_value",
+      "callee": "splitlines",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L44",
+      "receiver": "text",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1616, 1633]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_field_value",
+      "callee": "match",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L46",
+      "receiver": "FIELD_LINE",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1691, 1713]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_field_value",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L47",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1738, 1760]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_field_value",
+      "callee": "group",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L47",
+      "receiver": "match",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [1691, 1713],
+      "_python_call_site": [1738, 1752]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_field_value",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L47",
+      "receiver": "name",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1764, 1776]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_field_value",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L49",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1815, 1837]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_field_value",
+      "callee": "group",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L49",
+      "receiver": "match",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [1691, 1713],
+      "_python_call_site": [1815, 1829]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_field_value",
+      "callee": "match",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L54",
+      "receiver": "FIELD_LINE",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1981, 2011]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_field_value",
+      "callee": "match",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L56",
+      "receiver": "SECTION_HEADING",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2050, 2085]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_field_value",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L58",
+      "receiver": "continuation",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2124, 2144]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_field_value",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L59",
+      "receiver": "block",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2162, 2196]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_field_value",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L59",
+      "receiver": "continuation",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2175, 2195]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_field_value",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L60",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2212, 2236]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_field_value",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L60",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2212, 2228]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_section_text",
+      "callee": "compile",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L73",
+      "receiver": "re",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [2479, 2554]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_section_text",
+      "callee": "escape",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L73",
+      "receiver": "re",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [2507, 2523]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_section_text",
+      "callee": "search",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L74",
+      "receiver": "pattern",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [2479, 2554],
+      "_python_call_site": [2567, 2587]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_section_text",
+      "callee": "group",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L75",
+      "receiver": "match",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [2567, 2587],
+      "_python_call_site": [2599, 2613]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_ids_in",
+      "callee": "findall",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L79",
+      "receiver": "pattern",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2718, 2746]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_issue",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L83",
+      "receiver": "issues",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2857, 2936]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_relative_path",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L88",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [3018, 3061]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_relative_path",
+      "callee": "normcase",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L88",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3023, 3060]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_relative_path",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L88",
+      "receiver": "root",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Path",
+      "_python_call_site": [3044, 3058]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_relative_path",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L89",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [3082, 3125]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_relative_path",
+      "callee": "normcase",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L89",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3087, 3124]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_relative_path",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L89",
+      "receiver": "path",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Path",
+      "_python_call_site": [3108, 3122]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_relative_path",
+      "callee": "relative_to",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L90",
+      "receiver": "norm_path",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Path",
+      "_python_call_site": [3146, 3178]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_relative_path",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L91",
+      "receiver": "path",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Path",
+      "_python_call_site": [3206, 3220]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_relative_path",
+      "callee": "as_posix",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L92",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3282, 3310]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_relative_path",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L92",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [3282, 3299]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_split_table_row",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L98",
+      "receiver": "line",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3444, 3456]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_split_table_row",
+      "callee": "startswith",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L99",
+      "receiver": "stripped",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [3444, 3456],
+      "_python_call_site": [3468, 3492]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_split_table_row",
+      "callee": "endswith",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L99",
+      "receiver": "stripped",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [3444, 3456],
+      "_python_call_site": [3500, 3522]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_split_table_row",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L101",
+      "receiver": "cell",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3554, 3566]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_split_table_row",
+      "callee": "split",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L101",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3579, 3604]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_workitems",
+      "callee": "is_file",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L108",
+      "receiver": "path",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3867, 3881]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_workitems",
+      "callee": "splitlines",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L112",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4053, 4102]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_workitems",
+      "callee": "read_text",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L112",
+      "receiver": "path",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4053, 4089]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_workitems",
+      "callee": "fullmatch",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L114",
+      "receiver": "WORKITEM_ID",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4177, 4208]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_workitems",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L116",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4266, 4282]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_workitems",
+      "callee": "EVIDENCE_ID",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L125"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_workitems",
+      "callee": "extend",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L127",
+      "receiver": "references",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4735, 4814]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_workitems",
+      "callee": "match",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L130",
+      "receiver": "re",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [4856, 4929]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_workitems",
+      "callee": "groups",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L132",
+      "receiver": "bullet_m",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [4856, 4929],
+      "_python_call_site": [4989, 5006]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_workitems",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L133",
+      "receiver": "mark",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [5038, 5050]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_workitems",
+      "callee": "EVIDENCE_ID",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L134"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_workitems",
+      "callee": "extend",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L136",
+      "receiver": "references",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [5258, 5337]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_timeline",
+      "callee": "is_file",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L147",
+      "receiver": "path",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [5692, 5706]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_timeline",
+      "callee": "splitlines",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L151",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [5847, 5896]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_timeline",
+      "callee": "read_text",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L151",
+      "receiver": "path",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [5847, 5883]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_timeline",
+      "callee": "startswith",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L153",
+      "receiver": "line",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [5949, 5971]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_timeline",
+      "callee": "startswith",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L157",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [6121, 6156]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_timeline",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L160",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [6240, 6267]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_timeline",
+      "callee": "EVIDENCE_ID",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L161"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_timeline",
+      "callee": "extend",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L162",
+      "receiver": "references",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [6370, 6446]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_timeline",
+      "callee": "match",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L163",
+      "receiver": "re",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [6460, 6504]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_timeline",
+      "callee": "EVIDENCE_ID",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L165"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_timeline",
+      "callee": "extend",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L166",
+      "receiver": "references",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [6595, 6671]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "callee": "is_file",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L176",
+      "receiver": "path",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [7077, 7091]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "callee": "read_text",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L180",
+      "receiver": "path",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [7210, 7246]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L187",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [7500, 7535]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L188",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [7569, 7605]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L189",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [7640, 7685]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "callee": "search",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L190",
+      "receiver": "re",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [7709, 7837]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L196",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [7912, 7936]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L196",
+      "receiver": "line",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [7912, 7924]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "callee": "splitlines",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L197",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [7965, 8004]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "callee": "group",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L197",
+      "receiver": "assets_match",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [7709, 7837],
+      "_python_call_site": [7965, 7991]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "callee": "match",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L198",
+      "receiver": "re",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [8024, 8054]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L198",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [8059, 8083]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L198",
+      "receiver": "line",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [8059, 8071]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L227",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [9773, 9840]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L229",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10003, 10067]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_scope",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L230",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10102, 10156]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_report_sections",
+      "callee": "finditer",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L237",
+      "receiver": "heading_pattern",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10350, 10380]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_report_sections",
+      "callee": "finditer",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L241",
+      "receiver": "re",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [10499, 10550]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_report_sections",
+      "callee": "end",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L241",
+      "receiver": "match",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10535, 10546]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_report_sections",
+      "callee": "end",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L242",
+      "receiver": "match",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10570, 10581]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_report_sections",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L242",
+      "receiver": "next_match",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10584, 10602]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_report_sections",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L244",
+      "receiver": "sections",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10629, 10689]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_report_sections",
+      "callee": "group",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L244",
+      "receiver": "match",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10646, 10660]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_report_sections",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L244",
+      "receiver": "match",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10667, 10680]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "callee": "rglob",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L255",
+      "receiver": "report_root",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11061, 11086]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "callee": "is_dir",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L255",
+      "receiver": "report_root",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11091, 11111]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "callee": "read_text",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L261",
+      "receiver": "report_path",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11348, 11391]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "callee": "FINDING_HEADING",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L263"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L264",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11536, 11588]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L265",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11614, 11665]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "callee": "EVIDENCE_ID",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L267"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "callee": "extend",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L274",
+      "receiver": "references",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [12305, 12362]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L275",
+      "receiver": "finding_records",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [12375, 12611]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "callee": "PATH_HEADING",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L284"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L285",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [12703, 12767]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "callee": "EVIDENCE_ID",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L286"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "callee": "extend",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L291",
+      "receiver": "references",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [13124, 13181]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_reports",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L292",
+      "receiver": "path_records",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [13194, 13430]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_normalize_hash",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L304",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [13542, 13563]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_normalize_hash",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L304",
+      "receiver": "value",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [13542, 13555]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_normalize_hash",
+      "callee": "startswith",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L305",
+      "receiver": "normalized",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [13571, 13603]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_normalize_hash",
+      "callee": "fullmatch",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L307",
+      "receiver": "re",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [13648, 13689]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_is_within",
+      "callee": "normcase",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L314",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [13809, 13852]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_is_within",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L314",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [13830, 13850]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_is_within",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L314",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [13830, 13840]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_is_within",
+      "callee": "normcase",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L315",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [13873, 13916]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_is_within",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L315",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [13894, 13914]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_is_within",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L315",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [13894, 13904]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_is_within",
+      "callee": "commonpath",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L316",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [13932, 13974]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_sha256_file",
+      "callee": "sha256",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L322",
+      "receiver": "hashlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [14083, 14099]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_sha256_file",
+      "callee": "open",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L323",
+      "receiver": "path",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Path",
+      "_python_call_site": [14109, 14124]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_sha256_file",
+      "callee": "read",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L324",
+      "receiver": "handle",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [14170, 14194]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_sha256_file",
+      "callee": "update",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L325",
+      "receiver": "digest",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [14083, 14099],
+      "_python_call_site": [14214, 14234]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_sha256_file",
+      "callee": "hexdigest",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L326",
+      "receiver": "digest",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [14083, 14099],
+      "_python_call_site": [14246, 14264]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_verify_artifact",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L345",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [14670, 14689]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_verify_artifact",
+      "callee": "is_absolute",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L346",
+      "receiver": "candidate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [14701, 14724]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_verify_artifact",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L348",
+      "receiver": "candidate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [14779, 14798]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_verify_artifact",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L349",
+      "receiver": "root",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Path",
+      "_python_call_site": [14820, 14834]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_verify_artifact",
+      "callee": "is_file",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L358",
+      "receiver": "candidate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [15063, 15082]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "callee": "is_dir",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L381",
+      "receiver": "evidence_root",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [15794, 15816]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "callee": "glob",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L385",
+      "receiver": "evidence_root",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [15999, 16027]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "callee": "read_text",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L391",
+      "receiver": "path",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [16260, 16296]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "callee": "search",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L393",
+      "receiver": "EVIDENCE_HEADING",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [16358, 16387]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "callee": "group",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L396",
+      "receiver": "heading",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [16358, 16387],
+      "_python_call_site": [16539, 16555]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L399",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [16712, 16761]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L400",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [16779, 16831]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "callee": "startswith",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L401",
+      "receiver": "status",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [16843, 16877]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L404",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [17013, 17058]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "callee": "WORKITEM_ID",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L405"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L414",
+      "receiver": "repro_command",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [17699, 17720]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L422",
+      "receiver": "content_hash_value",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [18085, 18111]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_parse_evidence",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L423",
+      "receiver": "content_hash_value",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [18150, 18176]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_build_traceability",
+      "callee": "startswith",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L453",
+      "receiver": "source",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [19329, 19363]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_build_traceability",
+      "callee": "startswith",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L455",
+      "receiver": "source",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [19427, 19460]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_review_case",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L463",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [19713, 19751]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_review_case",
+      "callee": "expanduser",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L463",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [19713, 19741]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_review_case",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L463",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [19713, 19728]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_review_case",
+      "callee": "is_dir",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L465",
+      "receiver": "root",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [19713, 19751],
+      "_python_call_site": [19801, 19814]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_review_case",
+      "callee": "isoformat",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L470",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [20013, 20051]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_review_case",
+      "callee": "now",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L470",
+      "receiver": "datetime",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [20013, 20039]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_review_case",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L503",
+      "receiver": "traceability",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [21215, 21235]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_review_case",
+      "callee": "values",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L504",
+      "receiver": "links",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [21256, 21270]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_review_case",
+      "callee": "isoformat",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L519",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [21852, 21890]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_review_case",
+      "callee": "now",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L519",
+      "receiver": "datetime",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [21852, 21878]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_render_markdown",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L538"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_render_markdown",
+      "callee": "list",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L540"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_render_markdown",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L542"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_render_markdown",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L557",
+      "receiver": "lines",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [23010, 23069]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_render_markdown",
+      "callee": "extend",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L559",
+      "receiver": "lines",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [23075, 23171]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_render_markdown",
+      "callee": "replace",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L562",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [23238, 23275]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_render_markdown",
+      "callee": "replace",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L563",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [23297, 23337]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_render_markdown",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L564",
+      "receiver": "lines",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [23350, 23460]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_render_markdown",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L566",
+      "receiver": "lines",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [23479, 23541]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_render_markdown",
+      "callee": "extend",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L568",
+      "receiver": "lines",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [23547, 23662]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_render_markdown",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L570",
+      "receiver": "traceability",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [23718, 23738]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_render_markdown",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L571",
+      "receiver": "lines",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [23752, 24053]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_render_markdown",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L583",
+      "receiver": "lines",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [24072, 24107]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_render_markdown",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L584",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [24119, 24135]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_main",
+      "callee": "ArgumentParser",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L588",
+      "receiver": "argparse",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [24206, 24317]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L589",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [24322, 24403]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L590",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [24408, 24480]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L591",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [24485, 24566]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L592",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [24571, 24665]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L593",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [24670, 24839]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_main",
+      "callee": "parse_args",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L598",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [24851, 24874]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_scripts_review_case_main",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "rea-case-review/scripts/review_case.py",
+      "source_location": "L601",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [25014, 25062]
+    }
+  ]
+}

@@ -1,0 +1,2309 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "label": "experiment_ledger.py",
+      "file_type": "code",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_read_ledger",
+      "label": "read_ledger()",
+      "file_type": "code",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L28",
+      "_callable": true
+    },
+    {
+      "id": "path",
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/rea-js-reverse-lab/scripts/experiment_ledger.py"
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "label": "cmd_record()",
+      "file_type": "code",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L40",
+      "_callable": true
+    },
+    {
+      "id": "namespace",
+      "label": "Namespace",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/rea-js-reverse-lab/scripts/experiment_ledger.py"
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_parse_instant",
+      "label": "parse_instant()",
+      "file_type": "code",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L66",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "label": "cmd_gate()",
+      "file_type": "code",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L76",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_summary",
+      "label": "cmd_summary()",
+      "file_type": "code",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L110",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_load_request",
+      "label": "load_request()",
+      "file_type": "code",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L140",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "label": "flatten()",
+      "file_type": "code",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L154",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_mask",
+      "label": "mask()",
+      "file_type": "code",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L198",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_matches",
+      "label": "matches()",
+      "file_type": "code",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L205",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "label": "cmd_audit()",
+      "file_type": "code",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L213",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L244",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_rationale_3",
+      "label": "Keep an auditable ledger of online attempts and verify single-variable claims.\u2026",
+      "file_type": "rationale",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L3"
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_rationale_155",
+      "label": "Map a request to named fields so differences can be reported one by one.",
+      "file_type": "rationale",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L155"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "target": "argparse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "argparse",
+      "_python_import_bindings": [["argparse", "argparse"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "target": "fnmatch",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_python_import_module": "fnmatch",
+      "_python_import_bindings": [["fnmatch", "fnmatch"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "target": "hashlib",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_python_import_module": "hashlib",
+      "_python_import_bindings": [["hashlib", "hashlib"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_python_import_module": "json",
+      "_python_import_bindings": [["json", "json"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_python_import_module": "sys",
+      "_python_import_bindings": [["sys", "sys"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "target": "time",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_python_import_module": "time",
+      "_python_import_bindings": [["time", "time"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_python_import_module": "datetime",
+      "_python_import_bindings": [
+        ["datetime", "datetime"],
+        ["timezone", "timezone"]
+      ]
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_python_import_module": "pathlib",
+      "_python_import_bindings": [["Path", "Path"]]
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "target": "urllib_parse",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_python_import_module": "urllib.parse",
+      "_python_import_bindings": [
+        ["parse_qsl", "parse_qsl"],
+        ["urlsplit", "urlsplit"]
+      ]
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_read_ledger",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_read_ledger",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "target": "namespace",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_parse_instant",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "target": "namespace",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_summary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_summary",
+      "target": "namespace",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_load_request",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L140",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_load_request",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L140",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_mask",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L198",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_matches",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L205",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L213",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "target": "namespace",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L213",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L244",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_read_ledger",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_parse_instant",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_summary",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_read_ledger",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L214",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_load_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L214",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_mask",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L217",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_matches",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L219",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L268",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L283",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_summary",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L287",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L295",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_rationale_3",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_rationale_155",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L155",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_read_ledger",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L29",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [980, 990]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_read_ledger",
+      "callee": "exists",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L30",
+      "receiver": "ledger_path",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Path",
+      "_python_call_site": [1002, 1022]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_read_ledger",
+      "callee": "open",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L33",
+      "receiver": "ledger_path",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Path",
+      "_python_call_site": [1090, 1124]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_read_ledger",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L35",
+      "receiver": "line",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1179, 1191]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_read_ledger",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L36",
+      "receiver": "rows",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1209, 1238]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_read_ledger",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L36",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [1221, 1237]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "isoformat",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L42",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1353, 1409]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "now",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L42",
+      "receiver": "datetime",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1353, 1379]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L58",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [1862, 1879]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "mkdir",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L59",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1884, 1932]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "open",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L60",
+      "receiver": "ledger",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Path",
+      "_python_call_site": [1942, 1976]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "write",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L61",
+      "receiver": "stream",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1996, 2054]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L61",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [2009, 2046]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L62",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [2065, 2128]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_parse_instant",
+      "callee": "fromisoformat",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L70",
+      "receiver": "datetime",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2262, 2314]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_parse_instant",
+      "callee": "replace",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L70",
+      "receiver": "value",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2285, 2313]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_parse_instant",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L72",
+      "receiver": null,
+      "_python_call_site": [2367, 2426]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_parse_instant",
+      "callee": "timestamp",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L73",
+      "receiver": "parsed",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [2262, 2314],
+      "_python_call_site": [2442, 2460]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L77",
+      "receiver": "row",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2565, 2581]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L78",
+      "receiver": "row",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2632, 2650]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L80",
+      "receiver": "row",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2738, 2756]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L81",
+      "receiver": "reasons",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2797, 2840]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L82",
+      "receiver": "row",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2852, 2871]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L82",
+      "receiver": "row",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2904, 2922]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L83",
+      "receiver": "reasons",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2947, 2981]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L85",
+      "receiver": "reasons",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3023, 3057]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "SystemExit",
+      "is_member_call": false,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L87",
+      "receiver": null,
+      "_python_call_site": [3124, 3187]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L89",
+      "receiver": "reasons",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3255, 3285]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "time",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L92",
+      "receiver": "time",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [3398, 3409]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L94",
+      "receiver": "reasons",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3465, 3502]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L106",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [3875, 3913]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_summary",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L113",
+      "receiver": "row",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4130, 4157]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_summary",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L114",
+      "receiver": "row",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4181, 4210]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_summary",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L115",
+      "receiver": "row",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4234, 4256]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_summary",
+      "callee": "setdefault",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L116",
+      "receiver": "batches",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4273, 4560]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_summary",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L130"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_summary",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L131",
+      "receiver": "outcomes_map",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4851, 4879]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_summary",
+      "callee": "list",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L133"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_summary",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L134",
+      "receiver": "variants_list",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [5027, 5056]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_summary",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L135",
+      "receiver": "row",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [5127, 5146]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_summary",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L136",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [5171, 5233]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_load_request",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L141",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [5318, 5368]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_load_request",
+      "callee": "read_text",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L141",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [5329, 5367]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_load_request",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L141",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [5329, 5339]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_load_request",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L142",
+      "receiver": "data",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [5318, 5368],
+      "_python_call_site": [5383, 5406]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_load_request",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L143",
+      "receiver": "headers",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [5383, 5406],
+      "_python_call_site": [5424, 5439]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_load_request",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L143"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_load_request",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L144",
+      "receiver": "data",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [5318, 5368],
+      "_python_call_site": [5527, 5546]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_load_request",
+      "callee": "upper",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L146",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [5578, 5616]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_load_request",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L146",
+      "receiver": "data",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [5318, 5368],
+      "_python_call_site": [5582, 5607]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_load_request",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L147",
+      "receiver": "data",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [5318, 5368],
+      "_python_call_site": [5637, 5656]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_load_request",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L150",
+      "receiver": "data",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [5318, 5368],
+      "_python_call_site": [5778, 5794]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "urlsplit",
+      "is_member_call": false,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L157",
+      "receiver": null,
+      "_python_call_site": [6048, 6077]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "parse_qsl",
+      "is_member_call": false,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L159",
+      "receiver": null,
+      "_python_call_site": [6156, 6200]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L161",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [6254, 6293]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L163",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [6375, 6433]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L166",
+      "receiver": "request",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [6480, 6502]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "list",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L167"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L169",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [6605, 6622]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L170",
+      "receiver": "names",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [6635, 6656]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "split",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L172",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [6718, 6744]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L172",
+      "receiver": "part",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [6718, 6730]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "split",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L172",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [6757, 6778]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L172",
+      "receiver": "part",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [6782, 6794]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L174",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [6874, 6913]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L181",
+      "receiver": "request",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [7213, 7235]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L182"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L183",
+      "receiver": "cookies_field",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [7213, 7235],
+      "_python_call_site": [7303, 7324]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L185"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L185",
+      "receiver": "cookies_field",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [7213, 7235],
+      "_python_call_site": [7414, 7435]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "split",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L186",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [7454, 7480]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L186",
+      "receiver": "part",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [7454, 7466]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "split",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L186",
+      "receiver": "cookies_field",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [7213, 7235],
+      "_python_call_site": [7493, 7517]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L186",
+      "receiver": "part",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [7521, 7533]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L191",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [7693, 7710]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L192",
+      "receiver": "request",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [7718, 7737]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L194"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_flatten",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L194",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [7842, 7894]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_mask",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L201",
+      "receiver": "value",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [8024, 8062]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_mask",
+      "callee": "hexdigest",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L202",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [8085, 8116]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_mask",
+      "callee": "sha256",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L202",
+      "receiver": "hashlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [8085, 8104]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_matches",
+      "callee": "split",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L206",
+      "receiver": "field",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [8211, 8230]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_matches",
+      "callee": "fnmatchcase",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L208",
+      "receiver": "fnmatch",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [8285, 8333]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_matches",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L208",
+      "receiver": "field",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [8305, 8318]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_matches",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L208",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [8320, 8332]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_matches",
+      "callee": "fnmatchcase",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L208",
+      "receiver": "fnmatch",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [8337, 8385]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_matches",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L208",
+      "receiver": "short",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [8357, 8370]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_matches",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L208",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [8372, 8384]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "callee": "keys",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L216",
+      "receiver": "base",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [8669, 8680]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "callee": "keys",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L216",
+      "receiver": "candidate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [8683, 8699]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L216",
+      "receiver": "base",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [8703, 8716]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L216",
+      "receiver": "candidate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [8720, 8738]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L217",
+      "receiver": "base",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [8780, 8793]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L217",
+      "receiver": "candidate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [8814, 8832]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "callee": "endswith",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L238",
+      "receiver": "key",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [9800, 9822]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L240",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [9860, 9908]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "ArgumentParser",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L245",
+      "receiver": "argparse",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [10003, 10124]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "__doc__",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L246"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L249",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [10129, 10210]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_subparsers",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L250",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [10226, 10278]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_parser",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L252",
+      "receiver": "commands",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [10226, 10278],
+      "_python_call_site": [10291, 10320]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L253",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10325, 10369]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L254",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10374, 10417]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L255",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10422, 10467]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L256",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10472, 10535]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "OUTCOMES",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L256"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L257",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10540, 10742]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "v",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L260"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L263",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10747, 10780]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L264",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10785, 10844]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L265",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10849, 10906]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L266",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10911, 10942]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L267",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10947, 10974]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "set_defaults",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L268",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10979, 11012]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_parser",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L270",
+      "receiver": "commands",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [10226, 10278],
+      "_python_call_site": [11025, 11052]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L271",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11057, 11101]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L272",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11106, 11149]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L273",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11154, 11208]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "int",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L273"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L274",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11213, 11396]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L279",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11401, 11468]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L280",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11473, 11547]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L281",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11552, 11651]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L282",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11656, 11766]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "int",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L282"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "set_defaults",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L283",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11771, 11802]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_parser",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L285",
+      "receiver": "commands",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [10226, 10278],
+      "_python_call_site": [11815, 11845]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L286",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11850, 11894]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "set_defaults",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L287",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11899, 11933]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_parser",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L289",
+      "receiver": "commands",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [10226, 10278],
+      "_python_call_site": [11946, 11974]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L290",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11979, 12074]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L291",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [12079, 12126]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L292",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [12131, 12241]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L293",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [12246, 12350]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L294",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [12355, 12460]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "set_defaults",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L295",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [12465, 12497]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "parse_args",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L297",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [12510, 12529]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_main",
+      "callee": "run",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L298",
+      "receiver": "args",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [12510, 12529],
+      "_python_call_site": [12545, 12559]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "parent",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L59",
+      "_python_attr_read": true,
+      "receiver": "ledger",
+      "receiver_type": "Path"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "ledger",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L58",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "note",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L57",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "note",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L56",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "evidence",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L55",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "evidence",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L54",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "fixed",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L53",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "fixed",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L52",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "changed",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L51",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "changed",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L50",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "hypothesis",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L49",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "hypothesis",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L48",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "attempts",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L46",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "outcome",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L45",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "variant",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L44",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_record",
+      "callee": "batch",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L43",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "budget",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L103",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "batch",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L100",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "min_remaining",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L93",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "expires_at",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L92",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "expires_at",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L91",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "sdk_page",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L88",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "sdk_local",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L88",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "sdk_local",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L88",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "sdk_page",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L86",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "sdk_local",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L86",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "budget",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L84",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "allow_rejections",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L80",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "batch",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L77",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_gate",
+      "callee": "ledger",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L77",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_summary",
+      "callee": "ledger",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L112",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "callee": "must_change",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L225",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "callee": "must_change",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L218",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "callee": "allow",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L218",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "callee": "strict_order",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L215",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "callee": "candidate",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L215",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "callee": "strict_order",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L214",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_experiment_ledger_cmd_audit",
+      "callee": "base",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/experiment_ledger.py",
+      "source_location": "L214",
+      "_python_attr_read": true,
+      "receiver": "args",
+      "receiver_type": "Namespace"
+    }
+  ]
+}

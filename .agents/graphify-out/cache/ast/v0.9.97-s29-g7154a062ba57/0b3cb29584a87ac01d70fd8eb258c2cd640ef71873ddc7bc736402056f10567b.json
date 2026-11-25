@@ -1,0 +1,302 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_rea_upstream_sync_skill_md",
+      "label": "SKILL.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "name": "rea-upstream-sync",
+        "description": "Safely fetch and synchronize REA with upstream (upstream/main at morluto/rea) while preserving local Setup v2 customizations (AGENTS.md, CLAUDE.md, .claude/*, hooks/*, and _reference/*) and keeping origin pointed to LittleKai/rea. Use when the SessionStart/PreInvocation hook reports a new upstream commit or when the user asks to update/sync REA from upstream."
+      }
+    },
+    {
+      "id": "$graphify-root$_rea_upstream_sync_skill_rea_upstream_sync",
+      "label": "REA Upstream Sync",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "$graphify-root$_rea_upstream_sync_skill_khi_n\u00e0o_s\u1eed_d\u1ee5ng",
+      "label": "Khi n\u00e0o s\u1eed d\u1ee5ng",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L10"
+    },
+    {
+      "id": "$graphify-root$_rea_upstream_sync_skill_quy_tr\u00ecnh_5_b\u01b0\u1edbc_b\u1eaft_bu\u1ed9c",
+      "label": "Quy tr\u00ecnh 5 b\u01b0\u1edbc b\u1eaft bu\u1ed9c",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L15"
+    },
+    {
+      "id": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_1_ki\u1ec3m_tra_thay_\u0111\u1ed5i_t\u1eeb_upstream_tr\u01b0\u1edbc_khi_\u0111\u1ed3ng_b\u1ed9",
+      "label": "B\u01b0\u1edbc 1: Ki\u1ec3m tra thay \u0111\u1ed5i t\u1eeb Upstream tr\u01b0\u1edbc khi \u0111\u1ed3ng b\u1ed9",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L17"
+    },
+    {
+      "id": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_2_ch\u1ea1y_\u0111\u1ed3ng_b\u1ed9_an_to\u00e0n_backup_fast_forward_3_way_merge_agents_md",
+      "label": "B\u01b0\u1edbc 2: Ch\u1ea1y \u0111\u1ed3ng b\u1ed9 an to\u00e0n (Backup + Fast-Forward + 3-way merge `AGENTS.md`)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L27"
+    },
+    {
+      "id": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_3_x\u1eed_l\u00fd_thay_\u0111\u1ed5i_tr\u00ean_agents_md_n\u1ebfu_agents_md_changed_upstream_true",
+      "label": "B\u01b0\u1edbc 3: X\u1eed l\u00fd thay \u0111\u1ed5i tr\u00ean `AGENTS.md` (n\u1ebfu `agents_md_changed_upstream == true`)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L44"
+    },
+    {
+      "id": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_4_c\u1eadp_nh\u1eadt_dependencies_build_l\u1ea1i_artifact_n\u1ebfu_c\u1ea7n",
+      "label": "B\u01b0\u1edbc 4: C\u1eadp nh\u1eadt Dependencies & Build l\u1ea1i Artifact (n\u1ebfu c\u1ea7n)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L49"
+    },
+    {
+      "id": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_5_c\u1eadp_nh\u1eadt_claude_project_summary_md_ch\u1ea1y_c\u1ed5ng_ki\u1ec3m_ch\u1ee9ng_verify",
+      "label": "B\u01b0\u1edbc 5: C\u1eadp nh\u1eadt `.claude/PROJECT_SUMMARY.md` & Ch\u1ea1y c\u1ed5ng ki\u1ec3m ch\u1ee9ng (`VERIFY`)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L54"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_rea_upstream_sync_skill_md",
+      "target": "$graphify-root$_rea_upstream_sync_skill_rea_upstream_sync",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_upstream_sync_skill_rea_upstream_sync",
+      "target": "$graphify-root$_rea_upstream_sync_skill_khi_n\u00e0o_s\u1eed_d\u1ee5ng",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_upstream_sync_skill_rea_upstream_sync",
+      "target": "$graphify-root$_rea_upstream_sync_skill_quy_tr\u00ecnh_5_b\u01b0\u1edbc_b\u1eaft_bu\u1ed9c",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_upstream_sync_skill_quy_tr\u00ecnh_5_b\u01b0\u1edbc_b\u1eaft_bu\u1ed9c",
+      "target": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_1_ki\u1ec3m_tra_thay_\u0111\u1ed5i_t\u1eeb_upstream_tr\u01b0\u1edbc_khi_\u0111\u1ed3ng_b\u1ed9",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_upstream_sync_skill_quy_tr\u00ecnh_5_b\u01b0\u1edbc_b\u1eaft_bu\u1ed9c",
+      "target": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_2_ch\u1ea1y_\u0111\u1ed3ng_b\u1ed9_an_to\u00e0n_backup_fast_forward_3_way_merge_agents_md",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_upstream_sync_skill_quy_tr\u00ecnh_5_b\u01b0\u1edbc_b\u1eaft_bu\u1ed9c",
+      "target": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_3_x\u1eed_l\u00fd_thay_\u0111\u1ed5i_tr\u00ean_agents_md_n\u1ebfu_agents_md_changed_upstream_true",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_upstream_sync_skill_quy_tr\u00ecnh_5_b\u01b0\u1edbc_b\u1eaft_bu\u1ed9c",
+      "target": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_4_c\u1eadp_nh\u1eadt_dependencies_build_l\u1ea1i_artifact_n\u1ebfu_c\u1ea7n",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_upstream_sync_skill_quy_tr\u00ecnh_5_b\u01b0\u1edbc_b\u1eaft_bu\u1ed9c",
+      "target": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_5_c\u1eadp_nh\u1eadt_claude_project_summary_md_ch\u1ea1y_c\u1ed5ng_ki\u1ec3m_ch\u1ee9ng_verify",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L54",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_rea_upstream_sync_skill_rea_upstream_sync",
+      "callee": "origin",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "origin",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L8"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_upstream_sync_skill_khi_n\u00e0o_s\u1eed_d\u1ee5ng",
+      "callee": "SessionStart",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "SessionStart",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L12"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_upstream_sync_skill_khi_n\u00e0o_s\u1eed_d\u1ee5ng",
+      "callee": "PreInvocation",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "PreInvocation",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L12"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_upstream_sync_skill_khi_n\u00e0o_s\u1eed_d\u1ee5ng",
+      "callee": "fetch",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "fetch",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L13"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_1_ki\u1ec3m_tra_thay_\u0111\u1ed5i_t\u1eeb_upstream_tr\u01b0\u1edbc_khi_\u0111\u1ed3ng_b\u1ed9",
+      "callee": "up_to_date",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "up_to_date",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_1_ki\u1ec3m_tra_thay_\u0111\u1ed5i_t\u1eeb_upstream_tr\u01b0\u1edbc_khi_\u0111\u1ed3ng_b\u1ed9",
+      "callee": "commit_count",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "commit_count",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_1_ki\u1ec3m_tra_thay_\u0111\u1ed5i_t\u1eeb_upstream_tr\u01b0\u1edbc_khi_\u0111\u1ed3ng_b\u1ed9",
+      "callee": "commits",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "commits",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_1_ki\u1ec3m_tra_thay_\u0111\u1ed5i_t\u1eeb_upstream_tr\u01b0\u1edbc_khi_\u0111\u1ed3ng_b\u1ed9",
+      "callee": "changed_files",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "changed_files",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_1_ki\u1ec3m_tra_thay_\u0111\u1ed5i_t\u1eeb_upstream_tr\u01b0\u1edbc_khi_\u0111\u1ed3ng_b\u1ed9",
+      "callee": "agents_md_changed_upstream",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "agents_md_changed_upstream",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_1_ki\u1ec3m_tra_thay_\u0111\u1ed5i_t\u1eeb_upstream_tr\u01b0\u1edbc_khi_\u0111\u1ed3ng_b\u1ed9",
+      "callee": "needs_npm_ci",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "needs_npm_ci",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_1_ki\u1ec3m_tra_thay_\u0111\u1ed5i_t\u1eeb_upstream_tr\u01b0\u1edbc_khi_\u0111\u1ed3ng_b\u1ed9",
+      "callee": "needs_build",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "needs_build",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_2_ch\u1ea1y_\u0111\u1ed3ng_b\u1ed9_an_to\u00e0n_backup_fast_forward_3_way_merge_agents_md",
+      "callee": "sync",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "sync",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L35"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_2_ch\u1ea1y_\u0111\u1ed3ng_b\u1ed9_an_to\u00e0n_backup_fast_forward_3_way_merge_agents_md",
+      "callee": "stash",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "stash",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L37"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_2_ch\u1ea1y_\u0111\u1ed3ng_b\u1ed9_an_to\u00e0n_backup_fast_forward_3_way_merge_agents_md",
+      "callee": "commit",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "commit",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L37"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_3_x\u1eed_l\u00fd_thay_\u0111\u1ed5i_tr\u00ean_agents_md_n\u1ebfu_agents_md_changed_upstream_true",
+      "callee": "upstream_agents_diff",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "upstream_agents_diff",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L46"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_upstream_sync_skill_b\u01b0\u1edbc_5_c\u1eadp_nh\u1eadt_claude_project_summary_md_ch\u1ea1y_c\u1ed5ng_ki\u1ec3m_ch\u1ee9ng_verify",
+      "callee": "VERIFY",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "VERIFY",
+      "source_file": "rea-upstream-sync/SKILL.md",
+      "source_location": "L54"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

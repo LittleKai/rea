@@ -1,0 +1,121 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_rea_changelog_update_skill_md",
+      "label": "SKILL.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "rea-changelog-update/SKILL.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "name": "rea-changelog-update",
+        "description": "Prepare or rewrite REA release changelogs and GitHub release notes from pinned Git history, with verified contributor thanks and Release Please synchronization."
+      }
+    },
+    {
+      "id": "$graphify-root$_rea_changelog_update_skill_rea_changelog_update",
+      "label": "REA changelog update",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-changelog-update/SKILL.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "$graphify-root$_rea_changelog_update_skill_inventory_before_prose",
+      "label": "Inventory before prose",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-changelog-update/SKILL.md",
+      "source_location": "L13"
+    },
+    {
+      "id": "$graphify-root$_rea_changelog_update_skill_write_for_users_and_retain_credit",
+      "label": "Write for users and retain credit",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-changelog-update/SKILL.md",
+      "source_location": "L48"
+    },
+    {
+      "id": "$graphify-root$_rea_changelog_update_skill_finalize_with_release_please",
+      "label": "Finalize with Release Please",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-changelog-update/SKILL.md",
+      "source_location": "L88"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_rea_changelog_update_skill_md",
+      "target": "$graphify-root$_rea_changelog_update_skill_rea_changelog_update",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-changelog-update/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_changelog_update_skill_md",
+      "target": "d_dev_7_rea_rea_docs_development_releasing_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-changelog-update/SKILL.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "target_file": "D:\\Dev\\7.REA\\rea\\docs\\development\\releasing.md"
+    },
+    {
+      "source": "$graphify-root$_rea_changelog_update_skill_rea_changelog_update",
+      "target": "$graphify-root$_rea_changelog_update_skill_inventory_before_prose",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-changelog-update/SKILL.md",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_changelog_update_skill_rea_changelog_update",
+      "target": "$graphify-root$_rea_changelog_update_skill_write_for_users_and_retain_credit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-changelog-update/SKILL.md",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_changelog_update_skill_rea_changelog_update",
+      "target": "$graphify-root$_rea_changelog_update_skill_finalize_with_release_please",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-changelog-update/SKILL.md",
+      "source_location": "L88",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_rea_changelog_update_skill_write_for_users_and_retain_credit",
+      "callee": "User",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "User",
+      "source_file": "rea-changelog-update/SKILL.md",
+      "source_location": "L73"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_changelog_update_skill_write_for_users_and_retain_credit",
+      "callee": "record",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "record",
+      "source_file": "rea-changelog-update/SKILL.md",
+      "source_location": "L83"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "_cached_target_files": [
+    "D:\\Dev\\7.REA\\rea\\docs\\development\\releasing.md"
+  ]
+}

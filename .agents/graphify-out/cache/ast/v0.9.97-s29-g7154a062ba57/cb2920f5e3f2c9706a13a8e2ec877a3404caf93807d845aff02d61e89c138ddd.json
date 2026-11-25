@@ -1,0 +1,267 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_skill_md",
+      "label": "SKILL.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "name": "rea-js-reverse-lab",
+        "version": "1.0.0",
+        "description": "Analyze opaque tokens, JSVMP bytecode signers, and single-variable replay experiments for JavaScript/Electron/Web targets alongside REA. Use when inspecting custom Base64/XOR/CRC tokens, auditing request replay diffs without leaking secrets, or locking JS bundle SHA-256 baselines.",
+        "allowed-tools": "Read, Write, Grep, Glob, Bash, WebFetch"
+      }
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_skill_rea_javascript_reverse_engineering_lab_rea_js_reverse_lab",
+      "label": "REA JavaScript Reverse Engineering Lab (`rea-js-reverse-lab`)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L8"
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_skill_runtime_contract",
+      "label": "Runtime Contract",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_skill_bundled_cli_tools",
+      "label": "Bundled CLI Tools",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L22"
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_skill_reference_playbook",
+      "label": "Reference Playbook",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L39"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_skill_md",
+      "target": "$graphify-root$_rea_js_reverse_lab_skill_rea_javascript_reverse_engineering_lab_rea_js_reverse_lab",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_skill_rea_javascript_reverse_engineering_lab_rea_js_reverse_lab",
+      "target": "$graphify-root$_rea_js_reverse_lab_skill_runtime_contract",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_skill_rea_javascript_reverse_engineering_lab_rea_js_reverse_lab",
+      "target": "$graphify-root$_rea_js_reverse_lab_skill_bundled_cli_tools",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_skill_rea_javascript_reverse_engineering_lab_rea_js_reverse_lab",
+      "target": "$graphify-root$_rea_js_reverse_lab_skill_reference_playbook",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_skill_md",
+      "target": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/rea-js-reverse-lab/references/jsvmp-and-token-workflows.md"
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_skill_rea_javascript_reverse_engineering_lab_rea_js_reverse_lab",
+      "callee": "search_js_bundle",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "search_js_bundle",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L12"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_skill_rea_javascript_reverse_engineering_lab_rea_js_reverse_lab",
+      "callee": "trace_js_function",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "trace_js_function",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L12"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_skill_rea_javascript_reverse_engineering_lab_rea_js_reverse_lab",
+      "callee": "capture_web_application",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "capture_web_application",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L12"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_skill_bundled_cli_tools",
+      "callee": "hex",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "hex",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_skill_bundled_cli_tools",
+      "callee": "base64",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "base64",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_skill_bundled_cli_tools",
+      "callee": "base64url",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "base64url",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_skill_bundled_cli_tools",
+      "callee": "raw",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "raw",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_skill_bundled_cli_tools",
+      "callee": "head_stable_positions",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "head_stable_positions",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_skill_bundled_cli_tools",
+      "callee": "tail_stable_positions",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "tail_stable_positions",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_skill_bundled_cli_tools",
+      "callee": "length_field_candidates",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "length_field_candidates",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_skill_bundled_cli_tools",
+      "callee": "record",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "record",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L33"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_skill_bundled_cli_tools",
+      "callee": "summary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "summary",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L33"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_skill_bundled_cli_tools",
+      "callee": "not_sent",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "not_sent",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L33"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_skill_bundled_cli_tools",
+      "callee": "transport_error",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "transport_error",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L33"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_skill_bundled_cli_tools",
+      "callee": "rejected",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "rejected",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L33"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_skill_bundled_cli_tools",
+      "callee": "accepted",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "accepted",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L33"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_skill_bundled_cli_tools",
+      "callee": "target_ok",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "target_ok",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L33"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_skill_bundled_cli_tools",
+      "callee": "FileExistsError",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "FileExistsError",
+      "source_file": "rea-js-reverse-lab/SKILL.md",
+      "source_location": "L36"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "_cached_target_files": [
+    "$graphify-root$/rea-js-reverse-lab/references/jsvmp-and-token-workflows.md"
+  ]
+}

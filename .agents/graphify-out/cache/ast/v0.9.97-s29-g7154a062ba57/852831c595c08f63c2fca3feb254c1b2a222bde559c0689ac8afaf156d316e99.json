@@ -1,0 +1,3537 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_py",
+      "label": "test_rea_skills.py",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_load_script_module",
+      "label": "_load_script_module()",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L49",
+      "_py_return_type": "ModuleType",
+      "_callable": true
+    },
+    {
+      "id": "path",
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/test_rea_skills.py"
+    },
+    {
+      "id": "moduletype",
+      "label": "ModuleType",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/test_rea_skills.py"
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "label": "run_cli()",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L61",
+      "_py_return_type": "SimpleNamespace",
+      "_callable": true
+    },
+    {
+      "id": "simplenamespace",
+      "label": "SimpleNamespace",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/test_rea_skills.py"
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect",
+      "label": "TestOpaqueTokenInspect",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L96",
+      "metadata": { "python_opaque_bases": true },
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_help_and_version",
+      "label": ".test_help_and_version()",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L97",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_token_batch_xor_and_crc32_tail",
+      "label": ".test_token_batch_xor_and_crc32_tail()",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L106",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_custom_alphabet_and_invalid_alphabet_rejection",
+      "label": ".test_custom_alphabet_and_invalid_alphabet_rejection()",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L141",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_query_param_extraction",
+      "label": ".test_query_param_extraction()",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L170",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_testexperimentledger",
+      "label": "TestExperimentLedger",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L179",
+      "metadata": { "python_opaque_bases": true },
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_help_and_version",
+      "label": ".test_help_and_version()",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L180",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "label": ".test_record_gate_summary_and_audit_redaction()",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L186",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_testprojectbaseline",
+      "label": "TestProjectBaseline",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L298",
+      "metadata": { "python_opaque_bases": true },
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "label": ".test_create_and_check_with_windows_case_normalization()",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L299",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector",
+      "label": "TestKotlinApkInspector",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L353",
+      "metadata": { "python_opaque_bases": true },
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "label": ".test_fingerprint_recover_lookup_and_find_api()",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L354",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_testreviewcase",
+      "label": "TestReviewCase",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L432",
+      "metadata": { "python_opaque_bases": true },
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "label": ".test_valid_and_invalid_case_review_with_windows_drive_casing()",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L433",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_testantireaauditor",
+      "label": "TestAntiReaAuditor",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L532",
+      "metadata": { "python_opaque_bases": true },
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_help_and_version",
+      "label": ".test_help_and_version()",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L533",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "label": ".test_audit_dir_detects_exposures_and_passes_clean_bundle()",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L543",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs",
+      "label": ".test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs()",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L600",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs_fake_passive_get",
+      "label": "fake_passive_get()",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L609",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity",
+      "label": "TestClaudeSkillsParity",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L684",
+      "metadata": { "python_opaque_bases": true },
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "label": ".test_claude_skills_mirror_agents_skills_byte_for_byte()",
+      "file_type": "code",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L685",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_rea_skills_rationale_2",
+      "label": "Unit tests for REA repo-local reverse-engineering skills. Covers: 1. rea-js-\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L2"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "base64",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_python_import_module": "base64",
+      "_python_import_bindings": [["base64", "base64"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "contextlib",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_python_import_module": "contextlib",
+      "_python_import_bindings": [["contextlib", "contextlib"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "hashlib",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_python_import_module": "hashlib",
+      "_python_import_bindings": [["hashlib", "hashlib"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "importlib_util",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_python_import_module": "importlib.util",
+      "_python_import_bindings": [["importlib.util", "importlib"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "io",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_python_import_module": "io",
+      "_python_import_bindings": [["io", "io"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_python_import_module": "json",
+      "_python_import_bindings": [["json", "json"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_python_import_module": "os",
+      "_python_import_bindings": [["os", "os"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "struct",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_python_import_module": "struct",
+      "_python_import_bindings": [["struct", "struct"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_python_import_module": "sys",
+      "_python_import_bindings": [["sys", "sys"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "tempfile",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_python_import_module": "tempfile",
+      "_python_import_bindings": [["tempfile", "tempfile"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "types",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_python_import_module": "types",
+      "_python_import_bindings": [["types", "types"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "unittest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_python_import_module": "unittest",
+      "_python_import_bindings": [["unittest", "unittest"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "zipfile",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_python_import_module": "zipfile",
+      "_python_import_bindings": [["zipfile", "zipfile"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "zlib",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_python_import_module": "zlib",
+      "_python_import_bindings": [["zlib", "zlib"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_python_import_module": "pathlib",
+      "_python_import_bindings": [["Path", "Path"]]
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "unittest",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_python_import_module": "unittest",
+      "_python_import_bindings": [["mock", "mock"]]
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "$graphify-root$_tests_test_rea_skills_load_script_module",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_load_script_module",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_load_script_module",
+      "target": "moduletype",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "target": "simplenamespace",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect",
+      "target": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_help_and_version",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect",
+      "target": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_token_batch_xor_and_crc32_tail",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L106",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect",
+      "target": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_custom_alphabet_and_invalid_alphabet_rejection",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect",
+      "target": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_query_param_extraction",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "$graphify-root$_tests_test_rea_skills_testexperimentledger",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L179",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testexperimentledger",
+      "target": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_help_and_version",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L180",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testexperimentledger",
+      "target": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L186",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "$graphify-root$_tests_test_rea_skills_testprojectbaseline",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L298",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testprojectbaseline",
+      "target": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L299",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L353",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector",
+      "target": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L354",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "$graphify-root$_tests_test_rea_skills_testreviewcase",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L432",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testreviewcase",
+      "target": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L433",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "$graphify-root$_tests_test_rea_skills_testantireaauditor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L532",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testantireaauditor",
+      "target": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_help_and_version",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L533",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testantireaauditor",
+      "target": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L543",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testantireaauditor",
+      "target": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L600",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs",
+      "target": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs_fake_passive_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L609",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_py",
+      "target": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L684",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity",
+      "target": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L685",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "target": "$graphify-root$_tests_test_rea_skills_load_script_module",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_help_and_version",
+      "target": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_token_batch_xor_and_crc32_tail",
+      "target": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_custom_alphabet_and_invalid_alphabet_rejection",
+      "target": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_query_param_extraction",
+      "target": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_help_and_version",
+      "target": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L181",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "target": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L191",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "target": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L306",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "target": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L364",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "target": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L493",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_help_and_version",
+      "target": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L534",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "target": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L575",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs",
+      "target": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L601",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs",
+      "target": "$graphify-root$_tests_test_rea_skills_load_script_module",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L605",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs",
+      "target": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs_fake_passive_get",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L663",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_rea_skills_rationale_2",
+      "target": "$graphify-root$_tests_test_rea_skills_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L2",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_load_script_module",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L50",
+      "receiver": "script",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Path",
+      "_python_call_site": [1448, 1464]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_load_script_module",
+      "callee": "spec_from_file_location",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L52",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1518, 1581]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_load_script_module",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L54",
+      "receiver": null,
+      "_python_call_site": [1648, 1706]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_load_script_module",
+      "callee": "module_from_spec",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L55",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1721, 1758]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_load_script_module",
+      "callee": "exec_module",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L56",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1767, 1795]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "callee": "StringIO",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L63",
+      "receiver": "io",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [2012, 2025]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "callee": "StringIO",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L64",
+      "receiver": "io",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [2040, 2053]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "callee": "cwd",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L65",
+      "receiver": "Path",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2069, 2079]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "callee": "chdir",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L69",
+      "receiver": "os",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [2140, 2153]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "callee": "object",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L71",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2181, 2233]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "callee": "sys",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L71"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "callee": "redirect_stdout",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L72",
+      "receiver": "contextlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [2247, 2282]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "callee": "redirect_stderr",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L73",
+      "receiver": "contextlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [2296, 2331]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "callee": "main",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L76",
+      "receiver": "mod",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2383, 2393]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "callee": "int",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L77"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "callee": "int",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L81"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "callee": "write",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L84",
+      "receiver": "err_buf",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "StringIO",
+      "_python_call_site": [2681, 2711]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "callee": "chdir",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L88",
+      "receiver": "os",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [2792, 2810]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "callee": "SimpleNamespace",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L89",
+      "receiver": "types",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [2822, 2943]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "callee": "getvalue",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L91",
+      "receiver": "out_buf",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "StringIO",
+      "_python_call_site": [2883, 2901]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_run_cli",
+      "callee": "getvalue",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L92",
+      "receiver": "err_buf",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "StringIO",
+      "_python_call_site": [2918, 2936]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_help_and_version",
+      "callee": "OPAQUE_TOKEN_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L98"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_help_and_version",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L99",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3106, 3163]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_help_and_version",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L100",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3172, 3216]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_help_and_version",
+      "callee": "OPAQUE_TOKEN_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L102"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_help_and_version",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L103",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3286, 3341]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_help_and_version",
+      "callee": "assertTrue",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L104",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3350, 3389]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_help_and_version",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L104",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3366, 3388]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_token_batch_xor_and_crc32_tail",
+      "callee": "crc32",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L112",
+      "receiver": "zlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [3710, 3729]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_token_batch_xor_and_crc32_tail",
+      "callee": "pack",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L113",
+      "receiver": "struct",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [3765, 3787]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_token_batch_xor_and_crc32_tail",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L114",
+      "receiver": "raw_samples",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3800, 3824]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_token_batch_xor_and_crc32_tail",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L115",
+      "receiver": "tokens",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3837, 3910]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_token_batch_xor_and_crc32_tail",
+      "callee": "rstrip",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L115",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3851, 3909]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_token_batch_xor_and_crc32_tail",
+      "callee": "decode",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L115",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3851, 3897]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_token_batch_xor_and_crc32_tail",
+      "callee": "urlsafe_b64encode",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L115",
+      "receiver": "base64",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [3851, 3881]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_token_batch_xor_and_crc32_tail",
+      "callee": "OPAQUE_TOKEN_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L118"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_token_batch_xor_and_crc32_tail",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L130",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4227, 4274]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_token_batch_xor_and_crc32_tail",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L131",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [4290, 4312]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_token_batch_xor_and_crc32_tail",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L132",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4321, 4355]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_token_batch_xor_and_crc32_tail",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L133",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4364, 4411]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_token_batch_xor_and_crc32_tail",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L134",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4420, 4467]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_token_batch_xor_and_crc32_tail",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L135",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4476, 4523]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_token_batch_xor_and_crc32_tail",
+      "callee": "assertTrue",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L136",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4532, 4570]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_token_batch_xor_and_crc32_tail",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L137",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4579, 4626]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_token_batch_xor_and_crc32_tail",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L138",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4635, 4682]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_token_batch_xor_and_crc32_tail",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L139",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4691, 4751]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_custom_alphabet_and_invalid_alphabet_rejection",
+      "callee": "decode",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L145",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [5065, 5102]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_custom_alphabet_and_invalid_alphabet_rejection",
+      "callee": "b64encode",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L145",
+      "receiver": "base64",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [5065, 5086]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_custom_alphabet_and_invalid_alphabet_rejection",
+      "callee": "translate",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L146",
+      "receiver": "std_b64",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [5065, 5102],
+      "_python_call_site": [5124, 5181]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_custom_alphabet_and_invalid_alphabet_rejection",
+      "callee": "maketrans",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L146",
+      "receiver": "str",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [5142, 5180]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_custom_alphabet_and_invalid_alphabet_rejection",
+      "callee": "OPAQUE_TOKEN_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L149"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_custom_alphabet_and_invalid_alphabet_rejection",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L156",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [5384, 5437]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_custom_alphabet_and_invalid_alphabet_rejection",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L157",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [5455, 5480]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_custom_alphabet_and_invalid_alphabet_rejection",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L158",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [5489, 5545]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_custom_alphabet_and_invalid_alphabet_rejection",
+      "callee": "hex",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L158",
+      "receiver": "raw",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [5535, 5544]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_custom_alphabet_and_invalid_alphabet_rejection",
+      "callee": "OPAQUE_TOKEN_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L161"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_custom_alphabet_and_invalid_alphabet_rejection",
+      "callee": "assertNotEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L168",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [5753, 5795]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_query_param_extraction",
+      "callee": "rstrip",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L171",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [5862, 5939]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_query_param_extraction",
+      "callee": "decode",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L171",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [5862, 5927]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_query_param_extraction",
+      "callee": "urlsafe_b64encode",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L171",
+      "receiver": "base64",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [5862, 5911]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_query_param_extraction",
+      "callee": "OPAQUE_TOKEN_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L173"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_query_param_extraction",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L174",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [6107, 6154]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_query_param_extraction",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L175",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [6172, 6194]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testopaquetokeninspect_test_query_param_extraction",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L176",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [6203, 6262]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_help_and_version",
+      "callee": "EXPERIMENT_LEDGER_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L181"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_help_and_version",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L182",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [6428, 6485]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_help_and_version",
+      "callee": "EXPERIMENT_LEDGER_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L183"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_help_and_version",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L184",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [6559, 6614]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "TemporaryDirectory",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L187",
+      "receiver": "tempfile",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [6697, 6726]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L188",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [6758, 6767]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "tmp",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L188"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "EXPERIMENT_LEDGER_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L192"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L203",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [7157, 7202]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "EXPERIMENT_LEDGER_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L206"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L215",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [7477, 7522]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "assertTrue",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L216",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [7535, 7584]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L216",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [7551, 7572]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "EXPERIMENT_LEDGER_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L219"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L230",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [7920, 7965]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "EXPERIMENT_LEDGER_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L233"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L242",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [8240, 8274]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L243",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [8287, 8365]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L243",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [8304, 8325]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L249",
+      "receiver": "base_req",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [8582, 9039]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L250",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [8619, 8990]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L261",
+      "receiver": "cand_req",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [9052, 9519]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L262",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [9089, 9470]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "EXPERIMENT_LEDGER_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L275"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L286",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [9888, 9939]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "assertNotIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L287",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [9952, 9992]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "assertNotIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L288",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10005, 10045]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L289",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [10071, 10095]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "assertTrue",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L290",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10108, 10164]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L291",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10177, 10242]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L292",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10255, 10419]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "hexdigest",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L294",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10347, 10399]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "sha256",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L294",
+      "receiver": "hashlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [10347, 10387]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testexperimentledger_test_record_gate_summary_and_audit_redaction",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L294",
+      "receiver": "secret_a",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10362, 10386]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "callee": "TemporaryDirectory",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L300",
+      "receiver": "tempfile",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [10558, 10587]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L301",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [10615, 10624]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "callee": "tmp",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L301"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "callee": "mkdir",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L303",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10688, 10736]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L304",
+      "receiver": "sample",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [10749, 10820]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "callee": "PROJECT_BASELINE_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L307"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L318",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11189, 11240]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L323",
+      "receiver": "drive",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11435, 11448]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "callee": "isupper",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L323",
+      "receiver": "drive",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11452, 11467]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "callee": "upper",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L323",
+      "receiver": "drive",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11473, 11486]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "callee": "PROJECT_BASELINE_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L327"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L334",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11805, 11858]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L335",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [11882, 11907]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L336",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11920, 11969]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L337",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [11982, 12038]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L338",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [12051, 12114]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L340",
+      "receiver": "sample",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [12128, 12203]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "callee": "PROJECT_BASELINE_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L342"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L349",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [12447, 12490]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L350",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [12503, 12572]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testprojectbaseline_test_create_and_check_with_windows_case_normalization",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L350",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [12520, 12550]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "TemporaryDirectory",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L355",
+      "receiver": "tempfile",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [12705, 12734]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L356",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [12766, 12775]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "tmp",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L356"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "ZipFile",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L358",
+      "receiver": "zipfile",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [12840, 12870]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "writestr",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L359",
+      "receiver": "zf",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ZipFile",
+      "_python_call_site": [12894, 12943]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "writestr",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L360",
+      "receiver": "zf",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ZipFile",
+      "_python_call_site": [12960, 13048]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "writestr",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L361",
+      "receiver": "zf",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ZipFile",
+      "_python_call_site": [13065, 13118]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "writestr",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L362",
+      "receiver": "zf",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ZipFile",
+      "_python_call_site": [13135, 13190]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "KOTLIN_INSPECTOR_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L364"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L365",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [13294, 13339]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L366",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [13362, 13383]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L367",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [13396, 13446]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "assertTrue",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L368",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [13459, 13506]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L369",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [13519, 13560]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L370",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [13573, 13616]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "mkdir",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L374",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [13727, 13777]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L375",
+      "receiver": "obf_file",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [13790, 14550]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "KOTLIN_INSPECTOR_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L401"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L402",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [14707, 14754]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L403",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [14778, 14800]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "assertGreaterEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L404",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [14813, 14870]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L405",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [14893, 14959]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "read_text",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L405",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [14904, 14958]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L406",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [14972, 15042]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L406",
+      "receiver": "mapping",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [14893, 14959],
+      "_python_call_site": [14989, 15009]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "KOTLIN_INSPECTOR_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L408"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L409",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [15149, 15202]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L410",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [15215, 15275]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "KOTLIN_INSPECTOR_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L413"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L421",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [15547, 15602]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L422",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [15615, 15676]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "KOTLIN_INSPECTOR_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L424"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L425",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [15790, 15845]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L426",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [15869, 15895]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "assertTrue",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L427",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [15908, 15945]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "assertTrue",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L428",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [15958, 15993]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testkotlinapkinspector_test_fingerprint_recover_lookup_and_find_api",
+      "callee": "assertTrue",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L429",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [16006, 16039]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "TemporaryDirectory",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L434",
+      "receiver": "tempfile",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [16180, 16209]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L435",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [16242, 16251]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "tmp",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L435"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "mkdir",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L436",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [16264, 16297]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "mkdir",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L437",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [16310, 16342]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "mkdir",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L438",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [16355, 16385]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "write_bytes",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L442",
+      "receiver": "artifact",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [16518, 16554]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "hexdigest",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L443",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [16580, 16622]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "sha256",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L443",
+      "receiver": "hashlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [16580, 16610]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L448",
+      "receiver": "d",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [16799, 16808]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "isupper",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L448",
+      "receiver": "d",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [16812, 16823]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "upper",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L448",
+      "receiver": "d",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [16829, 16838]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L450",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [16872, 17047]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L454",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [17060, 17213]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L458",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [17226, 17385]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L462",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [17398, 17676]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L474",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [17689, 18025]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "REVIEW_CASE_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L494"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L501",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [18268, 18325]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L502",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [18347, 18374]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L503",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [18387, 18459]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L503",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [18430, 18458]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L505",
+      "receiver": "report",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [18347, 18374],
+      "_python_call_site": [18525, 18551]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L507",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [18618, 18653]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L509",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [18667, 18936]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "REVIEW_CASE_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L522"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L528",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [19150, 19190]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L529",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [19203, 19266]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testreviewcase_test_valid_and_invalid_case_review_with_windows_drive_casing",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L529",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [19220, 19247]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_help_and_version",
+      "callee": "ANTI_REA_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L534"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_help_and_version",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L535",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [19421, 19478]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_help_and_version",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L536",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [19487, 19530]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_help_and_version",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L537",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [19539, 19582]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_help_and_version",
+      "callee": "ANTI_REA_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L539"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_help_and_version",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L540",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [19648, 19703]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_help_and_version",
+      "callee": "assertTrue",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L541",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [19712, 19751]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_help_and_version",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L541",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [19728, 19750]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "TemporaryDirectory",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L544",
+      "receiver": "tempfile",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [19846, 19875]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L545",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [19903, 19912]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "tmp",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L545"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "mkdir",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L547",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [19959, 19991]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "mkdir",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L548",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [20004, 20050]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L553",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [20232, 20270]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L556",
+      "receiver": "entries",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [20443, 20496]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "decode",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L556",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [20458, 20495]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "b64encode",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L556",
+      "receiver": "base64",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [20458, 20479]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L559",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [20553, 20572]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L567",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [21133, 21200]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L568",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [21213, 21308]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L569",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [21321, 21524]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L570",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [21396, 21475]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "write_bytes",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L573",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [21537, 21630]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "ANTI_REA_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L575"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L576",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [21722, 21757]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L577",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [21779, 21801]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L579",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [21874, 21914]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L580",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [21927, 21969]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L581",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [21982, 22026]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L582",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [22039, 22079]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L583",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [22092, 22144]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L584",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [22157, 22205]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L585",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [22218, 22262]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L586",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [22275, 22318]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L587",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [22331, 22375]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "mkdir",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L591",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [22511, 22549]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L592",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [22562, 22759]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "ANTI_REA_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L596"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L597",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [22862, 22921]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L598",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [22934, 23000]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_audit_dir_detects_exposures_and_passes_clean_bundle",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L598",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [22951, 22979]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs",
+      "callee": "ANTI_REA_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L601"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L602",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [23198, 23236]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L603",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [23245, 23289]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs",
+      "callee": "ANTI_REA_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L605"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs",
+      "callee": "hexdigest",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L607",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [23442, 23479]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs",
+      "callee": "sha256",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L607",
+      "receiver": "hashlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [23442, 23467]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs",
+      "callee": "object",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L663",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [25794, 25862]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs",
+      "callee": "ANTI_REA_SCRIPT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L665"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L675",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [26235, 26275]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L676",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [26302, 26329]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L678",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [26412, 26457]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L679",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [26470, 26520]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L680",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [26533, 26579]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs",
+      "callee": "assertIn",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L681",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [26592, 26642]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs_fake_passive_get",
+      "callee": "endswith",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L610",
+      "receiver": "url",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [23603, 23630]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs_fake_passive_get",
+      "callee": "endswith",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L620",
+      "receiver": "url",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [24023, 24055]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs_fake_passive_get",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L621",
+      "receiver": "headers",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [24076, 24105]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs_fake_passive_get",
+      "callee": "endswith",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L640",
+      "receiver": "url",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [24861, 24893]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs_fake_passive_get",
+      "callee": "spa_hash_prefix",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L646"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs_fake_passive_get",
+      "callee": "spa_bytes",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L645"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs_fake_passive_get",
+      "callee": "decode",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L651",
+      "receiver": "spa_bytes",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [25374, 25399]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs_fake_passive_get",
+      "callee": "spa_hash_prefix",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L658"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs_fake_passive_get",
+      "callee": "spa_bytes",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L657"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testantireaauditor_test_check_url_requires_allow_live_and_detects_secfetch_and_cache_bugs_fake_passive_get",
+      "callee": "decode",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L660",
+      "receiver": "spa_bytes",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [25739, 25764]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "callee": "assertTrue",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L696",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [27153, 27226]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "callee": "is_dir",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L696",
+      "receiver": "src_dir",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [27169, 27185]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "callee": "assertTrue",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L697",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [27239, 27312]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "callee": "is_dir",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L697",
+      "receiver": "dst_dir",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [27255, 27271]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "callee": "as_posix",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L700",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [27356, 27389]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "callee": "relative_to",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L700",
+      "receiver": "p",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [27356, 27378]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "callee": "hexdigest",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L700",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [27391, 27433]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "callee": "sha256",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L700",
+      "receiver": "hashlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [27391, 27421]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "callee": "read_bytes",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L700",
+      "receiver": "p",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [27406, 27420]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "callee": "rglob",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L701",
+      "receiver": "src_dir",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [27459, 27477]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "callee": "is_file",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L702",
+      "receiver": "p",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [27497, 27508]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "callee": "endswith",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L702",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [27550, 27573]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "callee": "as_posix",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L705",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [27630, 27663]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "callee": "relative_to",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L705",
+      "receiver": "p",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [27630, 27652]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "callee": "hexdigest",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L705",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [27665, 27707]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "callee": "sha256",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L705",
+      "receiver": "hashlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [27665, 27695]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "callee": "read_bytes",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L705",
+      "receiver": "p",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [27680, 27694]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "callee": "rglob",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L706",
+      "receiver": "dst_dir",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [27733, 27751]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "callee": "is_file",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L707",
+      "receiver": "p",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [27771, 27782]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "callee": "endswith",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L707",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [27824, 27847]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_rea_skills_testclaudeskillsparity_test_claude_skills_mirror_agents_skills_byte_for_byte",
+      "callee": "assertEqual",
+      "is_member_call": true,
+      "source_file": "tests/test_rea_skills.py",
+      "source_location": "L709",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [27874, 28062]
+    }
+  ]
+}

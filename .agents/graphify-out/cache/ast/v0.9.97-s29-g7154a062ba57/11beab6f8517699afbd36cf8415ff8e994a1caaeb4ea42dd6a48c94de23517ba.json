@@ -1,0 +1,141 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_rea_ci_tests_audit_skill_md",
+      "label": "SKILL.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "rea-ci-tests-audit/SKILL.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "name": "rea-ci-tests-audit",
+        "description": "Audit REA CI and test suites for correctness, fixture drift, false passes, and measured performance; use for suite or workflow investigations and efficiency changes, rather than ordinary feature testing or a single test failure."
+      }
+    },
+    {
+      "id": "$graphify-root$_rea_ci_tests_audit_skill_rea_ci_and_tests_audit",
+      "label": "REA CI and tests audit",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-ci-tests-audit/SKILL.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "$graphify-root$_rea_ci_tests_audit_skill_establish_the_executed_baseline",
+      "label": "Establish the executed baseline",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-ci-tests-audit/SKILL.md",
+      "source_location": "L20"
+    },
+    {
+      "id": "$graphify-root$_rea_ci_tests_audit_skill_prove_the_failure_or_protection",
+      "label": "Prove the failure or protection",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-ci-tests-audit/SKILL.md",
+      "source_location": "L42"
+    },
+    {
+      "id": "$graphify-root$_rea_ci_tests_audit_skill_assess_efficiency_without_losing_the_gate",
+      "label": "Assess efficiency without losing the gate",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-ci-tests-audit/SKILL.md",
+      "source_location": "L74"
+    },
+    {
+      "id": "$graphify-root$_rea_ci_tests_audit_skill_fix_verify_and_hand_off_within_scope",
+      "label": "Fix, verify, and hand off within scope",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-ci-tests-audit/SKILL.md",
+      "source_location": "L88"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_rea_ci_tests_audit_skill_md",
+      "target": "$graphify-root$_rea_ci_tests_audit_skill_rea_ci_and_tests_audit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-ci-tests-audit/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_ci_tests_audit_skill_md",
+      "target": "d_dev_7_rea_rea_docs_development_testing_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-ci-tests-audit/SKILL.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "target_file": "D:\\Dev\\7.REA\\rea\\docs\\development\\testing.md"
+    },
+    {
+      "source": "$graphify-root$_rea_ci_tests_audit_skill_md",
+      "target": "d_dev_7_rea_rea_contributing_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-ci-tests-audit/SKILL.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "target_file": "D:\\Dev\\7.REA\\rea\\CONTRIBUTING.md"
+    },
+    {
+      "source": "$graphify-root$_rea_ci_tests_audit_skill_rea_ci_and_tests_audit",
+      "target": "$graphify-root$_rea_ci_tests_audit_skill_establish_the_executed_baseline",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-ci-tests-audit/SKILL.md",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_ci_tests_audit_skill_rea_ci_and_tests_audit",
+      "target": "$graphify-root$_rea_ci_tests_audit_skill_prove_the_failure_or_protection",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-ci-tests-audit/SKILL.md",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_ci_tests_audit_skill_rea_ci_and_tests_audit",
+      "target": "$graphify-root$_rea_ci_tests_audit_skill_assess_efficiency_without_losing_the_gate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-ci-tests-audit/SKILL.md",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_ci_tests_audit_skill_md",
+      "target": "$graphify-root$_rea_ci_tests_audit_references_measurement_and_ci_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-ci-tests-audit/SKILL.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/rea-ci-tests-audit/references/measurement-and-ci.md"
+    },
+    {
+      "source": "$graphify-root$_rea_ci_tests_audit_skill_rea_ci_and_tests_audit",
+      "target": "$graphify-root$_rea_ci_tests_audit_skill_fix_verify_and_hand_off_within_scope",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-ci-tests-audit/SKILL.md",
+      "source_location": "L88",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "_cached_target_files": [
+    "$graphify-root$/rea-ci-tests-audit/references/measurement-and-ci.md",
+    "D:\\Dev\\7.REA\\rea\\CONTRIBUTING.md",
+    "D:\\Dev\\7.REA\\rea\\docs\\development\\testing.md"
+  ]
+}

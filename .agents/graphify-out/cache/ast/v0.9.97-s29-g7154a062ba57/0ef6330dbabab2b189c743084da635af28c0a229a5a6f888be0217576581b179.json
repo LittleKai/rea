@@ -1,0 +1,846 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_md",
+      "label": "javascript-applications.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "label": "JavaScript and Electron application artifacts",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_inventory_route_candidates_without_returning_the_application_graph",
+      "label": "Inventory route candidates without returning the application graph",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L67"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_read_a_module_without_repeating_analysis",
+      "label": "Read a module without repeating analysis",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L90"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_trace_only_the_remaining_question",
+      "label": "Trace only the remaining question",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L163"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_recover_an_oversized_display",
+      "label": "Recover an oversized display",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L181"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_reusing_application_evidence",
+      "label": "Reusing application Evidence",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L230"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_md",
+      "target": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_md",
+      "target": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/reverse-engineer-anything/references/connection-and-recovery.md"
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_inventory_route_candidates_without_returning_the_application_graph",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_read_a_module_without_repeating_analysis",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_trace_only_the_remaining_question",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L163",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_recover_an_oversized_display",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L181",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_reusing_application_evidence",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L230",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "callee": "recover_javascript_sources",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "recover_javascript_sources",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L4"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "callee": "path",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "path",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L4"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "callee": "output_directory",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "output_directory",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L5"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "callee": "additional_paths",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "additional_paths",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L6"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "callee": "analysis_input",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "analysis_input",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L6"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "callee": "analyze_javascript_application",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "analyze_javascript_application",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L11"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "callee": "source_paths",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "source_paths",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L13"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "callee": "source_selection",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "source_selection",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L17"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "callee": "max_header_bytes",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "asar.max_header_bytes",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L27",
+      "qualifiers": ["asar"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "callee": "update_analysis_settings",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "update_analysis_settings",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L28"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "callee": "REA_ASAR_MAX_HEADER_BYTES",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "REA_ASAR_MAX_HEADER_BYTES",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L30"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "callee": "detail",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "detail",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L31"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "callee": "max_heap_mb",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "max_heap_mb",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L31"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "callee": "analysis_timeout_ms",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "analysis_timeout_ms",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L33"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "callee": "imports",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "imports",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L36"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "callee": "node_modules",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "node_modules",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L36"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "callee": "inspect_analysis_view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_view",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L39"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "callee": "parent_evidence_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "normalized_result.parent_evidence_id",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L40",
+      "qualifiers": ["normalized_result"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "callee": "static_analysis",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "static_analysis",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "callee": "semantic_module_analysis",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "semantic_module_analysis",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L59"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_javascript_and_electron_application_artifacts",
+      "callee": "partial_observation",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "error.details.partial_observation",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L63",
+      "qualifiers": ["error", "details"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_inventory_route_candidates_without_returning_the_application_graph",
+      "callee": "view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "view",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L69"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_inventory_route_candidates_without_returning_the_application_graph",
+      "callee": "analyze_web_bundle",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "analyze_web_bundle",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L71"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_inventory_route_candidates_without_returning_the_application_graph",
+      "callee": "parent_evidence_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "parent_evidence_id",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L72"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_inventory_route_candidates_without_returning_the_application_graph",
+      "callee": "inspect_analysis_view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_view",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L73"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_inventory_route_candidates_without_returning_the_application_graph",
+      "callee": "summary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "summary",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L73"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_inventory_route_candidates_without_returning_the_application_graph",
+      "callee": "routes",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "routes",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L73"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_inventory_route_candidates_without_returning_the_application_graph",
+      "callee": "occurrences",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "occurrences",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L73"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_inventory_route_candidates_without_returning_the_application_graph",
+      "callee": "sources",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "sources",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L73"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_inventory_route_candidates_without_returning_the_application_graph",
+      "callee": "unknowns",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "unknowns",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L74"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_inventory_route_candidates_without_returning_the_application_graph",
+      "callee": "next_offset",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "coverage.next_offset",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L75",
+      "qualifiers": ["coverage"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_inventory_route_candidates_without_returning_the_application_graph",
+      "callee": "endpoints",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "endpoints",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L83"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_inventory_route_candidates_without_returning_the_application_graph",
+      "callee": "inferences",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inferences",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L83"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_inventory_route_candidates_without_returning_the_application_graph",
+      "callee": "source_index",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "source_index",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L85"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_inventory_route_candidates_without_returning_the_application_graph",
+      "callee": "location",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "location",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L85"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_inventory_route_candidates_without_returning_the_application_graph",
+      "callee": "basis",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "basis",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L86"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_inventory_route_candidates_without_returning_the_application_graph",
+      "callee": "completeness",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "completeness",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L87"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_inventory_route_candidates_without_returning_the_application_graph",
+      "callee": "source_unknowns",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "source_unknowns",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L87"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_read_a_module_without_repeating_analysis",
+      "callee": "evidence_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "source.evidence_id",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L92",
+      "qualifiers": ["source"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_read_a_module_without_repeating_analysis",
+      "callee": "next_offset",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "coverage.next_offset",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L96",
+      "qualifiers": ["coverage"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_read_a_module_without_repeating_analysis",
+      "callee": "node_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "node_id",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L108"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_read_a_module_without_repeating_analysis",
+      "callee": "path",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "selector.path",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L125",
+      "qualifiers": ["selector"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_read_a_module_without_repeating_analysis",
+      "callee": "next_offset",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "next_offset",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L128"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_read_a_module_without_repeating_analysis",
+      "callee": "identity",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "identity",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L155"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_read_a_module_without_repeating_analysis",
+      "callee": "basis",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "basis",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L156"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_read_a_module_without_repeating_analysis",
+      "callee": "retained_source_range_count",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "retained_source_range_count",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L156"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_read_a_module_without_repeating_analysis",
+      "callee": "source_coverage",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "source_coverage",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L160"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_trace_only_the_remaining_question",
+      "callee": "trace_application_feature",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "trace_application_feature",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L165"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_trace_only_the_remaining_question",
+      "callee": "incoming",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "incoming",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L167"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_trace_only_the_remaining_question",
+      "callee": "outgoing",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "outgoing",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L167"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_trace_only_the_remaining_question",
+      "callee": "both",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "both",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L168"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_trace_only_the_remaining_question",
+      "callee": "summary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "summary",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L173"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_trace_only_the_remaining_question",
+      "callee": "nodes",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "nodes",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L174"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_trace_only_the_remaining_question",
+      "callee": "edges",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "edges",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L174"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_trace_only_the_remaining_question",
+      "callee": "node_ids",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "where.node_ids",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L175",
+      "qualifiers": ["where"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_trace_only_the_remaining_question",
+      "callee": "inspect_analysis_view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_view",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L175"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_recover_an_oversized_display",
+      "callee": "resource_constraint",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "resource_constraint",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L183"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_recover_an_oversized_display",
+      "callee": "evidence_reference",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "details.reported_limits.evidence_reference",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L185",
+      "qualifiers": ["details", "reported_limits"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_recover_an_oversized_display",
+      "callee": "inspect_analysis_view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_view",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L185"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_recover_an_oversized_display",
+      "callee": "export_evidence_bundle",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "export_evidence_bundle",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L187"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_recover_an_oversized_display",
+      "callee": "compare_application_versions",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "compare_application_versions",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L207"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_recover_an_oversized_display",
+      "callee": "compare_javascript_export_shapes",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "compare_javascript_export_shapes",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L214"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_recover_an_oversized_display",
+      "callee": "property_inventories",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "property_inventories",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L218"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_recover_an_oversized_display",
+      "callee": "presence",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "presence",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L218"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_recover_an_oversized_display",
+      "callee": "unknown",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "unknown",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L218"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_recover_an_oversized_display",
+      "callee": "source_range",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "source_range",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L220"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_recover_an_oversized_display",
+      "callee": "added",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "added",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L223"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_recover_an_oversized_display",
+      "callee": "removed",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "removed",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L223"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_reusing_application_evidence",
+      "callee": "application",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "application",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L235"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_reusing_application_evidence",
+      "callee": "left",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "left",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L235"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_reusing_application_evidence",
+      "callee": "right",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "right",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L235"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_reusing_application_evidence",
+      "callee": "inspect_analysis_view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_view",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L235"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_reusing_application_evidence",
+      "callee": "source",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "source",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L236"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_reusing_application_evidence",
+      "callee": "parent_evidence_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "normalized_result.parent_evidence_id",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L243",
+      "qualifiers": ["normalized_result"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_reusing_application_evidence",
+      "callee": "close_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "close_binary",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L248"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_reusing_application_evidence",
+      "callee": "reset_investigation",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "reset_investigation",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L250"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_reusing_application_evidence",
+      "callee": "save_path",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "save_path",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L250"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_reusing_application_evidence",
+      "callee": "investigation",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "binary_session.investigation",
+      "source_file": "reverse-engineer-anything/references/javascript-applications.md",
+      "source_location": "L253",
+      "qualifiers": ["binary_session"]
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "_cached_target_files": [
+    "$graphify-root$/reverse-engineer-anything/references/connection-and-recovery.md"
+  ]
+}

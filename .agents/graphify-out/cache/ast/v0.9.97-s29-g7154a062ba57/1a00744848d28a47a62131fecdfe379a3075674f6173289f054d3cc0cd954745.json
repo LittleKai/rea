@@ -1,0 +1,295 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_rea_android_kotlin_recovery_skill_md",
+      "label": "SKILL.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "name": "rea-android-kotlin-recovery",
+        "version": "1.0.0",
+        "description": "Fingerprint Android APK/XAPK archives, recover R8/ProGuard-obfuscated Kotlin class and package names from @Metadata/@DebugMetadata annotations in JADX sources, and extract Retrofit/OkHttp/Ktor API endpoints.",
+        "allowed-tools": "Read, Write, Grep, Glob, Bash"
+      }
+    },
+    {
+      "id": "$graphify-root$_rea_android_kotlin_recovery_skill_rea_android_kotlin_deobfuscation_recovery_rea_android_kotlin_recovery",
+      "label": "REA Android & Kotlin Deobfuscation Recovery (`rea-android-kotlin-recovery`)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L8"
+    },
+    {
+      "id": "$graphify-root$_rea_android_kotlin_recovery_skill_runtime_contract",
+      "label": "Runtime Contract",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "$graphify-root$_rea_android_kotlin_recovery_skill_subcommands_in_scripts_kotlin_apk_inspector_py_scripts_kotlin_apk_inspector_py",
+      "label": "Subcommands in [`scripts/kotlin_apk_inspector.py`](scripts/kotlin_apk_inspector.py)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L22"
+    },
+    {
+      "id": "$graphify-root$_rea_android_kotlin_recovery_skill_reference_playbook",
+      "label": "Reference Playbook",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L38"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_rea_android_kotlin_recovery_skill_md",
+      "target": "$graphify-root$_rea_android_kotlin_recovery_skill_rea_android_kotlin_deobfuscation_recovery_rea_android_kotlin_recovery",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_android_kotlin_recovery_skill_rea_android_kotlin_deobfuscation_recovery_rea_android_kotlin_recovery",
+      "target": "$graphify-root$_rea_android_kotlin_recovery_skill_runtime_contract",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_android_kotlin_recovery_skill_rea_android_kotlin_deobfuscation_recovery_rea_android_kotlin_recovery",
+      "target": "$graphify-root$_rea_android_kotlin_recovery_skill_subcommands_in_scripts_kotlin_apk_inspector_py_scripts_kotlin_apk_inspector_py",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_android_kotlin_recovery_skill_rea_android_kotlin_deobfuscation_recovery_rea_android_kotlin_recovery",
+      "target": "$graphify-root$_rea_android_kotlin_recovery_skill_reference_playbook",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_android_kotlin_recovery_skill_md",
+      "target": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md"
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_skill_rea_android_kotlin_deobfuscation_recovery_rea_android_kotlin_recovery",
+      "callee": "inspect_android_package",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_android_package",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L12"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_skill_runtime_contract",
+      "callee": "unzip",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "unzip",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L16"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_skill_subcommands_in_scripts_kotlin_apk_inspector_py_scripts_kotlin_apk_inspector_py",
+      "callee": "zipfile",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "zipfile",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_skill_subcommands_in_scripts_kotlin_apk_inspector_py_scripts_kotlin_apk_inspector_py",
+      "callee": "container_type",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "container_type",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_skill_subcommands_in_scripts_kotlin_apk_inspector_py_scripts_kotlin_apk_inspector_py",
+      "callee": "primary_framework",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "primary_framework",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_skill_subcommands_in_scripts_kotlin_apk_inspector_py_scripts_kotlin_apk_inspector_py",
+      "callee": "flutter",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "flutter",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_skill_subcommands_in_scripts_kotlin_apk_inspector_py_scripts_kotlin_apk_inspector_py",
+      "callee": "react_native",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "react_native",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_skill_subcommands_in_scripts_kotlin_apk_inspector_py_scripts_kotlin_apk_inspector_py",
+      "callee": "unity",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "unity",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_skill_subcommands_in_scripts_kotlin_apk_inspector_py_scripts_kotlin_apk_inspector_py",
+      "callee": "xamarin",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "xamarin",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_skill_subcommands_in_scripts_kotlin_apk_inspector_py_scripts_kotlin_apk_inspector_py",
+      "callee": "cordova_capacitor",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "cordova_capacitor",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_skill_subcommands_in_scripts_kotlin_apk_inspector_py_scripts_kotlin_apk_inspector_py",
+      "callee": "kotlin",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "kotlin",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_skill_subcommands_in_scripts_kotlin_apk_inspector_py_scripts_kotlin_apk_inspector_py",
+      "callee": "native_android",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "native_android",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_skill_subcommands_in_scripts_kotlin_apk_inspector_py_scripts_kotlin_apk_inspector_py",
+      "callee": "abis",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "abis",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_skill_subcommands_in_scripts_kotlin_apk_inspector_py_scripts_kotlin_apk_inspector_py",
+      "callee": "split_apks",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "split_apks",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_skill_subcommands_in_scripts_kotlin_apk_inspector_py_scripts_kotlin_apk_inspector_py",
+      "callee": "dex_count",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "dex_count",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_skill_subcommands_in_scripts_kotlin_apk_inspector_py_scripts_kotlin_apk_inspector_py",
+      "callee": "has_kotlin_metadata",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "has_kotlin_metadata",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_skill_subcommands_in_scripts_kotlin_apk_inspector_py_scripts_kotlin_apk_inspector_py",
+      "callee": "d2",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "d2",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L29"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_skill_subcommands_in_scripts_kotlin_apk_inspector_py_scripts_kotlin_apk_inspector_py",
+      "callee": "c",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "c",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L29"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_skill_subcommands_in_scripts_kotlin_apk_inspector_py_scripts_kotlin_apk_inspector_py",
+      "callee": "f",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "f",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L29"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_skill_subcommands_in_scripts_kotlin_apk_inspector_py_scripts_kotlin_apk_inspector_py",
+      "callee": "tsv",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "mapping.tsv",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L30",
+      "qualifiers": ["mapping"]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_skill_subcommands_in_scripts_kotlin_apk_inspector_py_scripts_kotlin_apk_inspector_py",
+      "callee": "stdout",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "stdout",
+      "source_file": "rea-android-kotlin-recovery/SKILL.md",
+      "source_location": "L30"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "_cached_target_files": [
+    "$graphify-root$/rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md"
+  ]
+}

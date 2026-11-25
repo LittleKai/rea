@@ -1,0 +1,536 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_md",
+      "label": "runtime-observation.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_runtime_observation",
+      "label": "Runtime observation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_native_runtime_questions",
+      "label": "Native runtime questions",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_browser_and_electron",
+      "label": "Browser and Electron",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L49"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_who_performs_the_action",
+      "label": "Who performs the action",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L75"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_fiddler_everywhere_traffic_debugging",
+      "label": "Fiddler Everywhere traffic debugging",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L115"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_md",
+      "target": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_runtime_observation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_runtime_observation",
+      "target": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_native_runtime_questions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_runtime_observation",
+      "target": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_browser_and_electron",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_runtime_observation",
+      "target": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_who_performs_the_action",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_runtime_observation",
+      "target": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_fiddler_everywhere_traffic_debugging",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L115",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_native_runtime_questions",
+      "callee": "trace_native_values",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "trace_native_values",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L7"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_native_runtime_questions",
+      "callee": "observe_native_calls",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "observe_native_calls",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L13"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_native_runtime_questions",
+      "callee": "list_frida_devices",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "list_frida_devices",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L14"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_native_runtime_questions",
+      "callee": "list_frida_processes",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "list_frida_processes",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L14"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_native_runtime_questions",
+      "callee": "start_frida_session",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "start_frida_session",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L14"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_native_runtime_questions",
+      "callee": "load_frida_script",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "load_frida_script",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L14"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_native_runtime_questions",
+      "callee": "resume_frida_session",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "resume_frida_session",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L14"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_native_runtime_questions",
+      "callee": "start_gdb_session",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "start_gdb_session",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L15"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_native_runtime_questions",
+      "callee": "gdb_console",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "gdb_console",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L15"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_native_runtime_questions",
+      "callee": "start_rizin_debug_session",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "start_rizin_debug_session",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L15"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_native_runtime_questions",
+      "callee": "rizin_debug_command",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "rizin_debug_command",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L15"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_native_runtime_questions",
+      "callee": "inferior_tty",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inferior_tty",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L15"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_native_runtime_questions",
+      "callee": "capture_process_scenario",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "capture_process_scenario",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L16"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_native_runtime_questions",
+      "callee": "compare_process_captures",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "compare_process_captures",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L16"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_native_runtime_questions",
+      "callee": "xcrun",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "xcrun",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L16"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_native_runtime_questions",
+      "callee": "observe_native_ui",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "observe_native_ui",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L17"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_native_runtime_questions",
+      "callee": "capture_native_ui_scenario",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "capture_native_ui_scenario",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L17"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_native_runtime_questions",
+      "callee": "close_frida_session",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "close_frida_session",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L19"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_native_runtime_questions",
+      "callee": "correlate_static_and_runtime",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "correlate_static_and_runtime",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L37"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_browser_and_electron",
+      "callee": "allowed_origins",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "allowed_origins",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L54"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_browser_and_electron",
+      "callee": "list_browser_targets",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "list_browser_targets",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_browser_and_electron",
+      "callee": "list_electron_targets",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "list_electron_targets",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L59"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_browser_and_electron",
+      "callee": "inspect_electron_fuses",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_electron_fuses",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L60"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_browser_and_electron",
+      "callee": "capture_web_screenshot",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "capture_web_screenshot",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L71"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_who_performs_the_action",
+      "callee": "list_browser_targets",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "list_browser_targets",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L77"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_who_performs_the_action",
+      "callee": "inspect_web_page",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_web_page",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L77"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_who_performs_the_action",
+      "callee": "observe_web_session",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "observe_web_session",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L78"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_who_performs_the_action",
+      "callee": "capture_browser_scenario",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "capture_browser_scenario",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L79"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_who_performs_the_action",
+      "callee": "target_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "target_id",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L80"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_who_performs_the_action",
+      "callee": "start_url",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "start_url",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L83"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_who_performs_the_action",
+      "callee": "cleanup",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "browser.cleanup",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L86",
+      "qualifiers": ["browser"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_who_performs_the_action",
+      "callee": "inspect_analysis_view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_view",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L90"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_who_performs_the_action",
+      "callee": "observe_web_execution",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "observe_web_execution",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L101"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_who_performs_the_action",
+      "callee": "inspect_web_event_listeners",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_web_event_listeners",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L103"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_who_performs_the_action",
+      "callee": "compare_web_captures",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "compare_web_captures",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L105"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_who_performs_the_action",
+      "callee": "discover_webmcp_tools",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "discover_webmcp_tools",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L106"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_who_performs_the_action",
+      "callee": "reconcile_javascript_runtime",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "reconcile_javascript_runtime",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L109"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_fiddler_everywhere_traffic_debugging",
+      "callee": "inspect_analysis_view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_view",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L118"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_fiddler_everywhere_traffic_debugging",
+      "callee": "protobuf",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "protobuf",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L123"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_fiddler_everywhere_traffic_debugging",
+      "callee": "bodies",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "bodies",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L123"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_fiddler_everywhere_traffic_debugging",
+      "callee": "frames",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "frames",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L123"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_fiddler_everywhere_traffic_debugging",
+      "callee": "fields",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "fields",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L124"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_fiddler_everywhere_traffic_debugging",
+      "callee": "schema_value",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "schema_value",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L125"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_fiddler_everywhere_traffic_debugging",
+      "callee": "text",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "text",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L125"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_fiddler_everywhere_traffic_debugging",
+      "callee": "inspect_web_network_capture",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_web_network_capture",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L128"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_fiddler_everywhere_traffic_debugging",
+      "callee": "sessionsSource",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "sessionsSource",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L131"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_fiddler_everywhere_traffic_debugging",
+      "callee": "LiveTraffic",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "LiveTraffic",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L131"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_fiddler_everywhere_traffic_debugging",
+      "callee": "AgentCalls",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "AgentCalls",
+      "source_file": "reverse-engineer-anything/references/runtime-observation.md",
+      "source_location": "L132"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

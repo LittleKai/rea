@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_rea_tool_design_skill_md",
+      "label": "SKILL.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "rea-tool-design/SKILL.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "name": "rea-tool-design",
+        "description": "Audit, investigate, design, or change REA investigation tools, CLI/MCP contracts, provider capabilities, and Evidence semantics."
+      }
+    },
+    {
+      "id": "$graphify-root$_rea_tool_design_skill_rea_tool_design",
+      "label": "REA tool design",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-tool-design/SKILL.md",
+      "source_location": "L6"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_rea_tool_design_skill_md",
+      "target": "$graphify-root$_rea_tool_design_skill_rea_tool_design",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-tool-design/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_tool_design_skill_md",
+      "target": "d_dev_7_rea_rea_docs_development_tool_design_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-tool-design/SKILL.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "target_file": "D:\\Dev\\7.REA\\rea\\docs\\development\\tool-design.md"
+    },
+    {
+      "source": "$graphify-root$_rea_tool_design_skill_md",
+      "target": "d_dev_7_rea_rea_docs_development_testing_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-tool-design/SKILL.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "target_file": "D:\\Dev\\7.REA\\rea\\docs\\development\\testing.md"
+    },
+    {
+      "source": "$graphify-root$_rea_tool_design_skill_md",
+      "target": "d_dev_7_rea_rea_contributing_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-tool-design/SKILL.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "target_file": "D:\\Dev\\7.REA\\rea\\CONTRIBUTING.md"
+    }
+  ],
+  "raw_calls": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "_cached_target_files": [
+    "D:\\Dev\\7.REA\\rea\\CONTRIBUTING.md",
+    "D:\\Dev\\7.REA\\rea\\docs\\development\\testing.md",
+    "D:\\Dev\\7.REA\\rea\\docs\\development\\tool-design.md"
+  ]
+}

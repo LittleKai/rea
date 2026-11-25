@@ -1,0 +1,538 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_anti_rea_references_web_and_js_hardening_md",
+      "label": "web-and-js-hardening.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_web_and_js_hardening_web_spa_webgl_bundle_hardening_against_rea",
+      "label": "Web, SPA & WebGL Bundle Hardening Against REA",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_web_and_js_hardening_contents",
+      "label": "Contents",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_web_and_js_hardening_1_tier_1_edge_middleware_crawl_gates_share_links",
+      "label": "1. Tier 1 \u2014 Edge Middleware, Crawl Gates & Share Links",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_web_and_js_hardening_1_1_replace_sec_fetch_blacklists_with_allowlists_ticket_cookies",
+      "label": "1.1 Replace `Sec-Fetch-*` Blacklists with Allowlists + Ticket Cookies",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_web_and_js_hardening_1_2_validate_share_tokens_before_mounting_iframe_or_bundles",
+      "label": "1.2 Validate `?share=` Tokens Before Mounting `<iframe>` or Bundles",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L31"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_web_and_js_hardening_1_3_prevent_spa_fallback_200_ok_immutable_cache_poisoning",
+      "label": "1.3 Prevent SPA Fallback `200 OK` + `immutable` Cache Poisoning",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L37"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_tier_2_bundler_symbol_table_glsl_shader_sidecar_hygiene",
+      "label": "2. Tier 2 \u2014 Bundler, Symbol Table, GLSL Shader & Sidecar Hygiene",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L45"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_1_replace_string_keyed_proxy_vaults_with_integer_slot_arrays",
+      "label": "2.1 Replace String-Keyed Proxy Vaults with Integer Slot Arrays",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L47"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_2_encrypt_100_of_glsl_shaders_including_quasis_helper_blocks",
+      "label": "2.2 Encrypt 100% of GLSL Shaders (Including `${...}` Quasis & Helper Blocks)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L57"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_3_controlled_mangleprops_with_explicit_schema_reserveprops",
+      "label": "2.3 Controlled `mangleProps` with Explicit Schema `reserveProps`",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L70"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_4_strip_sidecar_manifests_lock_production_origins_fail_closed",
+      "label": "2.4 Strip Sidecar Manifests & Lock Production Origins Fail-Closed",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L78"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_web_and_js_hardening_3_tier_3_server_authoritative_commercial_logic",
+      "label": "3. Tier 3 \u2014 Server-Authoritative Commercial Logic",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L85"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_web_and_js_hardening_4_tier_4_session_keyed_aead_assets_stripped_webassembly",
+      "label": "4. Tier 4 \u2014 Session-Keyed AEAD Assets & Stripped WebAssembly",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L95"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_anti_rea_references_web_and_js_hardening_md",
+      "target": "$graphify-root$_anti_rea_references_web_and_js_hardening_web_spa_webgl_bundle_hardening_against_rea",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_references_web_and_js_hardening_web_spa_webgl_bundle_hardening_against_rea",
+      "target": "$graphify-root$_anti_rea_references_web_and_js_hardening_contents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_references_web_and_js_hardening_web_spa_webgl_bundle_hardening_against_rea",
+      "target": "$graphify-root$_anti_rea_references_web_and_js_hardening_1_tier_1_edge_middleware_crawl_gates_share_links",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_references_web_and_js_hardening_1_tier_1_edge_middleware_crawl_gates_share_links",
+      "target": "$graphify-root$_anti_rea_references_web_and_js_hardening_1_1_replace_sec_fetch_blacklists_with_allowlists_ticket_cookies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_references_web_and_js_hardening_1_tier_1_edge_middleware_crawl_gates_share_links",
+      "target": "$graphify-root$_anti_rea_references_web_and_js_hardening_1_2_validate_share_tokens_before_mounting_iframe_or_bundles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_references_web_and_js_hardening_1_tier_1_edge_middleware_crawl_gates_share_links",
+      "target": "$graphify-root$_anti_rea_references_web_and_js_hardening_1_3_prevent_spa_fallback_200_ok_immutable_cache_poisoning",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_references_web_and_js_hardening_web_spa_webgl_bundle_hardening_against_rea",
+      "target": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_tier_2_bundler_symbol_table_glsl_shader_sidecar_hygiene",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_tier_2_bundler_symbol_table_glsl_shader_sidecar_hygiene",
+      "target": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_1_replace_string_keyed_proxy_vaults_with_integer_slot_arrays",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_tier_2_bundler_symbol_table_glsl_shader_sidecar_hygiene",
+      "target": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_2_encrypt_100_of_glsl_shaders_including_quasis_helper_blocks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_tier_2_bundler_symbol_table_glsl_shader_sidecar_hygiene",
+      "target": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_3_controlled_mangleprops_with_explicit_schema_reserveprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_tier_2_bundler_symbol_table_glsl_shader_sidecar_hygiene",
+      "target": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_4_strip_sidecar_manifests_lock_production_origins_fail_closed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_references_web_and_js_hardening_web_spa_webgl_bundle_hardening_against_rea",
+      "target": "$graphify-root$_anti_rea_references_web_and_js_hardening_3_tier_3_server_authoritative_commercial_logic",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_references_web_and_js_hardening_web_spa_webgl_bundle_hardening_against_rea",
+      "target": "$graphify-root$_anti_rea_references_web_and_js_hardening_4_tier_4_session_keyed_aead_assets_stripped_webassembly",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L95",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_web_spa_webgl_bundle_hardening_against_rea",
+      "callee": "analyze_javascript_application",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "analyze_javascript_application",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L3"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_web_spa_webgl_bundle_hardening_against_rea",
+      "callee": "analyze_web_bundle",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "analyze_web_bundle",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L3"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_web_spa_webgl_bundle_hardening_against_rea",
+      "callee": "inspect_web_page",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_web_page",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L3"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_web_spa_webgl_bundle_hardening_against_rea",
+      "callee": "capture_browser_scenario",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "capture_browser_scenario",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L3"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_web_spa_webgl_bundle_hardening_against_rea",
+      "callee": "recover_javascript_sources",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "recover_javascript_sources",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L3"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_1_1_replace_sec_fetch_blacklists_with_allowlists_ticket_cookies",
+      "callee": "curl",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "curl",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L18"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_1_1_replace_sec_fetch_blacklists_with_allowlists_ticket_cookies",
+      "callee": "urllib",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "urllib",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L18"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_1_1_replace_sec_fetch_blacklists_with_allowlists_ticket_cookies",
+      "callee": "matcher",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "matcher",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L22"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_1_1_replace_sec_fetch_blacklists_with_allowlists_ticket_cookies",
+      "callee": "app_bundle_ticket",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "app_bundle_ticket",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_1_3_prevent_spa_fallback_200_ok_immutable_cache_poisoning",
+      "callee": "immutable",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "immutable",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L37"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_2_encrypt_100_of_glsl_shaders_including_quasis_helper_blocks",
+      "callee": "gl_Position",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "gl_Position",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L59"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_2_encrypt_100_of_glsl_shaders_including_quasis_helper_blocks",
+      "callee": "PROC_COMMON_GLSL",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "PROC_COMMON_GLSL",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L59"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_2_encrypt_100_of_glsl_shaders_including_quasis_helper_blocks",
+      "callee": "CROWD_ANIM_GLSL",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "CROWD_ANIM_GLSL",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L59"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_2_encrypt_100_of_glsl_shaders_including_quasis_helper_blocks",
+      "callee": "TemplateElement",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "TemplateElement",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L63"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_2_encrypt_100_of_glsl_shaders_including_quasis_helper_blocks",
+      "callee": "uniform",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "uniform",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L64"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_2_encrypt_100_of_glsl_shaders_including_quasis_helper_blocks",
+      "callee": "sampler2D",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "sampler2D",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L64"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_2_encrypt_100_of_glsl_shaders_including_quasis_helper_blocks",
+      "callee": "shaderSource",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "gl.shaderSource",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L68",
+      "qualifiers": ["gl"]
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_3_controlled_mangleprops_with_explicit_schema_reserveprops",
+      "callee": "mangleProps",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "mangleProps",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L70"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_3_controlled_mangleprops_with_explicit_schema_reserveprops",
+      "callee": "reserveProps",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "reserveProps",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L70"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_3_controlled_mangleprops_with_explicit_schema_reserveprops",
+      "callee": "esbuild",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "esbuild",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L72"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_3_controlled_mangleprops_with_explicit_schema_reserveprops",
+      "callee": "computeEngineeringRider",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "computeEngineeringRider",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L72"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_3_controlled_mangleprops_with_explicit_schema_reserveprops",
+      "callee": "generateStageDxf",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "generateStageDxf",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L72"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_3_controlled_mangleprops_with_explicit_schema_reserveprops",
+      "callee": "isProUnlocked",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "isProUnlocked",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L72"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_3_controlled_mangleprops_with_explicit_schema_reserveprops",
+      "callee": "postMessage",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "postMessage",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L75"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_3_controlled_mangleprops_with_explicit_schema_reserveprops",
+      "callee": "dataset",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "dataset",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L75"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_2_4_strip_sidecar_manifests_lock_production_origins_fail_closed",
+      "callee": "localhost",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "localhost",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L81"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_3_tier_3_server_authoritative_commercial_logic",
+      "callee": "inspect_web_page",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_web_page",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L87"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_3_tier_3_server_authoritative_commercial_logic",
+      "callee": "capture_browser_scenario",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "capture_browser_scenario",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L87"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_3_tier_3_server_authoritative_commercial_logic",
+      "callee": "authMiddleware",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "authMiddleware",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L90"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_4_tier_4_session_keyed_aead_assets_stripped_webassembly",
+      "callee": "xorshift32",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "xorshift32",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L97"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_4_tier_4_session_keyed_aead_assets_stripped_webassembly",
+      "callee": "decrypt",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "crypto.subtle.decrypt",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L97",
+      "qualifiers": ["crypto", "subtle"]
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_4_tier_4_session_keyed_aead_assets_stripped_webassembly",
+      "callee": "WASM",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "WASM",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L98"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_web_and_js_hardening_4_tier_4_session_keyed_aead_assets_stripped_webassembly",
+      "callee": "inspect_wasm_artifact",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_wasm_artifact",
+      "source_file": "anti-rea/references/web-and-js-hardening.md",
+      "source_location": "L98"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

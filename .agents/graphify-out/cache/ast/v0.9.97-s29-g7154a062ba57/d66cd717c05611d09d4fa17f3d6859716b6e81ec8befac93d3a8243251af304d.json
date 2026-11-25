@@ -1,0 +1,218 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_rea_case_review_skill_md",
+      "label": "SKILL.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "name": "rea-case-review",
+        "version": "1.0.0",
+        "description": "Audit reverse-engineering case directories for Evidence-to-Finding traceability, scope compliance, and SHA-256 artifact fixity before finalizing reports.",
+        "allowed-tools": "Read, Grep, Glob, Bash"
+      }
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_skill_rea_reverse_engineering_case_review_rea_case_review",
+      "label": "REA Reverse-Engineering Case Review (`rea-case-review`)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L8"
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_skill_runtime_contract",
+      "label": "Runtime Contract",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_skill_case_directory_structure_checked_by_scripts_review_case_py_scripts_review_case_py",
+      "label": "Case Directory Structure Checked by [`scripts/review_case.py`](scripts/review_case.py)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L22"
+    },
+    {
+      "id": "$graphify-root$_rea_case_review_skill_exit_codes_verdict",
+      "label": "Exit Codes & Verdict",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L34"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_rea_case_review_skill_md",
+      "target": "$graphify-root$_rea_case_review_skill_rea_reverse_engineering_case_review_rea_case_review",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_skill_rea_reverse_engineering_case_review_rea_case_review",
+      "target": "$graphify-root$_rea_case_review_skill_runtime_contract",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_skill_rea_reverse_engineering_case_review_rea_case_review",
+      "target": "$graphify-root$_rea_case_review_skill_case_directory_structure_checked_by_scripts_review_case_py_scripts_review_case_py",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_case_review_skill_rea_reverse_engineering_case_review_rea_case_review",
+      "target": "$graphify-root$_rea_case_review_skill_exit_codes_verdict",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L34",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_skill_rea_reverse_engineering_case_review_rea_case_review",
+      "callee": "MIT",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "MIT",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L10"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_skill_rea_reverse_engineering_case_review_rea_case_review",
+      "callee": "Evidence",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "Evidence",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L12"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_skill_case_directory_structure_checked_by_scripts_review_case_py_scripts_review_case_py",
+      "callee": "offline",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "offline",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L24"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_skill_case_directory_structure_checked_by_scripts_review_case_py_scripts_review_case_py",
+      "callee": "lab_only",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "lab_only",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L24"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_skill_case_directory_structure_checked_by_scripts_review_case_py_scripts_review_case_py",
+      "callee": "authorized_target_only",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "authorized_target_only",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L24"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_skill_case_directory_structure_checked_by_scripts_review_case_py_scripts_review_case_py",
+      "callee": "Evidence",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "Evidence",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_skill_case_directory_structure_checked_by_scripts_review_case_py_scripts_review_case_py",
+      "callee": "artifact_path",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "artifact_path",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L29"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_skill_case_directory_structure_checked_by_scripts_review_case_py_scripts_review_case_py",
+      "callee": "source",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "source",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L29"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_skill_case_directory_structure_checked_by_scripts_review_case_py_scripts_review_case_py",
+      "callee": "content_hash",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "content_hash",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L30"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_skill_case_directory_structure_checked_by_scripts_review_case_py_scripts_review_case_py",
+      "callee": "sha256",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "sha256",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L30"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_skill_case_directory_structure_checked_by_scripts_review_case_py_scripts_review_case_py",
+      "callee": "repro_command",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "repro_command",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L31"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_skill_case_directory_structure_checked_by_scripts_review_case_py_scripts_review_case_py",
+      "callee": "locator",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "locator",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L31"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_skill_case_directory_structure_checked_by_scripts_review_case_py_scripts_review_case_py",
+      "callee": "reproduced",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "reproduced",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L31"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_case_review_skill_exit_codes_verdict",
+      "callee": "Evidence",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "Evidence",
+      "source_file": "rea-case-review/SKILL.md",
+      "source_location": "L37"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

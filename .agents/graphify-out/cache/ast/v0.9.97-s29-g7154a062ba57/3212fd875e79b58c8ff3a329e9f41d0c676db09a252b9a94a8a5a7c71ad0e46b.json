@@ -1,0 +1,514 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_md",
+      "label": "evidence-workflows.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "label": "Evidence, comparison, and verification workflows",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_md",
+      "target": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "structuredContent",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "structuredContent",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L4"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "normalized_result",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "normalized_result",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L4"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "evidence_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "evidence_id",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L5"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "inspect_binary_layout",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_binary_layout",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L9"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "analyze_javascript_application",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "analyze_javascript_application",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L10"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "inspect_analysis_view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_view",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L11"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "parent_evidence_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "normalized_result.parent_evidence_id",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L25",
+      "qualifiers": ["normalized_result"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "compare_artifacts",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "compare_artifacts",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L27"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "inspect_artifact",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_artifact",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L52"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "logical_paths",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "logical_paths",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L54"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "nodes",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "nodes",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L55"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "edges",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "edges",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L55"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "integrity_contradictions",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "integrity_contradictions",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "source_complete",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "source_complete",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "detail",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_artifact.detail",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L60",
+      "qualifiers": ["inspect_artifact"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "fields",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "fields",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L70"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "address",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "record.address",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L70",
+      "qualifiers": ["record"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "source_index",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "source_index",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L70"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "value",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "value",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L71"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "next_offset",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "coverage.next_offset",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L73",
+      "qualifiers": ["coverage"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "batch_decompile",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "batch_decompile",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L76"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "indices",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "where.indices",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L79",
+      "qualifiers": ["where"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "addresses",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "addresses",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L79"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "procedure_addresses",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "procedure_addresses",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L79"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "statuses",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "statuses",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L79"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "index",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "index",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L81"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "record_unknown",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "record_unknown",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L84"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "update_unknown",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "update_unknown",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L87"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "compare_functions",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "compare_functions",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L99"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "analyze_function",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "analyze_function",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L100"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "parent_evidence_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "parent_evidence_id",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L101"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "compare_bundles",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "compare_bundles",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L103"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "find_changed_behavior",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "find_changed_behavior",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L104"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "comparisons",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "comparisons",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L105"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "build_call_path",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "build_call_path",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L106"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "functions",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "functions",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L107"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "correlate_static_and_runtime",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "correlate_static_and_runtime",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L109"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "verify_reconstruction",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "verify_reconstruction",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L111"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "finalization_ms",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "finalization_ms",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L117"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "signals",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "exit.finalization.signals",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L120",
+      "qualifiers": ["exit", "finalization"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "signal",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "exit.signal",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L121",
+      "qualifiers": ["exit"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "code",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "exit.code",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L121",
+      "qualifiers": ["exit"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "exit_code",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "exit.finalization.exit_code",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L123",
+      "qualifiers": ["exit", "finalization"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "inspect_web_network_capture",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_web_network_capture",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L127"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "include_query_parameter_names",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "include_query_parameter_names",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L131"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "template_rules",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "template_rules",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L140"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "reason",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "reason",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L155"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "state",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "state",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L157"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "null",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "null",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L165"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "inspect_native_exports",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_native_exports",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L167"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "coverage",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "summary.coverage",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L173",
+      "qualifiers": ["summary"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_evidence_comparison_and_verification_workflows",
+      "callee": "coverage",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "exports.coverage",
+      "source_file": "reverse-engineer-anything/references/evidence-workflows.md",
+      "source_location": "L173",
+      "qualifiers": ["exports"]
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,1336 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_skill_md",
+      "label": "SKILL.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "name": "reverse-engineer-anything",
+        "description": "Reverse engineer native, managed, Electron/JavaScript, packaged, firmware, and browser targets with REA, and build agent environments (AgentEnv bundles) of web applications from a live instance or a capture, and of Linux desktop apps with a task from a request. Use shipped-artifact or requested runtime evidence to explain features, compare versions, decompile code, or guide a reconstruction. Skip REA for ordinary source-repository architecture analysis.",
+        "metadata": { "version": "61" }
+      }
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_skill_rea",
+      "label": "REA",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L8"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_skill_connect_only_when_needed",
+      "label": "Connect only when needed",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "label": "Route the target first",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L80"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "label": "Work summary-first",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L424"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_skill_plan_broader_investigations",
+      "label": "Plan broader investigations",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L493"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_skill_read_only_the_relevant_guide",
+      "label": "Read only the relevant guide",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L528"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_skill_finish_the_task",
+      "label": "Finish the task",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L549"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_skill_md",
+      "target": "$graphify-root$_reverse_engineer_anything_skill_rea",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_skill_rea",
+      "target": "$graphify-root$_reverse_engineer_anything_skill_connect_only_when_needed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_skill_md",
+      "target": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/reverse-engineer-anything/references/connection-and-recovery.md"
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_skill_rea",
+      "target": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_skill_md",
+      "target": "$graphify-root$_reverse_engineer_anything_references_runtime_observation_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L118",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/reverse-engineer-anything/references/runtime-observation.md"
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_skill_md",
+      "target": "$graphify-root$_reverse_engineer_anything_references_environments_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L138",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/reverse-engineer-anything/references/environments.md"
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_skill_md",
+      "target": "$graphify-root$_reverse_engineer_anything_references_desktop_build_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L145",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/reverse-engineer-anything/references/desktop-build.md"
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_skill_md",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L414",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/reverse-engineer-anything/references/native-and-artifacts.md"
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_skill_rea",
+      "target": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L424",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_skill_md",
+      "target": "$graphify-root$_reverse_engineer_anything_references_evidence_workflows_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L444",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/reverse-engineer-anything/references/evidence-workflows.md"
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_skill_md",
+      "target": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L478",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/reverse-engineer-anything/references/javascript-applications.md"
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_skill_rea",
+      "target": "$graphify-root$_reverse_engineer_anything_skill_plan_broader_investigations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L493",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_skill_rea",
+      "target": "$graphify-root$_reverse_engineer_anything_skill_read_only_the_relevant_guide",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L528",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_skill_md",
+      "target": "$graphify-root$_reverse_engineer_anything_references_android_applications_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L535",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/reverse-engineer-anything/references/android-applications.md"
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_skill_rea",
+      "target": "$graphify-root$_reverse_engineer_anything_skill_finish_the_task",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L549",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_connect_only_when_needed",
+      "callee": "rea",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "rea",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L21"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_connect_only_when_needed",
+      "callee": "cleanup_incomplete",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "cleanup_incomplete",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L46"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_connect_only_when_needed",
+      "callee": "configuration_invalid",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "configuration_invalid",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L47"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_connect_only_when_needed",
+      "callee": "missing",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "missing",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L54"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L82"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "analyze_javascript_application",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "analyze_javascript_application",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L87"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_artifact",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_artifact",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L89"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "open_bundle_resources",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_bundle_resources",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L101"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "CFBundleExecutable",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "CFBundleExecutable",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L102"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_android_package",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_android_package",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L105"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_managed_artifact",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_managed_artifact",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L107"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_firmware_regions",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_firmware_regions",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L108"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "extract_firmware",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "extract_firmware",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L109"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "trace_native_values",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "trace_native_values",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L119"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "list_browser_targets",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "list_browser_targets",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L123"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "excluded",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "completeness.excluded",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L128",
+      "qualifiers": ["completeness"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "allowed_origins",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "allowed_origins",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L129"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "export_evidence_bundle",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "export_evidence_bundle",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L132"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "capture_browser_scenario",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "capture_browser_scenario",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L134"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "export_environment_bundle",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "export_environment_bundle",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L139"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "start_build_computer",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "start_build_computer",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L146"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_web_network_capture",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_web_network_capture",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L149"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "REA_CAPTURE_DECODER_OLD_GENERATION_MIB",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "REA_CAPTURE_DECODER_OLD_GENERATION_MIB",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L154"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "NODE_OPTIONS",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "NODE_OPTIONS",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L155"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "list_electron_targets",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "list_electron_targets",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L164"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_electron_fuses",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_electron_fuses",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L164"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "EnableNodeCliInspectArguments",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "EnableNodeCliInspectArguments",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L164"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_packet_fields",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_packet_fields",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L165"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_packet_capture",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_packet_capture",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L166"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "PATH",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "PATH",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L170"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "REA_TSHARK_COMMAND",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "REA_TSHARK_COMMAND",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L171"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "match_offset",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "match_offset",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L174"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "match_limit",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "match_limit",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L174"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_pcap_capture",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_pcap_capture",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L177"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_signal_decoders",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_signal_decoders",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L183"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "decode_signal_recording",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "decode_signal_recording",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L186"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "REA_SIGROK_COMMAND",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "REA_SIGROK_COMMAND",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L188"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "line_offset",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "line_offset",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L190"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "line_limit",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "line_limit",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L190"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_wasm_artifact",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_wasm_artifact",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L193"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "REA_WABT_BIN_DIRECTORY",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "REA_WABT_BIN_DIRECTORY",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L194"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_apk_signature",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_apk_signature",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L198"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_analysis_view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_view",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L200"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_evm_interface",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_evm_interface",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L206"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "raw",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "raw",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L207"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "hex",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "hex",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L207"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "timeout_ms",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "timeout_ms",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L207"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "parent_evidence_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "parent_evidence_id",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L214"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "bytecode_hex",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "bytecode_hex",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L214"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_go_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_go_binary",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L217"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_gpu_code_objects",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_gpu_code_objects",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L223"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_model_artifact",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_model_artifact",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L225"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "view",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L228"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_il2cpp_metadata",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_il2cpp_metadata",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L235"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "method_indices",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "method_indices",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L239"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "binary_path",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "binary_path",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L243"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "method_addresses",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "method_addresses",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L243"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_rust_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_rust_binary",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L245"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "dependencies",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "dependencies",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L253"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_pe_certificates",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_pe_certificates",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L259"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "subject_key_identifier_hex",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "subject_key_identifier_hex",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L262"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_pe_imports",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_pe_imports",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L267"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_pe_load_config",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_pe_load_config",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L275"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_binary_hardening",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_binary_hardening",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L283"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "enabled",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "enabled",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L285"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "disabled",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "disabled",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L285"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "partial",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "partial",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L286"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "unknown",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "unknown",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L286"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "not_applicable",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "not_applicable",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L286"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_signature",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_signature",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L290"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_elf_notes",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_elf_notes",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L292"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_apple_ips",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_apple_ips",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L298"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "bug_type",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "bug_type",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L300"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_kernel_module",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_kernel_module",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L306"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "modinfo",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "modinfo",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L308"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "__versions",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "__versions",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L309"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "ET_REL",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "ET_REL",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L314"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_python_pyc",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_python_pyc",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L317"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_erlang_beam",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_erlang_beam",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L323"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "beam",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "beam",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L327"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_sqlite_database",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_sqlite_database",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L332"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "columns",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "columns",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L335"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_binary_layout",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_binary_layout",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L341"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_recorded_crash",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_recorded_crash",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L345"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "include_debugger_context",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "include_debugger_context",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L347"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_pe_resources",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_pe_resources",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L351"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "inspect_native_exports",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_native_exports",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L353"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "binary_overview",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "binary_overview",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L356"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "analyze_function",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "analyze_function",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L371"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "REA_KUNA_COMMAND",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "REA_KUNA_COMMAND",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L376"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "xrefs",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "xrefs",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L379"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "source",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "raw_result.source",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L385",
+      "qualifiers": ["raw_result"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "binary_session",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "binary_session",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L398"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "tool_availability",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "result.tool_availability",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L399",
+      "qualifiers": ["result"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "names",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "names",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L400"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "omitted_fields",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "omitted_fields",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L404"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "analysis_provider_binding",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "analysis_provider_binding",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L410"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "update_analysis_settings",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "update_analysis_settings",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L421"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_route_the_target_first",
+      "callee": "startup_timeout_ms",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "ghidra.startup_timeout_ms",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L421",
+      "qualifiers": ["ghidra"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "callee": "analyze_javascript_application",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "analyze_javascript_application",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L428"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "callee": "inspect_binary_layout",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_binary_layout",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L428"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "callee": "parent_evidence_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "parent_evidence_id",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L429"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "callee": "inspect_analysis_view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_view",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L430"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "callee": "analyze_function",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "analyze_function",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L430"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "callee": "compare_functions",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "compare_functions",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L433"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "callee": "match_native_functions",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "match_native_functions",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L434"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "callee": "left_observations",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "left_observations",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L434"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "callee": "right_observations",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "right_observations",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L434"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "callee": "functions",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "build_call_path.functions",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L435",
+      "qualifiers": ["build_call_path"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "callee": "parent_evidence_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "normalized_result.parent_evidence_id",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L441",
+      "qualifiers": ["normalized_result"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "callee": "node_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "node_id",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L446"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "callee": "resource_constraint",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "resource_constraint",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L453"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "callee": "trace_application_feature",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "trace_application_feature",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L455"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "callee": "export_evidence_bundle",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "export_evidence_bundle",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L456"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "callee": "get_evidence_bundle",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "get_evidence_bundle",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L461"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "callee": "evidence_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "evidence_id",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L466"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "callee": "missing_evidence_links",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "missing_evidence_links",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L466"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "callee": "path",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "path",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L470"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_work_summary_first",
+      "callee": "filters",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "filters",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L471"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_finish_the_task",
+      "callee": "close_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "close_binary",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L554"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_finish_the_task",
+      "callee": "reset_investigation",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "reset_investigation",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L556"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_skill_finish_the_task",
+      "callee": "save_path",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "save_path",
+      "source_file": "reverse-engineer-anything/SKILL.md",
+      "source_location": "L556"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "_cached_target_files": [
+    "$graphify-root$/reverse-engineer-anything/references/android-applications.md",
+    "$graphify-root$/reverse-engineer-anything/references/connection-and-recovery.md",
+    "$graphify-root$/reverse-engineer-anything/references/desktop-build.md",
+    "$graphify-root$/reverse-engineer-anything/references/environments.md",
+    "$graphify-root$/reverse-engineer-anything/references/evidence-workflows.md",
+    "$graphify-root$/reverse-engineer-anything/references/javascript-applications.md",
+    "$graphify-root$/reverse-engineer-anything/references/native-and-artifacts.md",
+    "$graphify-root$/reverse-engineer-anything/references/runtime-observation.md"
+  ]
+}

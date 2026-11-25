@@ -1,0 +1,978 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_desktop_build_md",
+      "label": "desktop-build.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_desktop_build_desktop_app_environments_from_a_request",
+      "label": "Desktop app environments from a request",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_desktop_build_ask_once_upfront",
+      "label": "Ask once, upfront",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L22"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_desktop_build_when_you_are_blocked",
+      "label": "When you are blocked",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L34"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_desktop_build_choose_the_install",
+      "label": "Choose the install",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L49"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_desktop_build_drive_the_app",
+      "label": "Drive the app",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L76"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_desktop_build_build_the_seed_and_the_edit",
+      "label": "Build the seed and the edit",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L125"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_desktop_build_write_the_task",
+      "label": "Write the task",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L151"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_desktop_build_export",
+      "label": "Export",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L201"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_desktop_build_witness",
+      "label": "Witness",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L219"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_desktop_build_solver_runs",
+      "label": "Solver runs",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L259"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_desktop_build_close_and_report",
+      "label": "Close and report",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L270"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_desktop_build_md",
+      "target": "$graphify-root$_reverse_engineer_anything_references_desktop_build_desktop_app_environments_from_a_request",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_desktop_build_desktop_app_environments_from_a_request",
+      "target": "$graphify-root$_reverse_engineer_anything_references_desktop_build_ask_once_upfront",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_desktop_build_desktop_app_environments_from_a_request",
+      "target": "$graphify-root$_reverse_engineer_anything_references_desktop_build_when_you_are_blocked",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_desktop_build_desktop_app_environments_from_a_request",
+      "target": "$graphify-root$_reverse_engineer_anything_references_desktop_build_choose_the_install",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_desktop_build_desktop_app_environments_from_a_request",
+      "target": "$graphify-root$_reverse_engineer_anything_references_desktop_build_drive_the_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_desktop_build_desktop_app_environments_from_a_request",
+      "target": "$graphify-root$_reverse_engineer_anything_references_desktop_build_build_the_seed_and_the_edit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_desktop_build_desktop_app_environments_from_a_request",
+      "target": "$graphify-root$_reverse_engineer_anything_references_desktop_build_write_the_task",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_desktop_build_md",
+      "target": "$graphify-root$_reverse_engineer_anything_references_environments_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L199",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/reverse-engineer-anything/references/environments.md"
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_desktop_build_desktop_app_environments_from_a_request",
+      "target": "$graphify-root$_reverse_engineer_anything_references_desktop_build_export",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L201",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_desktop_build_desktop_app_environments_from_a_request",
+      "target": "$graphify-root$_reverse_engineer_anything_references_desktop_build_witness",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L219",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_desktop_build_desktop_app_environments_from_a_request",
+      "target": "$graphify-root$_reverse_engineer_anything_references_desktop_build_solver_runs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L259",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_desktop_build_desktop_app_environments_from_a_request",
+      "target": "$graphify-root$_reverse_engineer_anything_references_desktop_build_close_and_report",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L270",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_desktop_app_environments_from_a_request",
+      "callee": "REA_AGENT_ENV_COMMAND",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "REA_AGENT_ENV_COMMAND",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L8"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_desktop_app_environments_from_a_request",
+      "callee": "REA_BUILD_COMPUTER_REA_ARCHIVE",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "REA_BUILD_COMPUTER_REA_ARCHIVE",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L9"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_desktop_app_environments_from_a_request",
+      "callee": "act_on_build_computer",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "act_on_build_computer",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L14"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_choose_the_install",
+      "callee": "install",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "install",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L54"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_choose_the_install",
+      "callee": "uri",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "uri",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L60"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_choose_the_install",
+      "callee": "suite",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "suite",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L61"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_choose_the_install",
+      "callee": "noble",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "noble",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L61"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_choose_the_install",
+      "callee": "components",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "components",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L61"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_choose_the_install",
+      "callee": "key_file",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "key_file",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L61"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_choose_the_install",
+      "callee": "Depends",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "Depends",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L65"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_choose_the_install",
+      "callee": "dependencies",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "dependencies",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L65"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_choose_the_install",
+      "callee": "firefox",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "firefox",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L68"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_choose_the_install",
+      "callee": "desktop_entry",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "desktop_entry",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L71"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_choose_the_install",
+      "callee": "Inkscape",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "org.inkscape.Inkscape",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L73",
+      "qualifiers": ["org", "inkscape"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_choose_the_install",
+      "callee": "window_class",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "window_class",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L73"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_choose_the_install",
+      "callee": "Inkscape",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "Inkscape",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L74"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_choose_the_install",
+      "callee": "abiword",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "abiword",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L74"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_choose_the_install",
+      "callee": "Abiword",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "Abiword",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L74"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_drive_the_app",
+      "callee": "computer_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "computer_id",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L78"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_drive_the_app",
+      "callee": "screenshot",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "screenshot",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L82"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_drive_the_app",
+      "callee": "region",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "region",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L83"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_drive_the_app",
+      "callee": "jpeg",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "jpeg",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L83"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_drive_the_app",
+      "callee": "quality",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "quality",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L84"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_drive_the_app",
+      "callee": "key",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "key",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L89"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_drive_the_app",
+      "callee": "type",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "type",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L89"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_drive_the_app",
+      "callee": "start_build_capture",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "start_build_capture",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L94"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_drive_the_app",
+      "callee": "keys",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "keys",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L98"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_drive_the_app",
+      "callee": "seed",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "seed",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L110"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_drive_the_app",
+      "callee": "limitations",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "limitations",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L112"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_drive_the_app",
+      "callee": "P1",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "P1",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L121"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_drive_the_app",
+      "callee": "text_equals",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "text_equals",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L122"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_drive_the_app",
+      "callee": "xid",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "xid",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L123"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_build_the_seed_and_the_edit",
+      "callee": "start_build_computer",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "start_build_computer",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L127"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_build_the_seed_and_the_edit",
+      "callee": "computer_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "computer_id",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L131"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_build_the_seed_and_the_edit",
+      "callee": "start_build_capture",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "start_build_capture",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L132"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_build_the_seed_and_the_edit",
+      "callee": "package_lists_error",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "package_lists_error",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L133"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_build_the_seed_and_the_edit",
+      "callee": "mark_build_checkpoint",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "mark_build_checkpoint",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L142"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_build_the_seed_and_the_edit",
+      "callee": "seed",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "seed",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L142"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_build_the_seed_and_the_edit",
+      "callee": "end",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "end",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L144"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_build_the_seed_and_the_edit",
+      "callee": "stop_build_capture",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "stop_build_capture",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L145"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_build_the_seed_and_the_edit",
+      "callee": "files",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "draft.files",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L145",
+      "qualifiers": ["draft"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_build_the_seed_and_the_edit",
+      "callee": "checks",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "draft.task.checks",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L146",
+      "qualifiers": ["draft", "task"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_build_the_seed_and_the_edit",
+      "callee": "limitations",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "limitations",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L147"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_build_the_seed_and_the_edit",
+      "callee": "draft",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "draft",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L147"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_build_the_seed_and_the_edit",
+      "callee": "draft_refusal",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "draft_refusal",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L147"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_write_the_task",
+      "callee": "name",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "name",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L155"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_write_the_task",
+      "callee": "smoke",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "smoke",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L155"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_write_the_task",
+      "callee": "prompt",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "prompt",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L156"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_write_the_task",
+      "callee": "text_equals",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "text_equals",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L172"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_write_the_task",
+      "callee": "text_contains",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "text_contains",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L172"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_write_the_task",
+      "callee": "xid",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "xid",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L180"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_write_the_task",
+      "callee": "value_equals",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "value_equals",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L187"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_write_the_task",
+      "callee": "tolerance",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "tolerance",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L187"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_write_the_task",
+      "callee": "lines",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "lines",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L188"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_write_the_task",
+      "callee": "line_count",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "line_count",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L190"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_write_the_task",
+      "callee": "contains",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "contains",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L190"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_export",
+      "callee": "export_build_environment",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "export_build_environment",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L203"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_export",
+      "callee": "task",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "task",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L203"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_export",
+      "callee": "directory",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "directory",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L203"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_export",
+      "callee": "seed",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "seed",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L205"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_export",
+      "callee": "user",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "user",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L207"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_export",
+      "callee": "end",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "end",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L207"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_export",
+      "callee": "seed_files",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "seed_files",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L213"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_export",
+      "callee": "scrubbed_files",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "scrubbed_files",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L213"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_export",
+      "callee": "unscrubbed_files",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "unscrubbed_files",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L213"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_export",
+      "callee": "limitations",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "limitations",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L213"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_witness",
+      "callee": "check_build_task",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "check_build_task",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L224"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_witness",
+      "callee": "start_build_computer",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "start_build_computer",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L226"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_witness",
+      "callee": "wait",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "wait",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L229"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_witness",
+      "callee": "directory",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "directory",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L231"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_witness",
+      "callee": "act_on_build_computer",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "act_on_build_computer",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L234"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_witness",
+      "callee": "record",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "witness.record",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L241",
+      "qualifiers": ["witness"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_witness",
+      "callee": "close_build_computer",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "close_build_computer",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L243"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_witness",
+      "callee": "failed",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "failed",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L245"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_witness",
+      "callee": "after_edit",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "after_edit",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L248"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_witness",
+      "callee": "near_miss",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "near_miss",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L252"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_witness",
+      "callee": "after_reset",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "after_reset",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L254"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_solver_runs",
+      "callee": "REA_AGENT_ENV_COMMAND",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "REA_AGENT_ENV_COMMAND",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L264"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_solver_runs",
+      "callee": "passed",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "passed",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L266"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_solver_runs",
+      "callee": "failed",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "failed",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L267"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_close_and_report",
+      "callee": "close_build_computer",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "close_build_computer",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L272"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_close_and_report",
+      "callee": "seed_files",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "seed_files",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L283"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_close_and_report",
+      "callee": "scrubbed_files",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "scrubbed_files",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L284"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_desktop_build_close_and_report",
+      "callee": "unscrubbed_files",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "unscrubbed_files",
+      "source_file": "reverse-engineer-anything/references/desktop-build.md",
+      "source_location": "L284"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "_cached_target_files": [
+    "$graphify-root$/reverse-engineer-anything/references/environments.md"
+  ]
+}

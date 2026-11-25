@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_rea_analysis_optimization_references_kuna_case_study_md",
+      "label": "kuna-case-study.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "rea-analysis-optimization/references/kuna-case-study.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_rea_analysis_optimization_references_kuna_case_study_kuna_reuse_before_adding_machinery",
+      "label": "Kuna: reuse before adding machinery",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-analysis-optimization/references/kuna-case-study.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_rea_analysis_optimization_references_kuna_case_study_exact_address_lookup_a_measured_narrow_improvement",
+      "label": "Exact-address lookup: a measured, narrow improvement",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-analysis-optimization/references/kuna-case-study.md",
+      "source_location": "L8"
+    },
+    {
+      "id": "$graphify-root$_rea_analysis_optimization_references_kuna_case_study_recorded_workload_and_results",
+      "label": "Recorded workload and results",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-analysis-optimization/references/kuna-case-study.md",
+      "source_location": "L26"
+    },
+    {
+      "id": "$graphify-root$_rea_analysis_optimization_references_kuna_case_study_other_transferable_changes_and_their_limits",
+      "label": "Other transferable changes and their limits",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-analysis-optimization/references/kuna-case-study.md",
+      "source_location": "L77"
+    },
+    {
+      "id": "$graphify-root$_rea_analysis_optimization_references_kuna_case_study_applying_the_reasoning_elsewhere",
+      "label": "Applying the reasoning elsewhere",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-analysis-optimization/references/kuna-case-study.md",
+      "source_location": "L99"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_rea_analysis_optimization_references_kuna_case_study_md",
+      "target": "$graphify-root$_rea_analysis_optimization_references_kuna_case_study_kuna_reuse_before_adding_machinery",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-analysis-optimization/references/kuna-case-study.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_analysis_optimization_references_kuna_case_study_kuna_reuse_before_adding_machinery",
+      "target": "$graphify-root$_rea_analysis_optimization_references_kuna_case_study_exact_address_lookup_a_measured_narrow_improvement",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-analysis-optimization/references/kuna-case-study.md",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_analysis_optimization_references_kuna_case_study_exact_address_lookup_a_measured_narrow_improvement",
+      "target": "$graphify-root$_rea_analysis_optimization_references_kuna_case_study_recorded_workload_and_results",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-analysis-optimization/references/kuna-case-study.md",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_analysis_optimization_references_kuna_case_study_kuna_reuse_before_adding_machinery",
+      "target": "$graphify-root$_rea_analysis_optimization_references_kuna_case_study_other_transferable_changes_and_their_limits",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-analysis-optimization/references/kuna-case-study.md",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_analysis_optimization_references_kuna_case_study_kuna_reuse_before_adding_machinery",
+      "target": "$graphify-root$_rea_analysis_optimization_references_kuna_case_study_applying_the_reasoning_elsewhere",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-analysis-optimization/references/kuna-case-study.md",
+      "source_location": "L99",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_rea_analysis_optimization_references_kuna_case_study_recorded_workload_and_results",
+      "callee": "be0b2d138",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "be0b2d138",
+      "source_file": "rea-analysis-optimization/references/kuna-case-study.md",
+      "source_location": "L29"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_analysis_optimization_references_kuna_case_study_recorded_workload_and_results",
+      "callee": "c6b62754b095a134d6d67877508fa34311a2eda2",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "c6b62754b095a134d6d67877508fa34311a2eda2",
+      "source_file": "rea-analysis-optimization/references/kuna-case-study.md",
+      "source_location": "L31"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_analysis_optimization_references_kuna_case_study_recorded_workload_and_results",
+      "callee": "cl100k_base",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "cl100k_base",
+      "source_file": "rea-analysis-optimization/references/kuna-case-study.md",
+      "source_location": "L62"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_analysis_optimization_references_kuna_case_study_recorded_workload_and_results",
+      "callee": "f62d254b7f2bf42df8c8b07d46ee3bb4c2cafeca436b2e6bc6ccbe4581f58f40",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "f62d254b7f2bf42df8c8b07d46ee3bb4c2cafeca436b2e6bc6ccbe4581f58f40",
+      "source_file": "rea-analysis-optimization/references/kuna-case-study.md",
+      "source_location": "L69"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_analysis_optimization_references_kuna_case_study_recorded_workload_and_results",
+      "callee": "d858918b0766435cd96b999a77f2d5a31a0cc4f07256421c883b5b9dc4dd58e4",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "d858918b0766435cd96b999a77f2d5a31a0cc4f07256421c883b5b9dc4dd58e4",
+      "source_file": "rea-analysis-optimization/references/kuna-case-study.md",
+      "source_location": "L71"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,408 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_anti_rea_skill_md",
+      "label": "SKILL.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "name": "anti-rea",
+        "version": "1.0.0",
+        "description": "Audit applications, websites, JS/WebGL bundles, Electron apps, APKs, and binaries for source-code crawlability and reverse-engineering exposure against REA (rea-agents), Wakaru, JADX, CDP, and static crawlers, then produce a 4-tier defense-in-depth hardening plan and implementation handoff prompt. Use whenever the user asks &quot;anti rea&quot;, &quot;ch\u1ed1ng d\u1ecbch ng\u01b0\u1ee3c&quot;, &quot;c\u00f3 b\u1ecb crawl m\u00e3 ngu\u1ed3n kh\u00f4ng&quot;, &quot;b\u1ea3o v\u1ec7 tr\u01b0\u1edbc REA&quot;, &quot;ch\u1ed1ng c\u00e0o code/bundle/shader/3D asset&quot;, or wants to h"
+      }
+    },
+    {
+      "id": "$graphify-root$_anti_rea_skill_anti_rea_source_exposure_audit_anti_reverse_engineering_hardening",
+      "label": "Anti-REA \u2014 Source-Exposure Audit & Anti-Reverse-Engineering Hardening",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L7"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_skill_safety_execution_boundaries",
+      "label": "Safety & Execution Boundaries",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L11"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_skill_runtime_contract_for_bundled_auditor",
+      "label": "Runtime Contract for Bundled Auditor",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L19"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_skill_5_step_audit_hardening_workflow",
+      "label": "5-Step Audit & Hardening Workflow",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L33"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_skill_step_1_route_target_cross_repo_context",
+      "label": "Step 1 \u2014 Route Target & Cross-Repo Context",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L35"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_skill_step_2_measure_exposure_surface_deterministically",
+      "label": "Step 2 \u2014 Measure Exposure Surface Deterministically",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L43"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_skill_step_3_classify_epistemic_categories",
+      "label": "Step 3 \u2014 Classify Epistemic Categories",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L54"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_skill_step_4_design_the_4_tier_defense_in_depth_plan",
+      "label": "Step 4 \u2014 Design the 4-Tier Defense-in-Depth Plan",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L65"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_skill_step_5_emit_report_ready_to_run_handoff_prompt",
+      "label": "Step 5 \u2014 Emit Report & Ready-to-Run Handoff Prompt",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L83"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_anti_rea_skill_md",
+      "target": "$graphify-root$_anti_rea_skill_anti_rea_source_exposure_audit_anti_reverse_engineering_hardening",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_skill_anti_rea_source_exposure_audit_anti_reverse_engineering_hardening",
+      "target": "$graphify-root$_anti_rea_skill_safety_execution_boundaries",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_skill_anti_rea_source_exposure_audit_anti_reverse_engineering_hardening",
+      "target": "$graphify-root$_anti_rea_skill_runtime_contract_for_bundled_auditor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_skill_anti_rea_source_exposure_audit_anti_reverse_engineering_hardening",
+      "target": "$graphify-root$_anti_rea_skill_5_step_audit_hardening_workflow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_skill_5_step_audit_hardening_workflow",
+      "target": "$graphify-root$_anti_rea_skill_step_1_route_target_cross_repo_context",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_skill_5_step_audit_hardening_workflow",
+      "target": "$graphify-root$_anti_rea_skill_step_2_measure_exposure_surface_deterministically",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_skill_5_step_audit_hardening_workflow",
+      "target": "$graphify-root$_anti_rea_skill_step_3_classify_epistemic_categories",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_skill_5_step_audit_hardening_workflow",
+      "target": "$graphify-root$_anti_rea_skill_step_4_design_the_4_tier_defense_in_depth_plan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_skill_md",
+      "target": "$graphify-root$_anti_rea_references_web_and_js_hardening_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/anti-rea/references/web-and-js-hardening.md"
+    },
+    {
+      "source": "$graphify-root$_anti_rea_skill_md",
+      "target": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/anti-rea/references/desktop-mobile-native-hardening.md"
+    },
+    {
+      "source": "$graphify-root$_anti_rea_skill_5_step_audit_hardening_workflow",
+      "target": "$graphify-root$_anti_rea_skill_step_5_emit_report_ready_to_run_handoff_prompt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L83",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_safety_execution_boundaries",
+      "callee": "GET",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "GET",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L16"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_runtime_contract_for_bundled_auditor",
+      "callee": "python",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "python",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L21"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_step_2_measure_exposure_surface_deterministically",
+      "callee": "immutable",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "immutable",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L48"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_step_2_measure_exposure_surface_deterministically",
+      "callee": "analyze_javascript_application",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "analyze_javascript_application",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L50"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_step_2_measure_exposure_surface_deterministically",
+      "callee": "inspect_electron_fuses",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_electron_fuses",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L50"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_step_2_measure_exposure_surface_deterministically",
+      "callee": "inspect_binary_hardening",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_binary_hardening",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L50"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_step_3_classify_epistemic_categories",
+      "callee": "inspect_web_page",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_web_page",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L60"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_step_3_classify_epistemic_categories",
+      "callee": "recover_javascript_sources",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "recover_javascript_sources",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L60"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_step_3_classify_epistemic_categories",
+      "callee": "UNVERIFIED",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "UNVERIFIED",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L61"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_step_4_design_the_4_tier_defense_in_depth_plan",
+      "callee": "P0",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "P0",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L76"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_step_4_design_the_4_tier_defense_in_depth_plan",
+      "callee": "HttpOnly",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "HttpOnly",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L76"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_step_4_design_the_4_tier_defense_in_depth_plan",
+      "callee": "randomBytes",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "crypto.randomBytes",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L77",
+      "qualifiers": ["crypto"]
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_step_4_design_the_4_tier_defense_in_depth_plan",
+      "callee": "mangleProps",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "mangleProps",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L77"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_step_4_design_the_4_tier_defense_in_depth_plan",
+      "callee": "reserveProps",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "reserveProps",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L77"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_step_4_design_the_4_tier_defense_in_depth_plan",
+      "callee": "P1",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "P1",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L78"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_step_4_design_the_4_tier_defense_in_depth_plan",
+      "callee": "P2",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "P2",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L79"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_step_4_design_the_4_tier_defense_in_depth_plan",
+      "callee": "VERIFY",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "VERIFY",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L81"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_step_5_emit_report_ready_to_run_handoff_prompt",
+      "callee": "Observations",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "Observations",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L85"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_step_5_emit_report_ready_to_run_handoff_prompt",
+      "callee": "Derivations",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "Derivations",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L85"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_step_5_emit_report_ready_to_run_handoff_prompt",
+      "callee": "Inferences",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "Inferences",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L85"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_step_5_emit_report_ready_to_run_handoff_prompt",
+      "callee": "Unknowns",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "Unknowns",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L85"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_step_5_emit_report_ready_to_run_handoff_prompt",
+      "callee": "VERIFY",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "VERIFY",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L85"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_skill_step_5_emit_report_ready_to_run_handoff_prompt",
+      "callee": "reserveProps",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "reserveProps",
+      "source_file": "anti-rea/SKILL.md",
+      "source_location": "L89"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "_cached_target_files": [
+    "$graphify-root$/anti-rea/references/desktop-mobile-native-hardening.md",
+    "$graphify-root$/anti-rea/references/web-and-js-hardening.md"
+  ]
+}

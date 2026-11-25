@@ -1,0 +1,541 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_md",
+      "label": "desktop-mobile-native-hardening.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_desktop_mobile_packaged_native_hardening_against_rea",
+      "label": "Desktop, Mobile, Packaged & Native Hardening Against REA",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_contents",
+      "label": "Contents",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_1_electron_packaged_js_executables",
+      "label": "1. Electron & Packaged JS Executables",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_1_1_flip_electron_security_fuses_electron_fuses",
+      "label": "1.1 Flip Electron Security Fuses (`@electron/fuses`)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_1_2_standalone_js_python_packers_bun_compile_pyinstaller",
+      "label": "1.2 Standalone JS/Python Packers (`Bun --compile`, `PyInstaller`)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L27"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_2_android_kotlin_flutter_unity_il2cpp",
+      "label": "2. Android, Kotlin, Flutter & Unity IL2CPP",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L36"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_2_1_countering_kotlin_metadata_debugmetadata_recovery",
+      "label": "2.1 Countering `@kotlin.Metadata` & `@DebugMetadata` Recovery",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L38"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_2_2_flutter_unity_il2cpp",
+      "label": "2.2 Flutter & Unity IL2CPP",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L46"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_3_native_managed_binaries_go_rust_c_c_net",
+      "label": "3. Native & Managed Binaries (Go, Rust, C/C++, .NET)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L53"
+    },
+    {
+      "id": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_4_api_request_signers_anti_agentenv_replay",
+      "label": "4. API Request Signers & Anti-AgentEnv Replay",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L62"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_md",
+      "target": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_desktop_mobile_packaged_native_hardening_against_rea",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_desktop_mobile_packaged_native_hardening_against_rea",
+      "target": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_contents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_desktop_mobile_packaged_native_hardening_against_rea",
+      "target": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_1_electron_packaged_js_executables",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_1_electron_packaged_js_executables",
+      "target": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_1_1_flip_electron_security_fuses_electron_fuses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_1_electron_packaged_js_executables",
+      "target": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_1_2_standalone_js_python_packers_bun_compile_pyinstaller",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_desktop_mobile_packaged_native_hardening_against_rea",
+      "target": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_2_android_kotlin_flutter_unity_il2cpp",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_2_android_kotlin_flutter_unity_il2cpp",
+      "target": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_2_1_countering_kotlin_metadata_debugmetadata_recovery",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_2_android_kotlin_flutter_unity_il2cpp",
+      "target": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_2_2_flutter_unity_il2cpp",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_desktop_mobile_packaged_native_hardening_against_rea",
+      "target": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_3_native_managed_binaries_go_rust_c_c_net",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_desktop_mobile_packaged_native_hardening_against_rea",
+      "target": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_4_api_request_signers_anti_agentenv_replay",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L62",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_desktop_mobile_packaged_native_hardening_against_rea",
+      "callee": "inspect_electron_fuses",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_electron_fuses",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L3"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_desktop_mobile_packaged_native_hardening_against_rea",
+      "callee": "analyze_javascript_application",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "analyze_javascript_application",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L3"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_desktop_mobile_packaged_native_hardening_against_rea",
+      "callee": "inspect_artifact",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_artifact",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L3"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_desktop_mobile_packaged_native_hardening_against_rea",
+      "callee": "inspect_android_package",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_android_package",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L3"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_desktop_mobile_packaged_native_hardening_against_rea",
+      "callee": "inspect_il2cpp_metadata",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_il2cpp_metadata",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L3"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_desktop_mobile_packaged_native_hardening_against_rea",
+      "callee": "inspect_go_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_go_binary",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L3"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_desktop_mobile_packaged_native_hardening_against_rea",
+      "callee": "inspect_rust_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_rust_binary",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L3"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_desktop_mobile_packaged_native_hardening_against_rea",
+      "callee": "inspect_managed_artifact",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_managed_artifact",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L3"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_desktop_mobile_packaged_native_hardening_against_rea",
+      "callee": "inspect_binary_hardening",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_binary_hardening",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L3"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_1_1_flip_electron_security_fuses_electron_fuses",
+      "callee": "inspect_electron_fuses",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_electron_fuses",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L18"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_1_1_flip_electron_security_fuses_electron_fuses",
+      "callee": "list_electron_targets",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "list_electron_targets",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L18"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_1_1_flip_electron_security_fuses_electron_fuses",
+      "callee": "NODE_OPTIONS",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "NODE_OPTIONS",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L21"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_1_1_flip_electron_security_fuses_electron_fuses",
+      "callee": "asar",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "app.asar",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L23",
+      "qualifiers": ["app"]
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_1_2_standalone_js_python_packers_bun_compile_pyinstaller",
+      "callee": "PyInstaller",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "PyInstaller",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L27"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_1_2_standalone_js_python_packers_bun_compile_pyinstaller",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L29"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_1_2_standalone_js_python_packers_bun_compile_pyinstaller",
+      "callee": "inspect_artifact",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_artifact",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L29"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_2_1_countering_kotlin_metadata_debugmetadata_recovery",
+      "callee": "d1",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "d1",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L40"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_2_1_countering_kotlin_metadata_debugmetadata_recovery",
+      "callee": "d2",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "d2",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L40"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_2_1_countering_kotlin_metadata_debugmetadata_recovery",
+      "callee": "c",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "c",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L40"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_2_1_countering_kotlin_metadata_debugmetadata_recovery",
+      "callee": "f",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "f",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L40"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_2_1_countering_kotlin_metadata_debugmetadata_recovery",
+      "callee": "l",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "l",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L40"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_2_1_countering_kotlin_metadata_debugmetadata_recovery",
+      "callee": "m",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "m",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L40"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_2_2_flutter_unity_il2cpp",
+      "callee": "inspect_il2cpp_metadata",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_il2cpp_metadata",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L49"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_2_2_flutter_unity_il2cpp",
+      "callee": "High",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "ManagedStrippingLevel.High",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L49",
+      "qualifiers": ["ManagedStrippingLevel"]
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_3_native_managed_binaries_go_rust_c_c_net",
+      "callee": "inspect_go_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_go_binary",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L55"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_3_native_managed_binaries_go_rust_c_c_net",
+      "callee": "inspect_rust_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_rust_binary",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_3_native_managed_binaries_go_rust_c_c_net",
+      "callee": "inspect_managed_artifact",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_managed_artifact",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L57"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_3_native_managed_binaries_go_rust_c_c_net",
+      "callee": "inspect_binary_hardening",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_binary_hardening",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_3_native_managed_binaries_go_rust_c_c_net",
+      "callee": "PIE",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "PIE",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_3_native_managed_binaries_go_rust_c_c_net",
+      "callee": "DYNAMICBASE",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "DYNAMICBASE",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_3_native_managed_binaries_go_rust_c_c_net",
+      "callee": "HIGHENTROPYVA",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "HIGHENTROPYVA",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_3_native_managed_binaries_go_rust_c_c_net",
+      "callee": "NX",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "NX",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_3_native_managed_binaries_go_rust_c_c_net",
+      "callee": "RELRO",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "RELRO",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_3_native_managed_binaries_go_rust_c_c_net",
+      "callee": "CFG",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "CFG",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_3_native_managed_binaries_go_rust_c_c_net",
+      "callee": "CET",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "CET",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_4_api_request_signers_anti_agentenv_replay",
+      "callee": "export_environment_bundle",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "export_environment_bundle",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L64"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_4_api_request_signers_anti_agentenv_replay",
+      "callee": "AgentEnv",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "AgentEnv",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L64"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_4_api_request_signers_anti_agentenv_replay",
+      "callee": "capture_browser_scenario",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "capture_browser_scenario",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L67"
+    },
+    {
+      "caller_nid": "$graphify-root$_anti_rea_references_desktop_mobile_native_hardening_4_api_request_signers_anti_agentenv_replay",
+      "callee": "HttpOnly",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "HttpOnly",
+      "source_file": "anti-rea/references/desktop-mobile-native-hardening.md",
+      "source_location": "L71"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

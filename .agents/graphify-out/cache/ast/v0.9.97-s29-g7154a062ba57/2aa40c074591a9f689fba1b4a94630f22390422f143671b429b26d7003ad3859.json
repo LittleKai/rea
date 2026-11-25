@@ -1,0 +1,226 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_android_applications_md",
+      "label": "android-applications.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "label": "Android application artifacts",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_android_applications_md",
+      "target": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "callee": "inspect_android_package",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_android_package",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L7"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "callee": "search_android_classes",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "search_android_classes",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L9"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "callee": "inspect_android_class",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_android_class",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L9"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "callee": "inspect_android_method",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_android_method",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L10"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "callee": "trace_android_references",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "trace_android_references",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L11"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "callee": "overload_index",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "overload_index",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L13"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "callee": "inspect_android_jni_bindings",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_android_jni_bindings",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L16"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "callee": "mapping_path",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "mapping_path",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L28"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "callee": "mapping",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "mapping",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L33"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "callee": "mapped",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "mapped",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L34"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "callee": "ambiguous",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "ambiguous",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L34"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "callee": "unmapped",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "unmapped",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L34"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "callee": "REA_JADX_MCP_JAR",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "REA_JADX_MCP_JAR",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L38"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "callee": "JAVA_HOME",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "JAVA_HOME",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L38"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "callee": "compiler",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "jdk.compiler",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L47",
+      "qualifiers": ["jdk"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "callee": "REA_JADX_HEAP_MIB",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "REA_JADX_HEAP_MIB",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L50"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "callee": "REA_JADX_OPERATION_TIMEOUT_MS",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "REA_JADX_OPERATION_TIMEOUT_MS",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L50"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "callee": "operation_timeout_ms",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "jadx.operation_timeout_ms",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L53",
+      "qualifiers": ["jadx"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "callee": "update_analysis_settings",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "update_analysis_settings",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L53"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L63"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_android_applications_android_application_artifacts",
+      "callee": "inspect_artifact",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_artifact",
+      "source_file": "reverse-engineer-anything/references/android-applications.md",
+      "source_location": "L63"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,3447 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_md",
+      "label": "native-and-artifacts.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "label": "Native, managed, and packaged artifacts",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_apple_app_resources",
+      "label": "Apple app resources",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L33"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_desktop_installation_directories",
+      "label": "Desktop installation directories",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L49"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_go_build_metadata",
+      "label": "Go build metadata",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L65"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_model_files",
+      "label": "Model files",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L77"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_il2cpp_metadata",
+      "label": "IL2CPP metadata",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L87"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_rust_dependency_metadata",
+      "label": "Rust dependency metadata",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L105"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_pe_authenticode_certificate_tables",
+      "label": "PE Authenticode certificate tables",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L118"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_pe_import_and_delay_load_tables",
+      "label": "PE import and delay-load tables",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L132"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_pe_tls_callbacks_and_load_configuration",
+      "label": "PE TLS callbacks and load configuration",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L145"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_binary_hardening",
+      "label": "Binary hardening",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L158"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_elf_note_tables",
+      "label": "ELF note tables",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L170"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_apple_ips_crash_reports",
+      "label": "Apple IPS crash reports",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L181"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_linux_kernel_modules",
+      "label": "Linux kernel modules",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L193"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_cpython_pyc_files",
+      "label": "CPython pyc files",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L212"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_erlang_beam_files",
+      "label": "Erlang BEAM files",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L222"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_sqlite_snapshots",
+      "label": "SQLite snapshots",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L236"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_recorded_linux_crashes",
+      "label": "Recorded Linux crashes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L251"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_elf_layout",
+      "label": "Offline ELF layout",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L267"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_wasm",
+      "label": "Offline WASM",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L276"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_apk_signatures",
+      "label": "Offline APK signatures",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L290"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "label": "Native targets",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L314"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_continue_editable_ghidra_analysis_across_processes",
+      "label": "Continue editable Ghidra analysis across processes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L385"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_reuse_caller_selected_ghidra_analysis",
+      "label": "Reuse caller-selected Ghidra analysis",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L407"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_ghidra_startup_deadline_recovery",
+      "label": "Ghidra startup deadline recovery",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L420"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_bridge_request_ceiling",
+      "label": "Bridge request ceiling",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L454"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_selected_native_facts_and_call_graphs",
+      "label": "Selected native facts and call graphs",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L483"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_static_memory_and_original_file_bytes",
+      "label": "Static memory and original file bytes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L498"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_dos_mz_with_ghidra",
+      "label": "DOS MZ with Ghidra",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L518"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "label": "Managed PE/CLI",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L549"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_net_nativeaot",
+      "label": ".NET NativeAOT",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L582"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "label": "Packages and extraction",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L609"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_function_annotations_in_ghidra",
+      "label": "Function annotations in Ghidra",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L683"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_pe_resource_inventory",
+      "label": "Offline PE resource inventory",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L703"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_pe_and_elf_export_tables",
+      "label": "Offline PE and ELF export tables",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L715"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_godot_pck",
+      "label": "Godot PCK",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L733"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "label": "ESP images",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L776"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "label": "ESP flash images",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L797"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_bun_standalone_executables",
+      "label": "Bun standalone executables",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L823"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_md",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_apple_app_resources",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_desktop_installation_directories",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_go_build_metadata",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_model_files",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_il2cpp_metadata",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_rust_dependency_metadata",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_pe_authenticode_certificate_tables",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_pe_import_and_delay_load_tables",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_pe_tls_callbacks_and_load_configuration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_binary_hardening",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L158",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_elf_note_tables",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_apple_ips_crash_reports",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L181",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_linux_kernel_modules",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L193",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_cpython_pyc_files",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L212",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_erlang_beam_files",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L222",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_sqlite_snapshots",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L236",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_recorded_linux_crashes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L251",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_elf_layout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L267",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_wasm",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L276",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_apk_signatures",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L290",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L314",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_continue_editable_ghidra_analysis_across_processes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L385",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_reuse_caller_selected_ghidra_analysis",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L407",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_ghidra_startup_deadline_recovery",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L420",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_bridge_request_ceiling",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L454",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_selected_native_facts_and_call_graphs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L483",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_static_memory_and_original_file_bytes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L498",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_dos_mz_with_ghidra",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L518",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L549",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_net_nativeaot",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L582",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L609",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_function_annotations_in_ghidra",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L683",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_pe_resource_inventory",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L703",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_pe_and_elf_export_tables",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L715",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_godot_pck",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L733",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L776",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L797",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "target": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_bun_standalone_executables",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L823",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "callee": "list_procedures",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "list_procedures",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L3"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "callee": "close_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "close_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L4"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "callee": "reset_investigation",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "reset_investigation",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L6"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "callee": "save_path",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "save_path",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L7"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "callee": "match_native_functions",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "match_native_functions",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L8"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "callee": "list_names",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "list_names",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L9"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "callee": "procedure_info",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "procedure_info",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L10"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "callee": "read_bytes",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "read_bytes",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L10"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "callee": "analyze_function",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "analyze_function",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L10"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "callee": "left_observations",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "left_observations",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L11"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "callee": "right_observations",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "right_observations",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L11"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "callee": "parent_evidence_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "parent_evidence_id",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L12"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "callee": "inspect_analysis_view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_view",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L14"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "callee": "matches",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "matches",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L14"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "callee": "functions",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "functions",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L14"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "callee": "compare_functions",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "compare_functions",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L17"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "callee": "find_changed_behavior",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "find_changed_behavior",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L19"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "callee": "limit",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "details.limit",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L26",
+      "qualifiers": ["details"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "callee": "matching_representation_bytes",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "native.matching_representation_bytes",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L27",
+      "qualifiers": ["native"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "callee": "update_analysis_settings",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "update_analysis_settings",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L27"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_managed_and_packaged_artifacts",
+      "callee": "REA_NATIVE_MATCHING_REPRESENTATION_BYTES",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "REA_NATIVE_MATCHING_REPRESENTATION_BYTES",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L29"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_apple_app_resources",
+      "callee": "open_bundle_resources",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_bundle_resources",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L35"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_apple_app_resources",
+      "callee": "inspect_plist",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_plist",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L35"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_apple_app_resources",
+      "callee": "decode_interface_builder",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "decode_interface_builder",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L36"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_apple_app_resources",
+      "callee": "inspect_asset_catalog",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_asset_catalog",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L36"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_apple_app_resources",
+      "callee": "inspect_keyed_archive",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_keyed_archive",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L36"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_apple_app_resources",
+      "callee": "CFBundleExecutable",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "CFBundleExecutable",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L37"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_apple_app_resources",
+      "callee": "resource_root",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "resource_root",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L38"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_apple_app_resources",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L41"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_apple_app_resources",
+      "callee": "close_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "close_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L42"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_desktop_installation_directories",
+      "callee": "inspect_desktop_application",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_desktop_application",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L52"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_desktop_installation_directories",
+      "callee": "files",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "files",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L53"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_desktop_installation_directories",
+      "callee": "omissions",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "omissions",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L53"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_desktop_installation_directories",
+      "callee": "candidates",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "candidates",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L53"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_desktop_installation_directories",
+      "callee": "components",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "components",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L53"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_desktop_installation_directories",
+      "callee": "next_probes",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "next_probes",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L54"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_desktop_installation_directories",
+      "callee": "inspect_analysis_view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_view",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L54"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_desktop_installation_directories",
+      "callee": "probe_issues",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "probe_issues",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_desktop_installation_directories",
+      "callee": "path",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "path",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L57"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_desktop_installation_directories",
+      "callee": "read_status",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "read_status",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L57"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_desktop_installation_directories",
+      "callee": "issues",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "issues",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L57"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_desktop_installation_directories",
+      "callee": "file_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "file_id",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_go_build_metadata",
+      "callee": "inspect_go_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_go_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L67"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_go_build_metadata",
+      "callee": "architecture",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "architecture",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L68"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_go_build_metadata",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L70"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_model_files",
+      "callee": "inspect_model_artifact",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_model_artifact",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L79"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_model_files",
+      "callee": "metadata",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "metadata",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L82"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_model_files",
+      "callee": "tensors",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "tensors",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L82"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_model_files",
+      "callee": "types",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "types",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L83"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_il2cpp_metadata",
+      "callee": "inspect_il2cpp_metadata",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_il2cpp_metadata",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L89"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_il2cpp_metadata",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L91"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_il2cpp_metadata",
+      "callee": "sections",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "sections",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L93"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_il2cpp_metadata",
+      "callee": "images",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "images",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L94"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_il2cpp_metadata",
+      "callee": "types",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "types",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L94"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_il2cpp_metadata",
+      "callee": "methods",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "methods",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L94"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_il2cpp_metadata",
+      "callee": "fields",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "fields",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L94"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_il2cpp_metadata",
+      "callee": "properties",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "properties",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L94"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_il2cpp_metadata",
+      "callee": "events",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "events",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L94"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_il2cpp_metadata",
+      "callee": "parameters",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "parameters",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L94"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_il2cpp_metadata",
+      "callee": "string_literals",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "string_literals",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L95"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_il2cpp_metadata",
+      "callee": "inspect_analysis_view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_view",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L95"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_il2cpp_metadata",
+      "callee": "method_indices",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "method_indices",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L98"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_il2cpp_metadata",
+      "callee": "GameAssembly",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "GameAssembly",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L101"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_il2cpp_metadata",
+      "callee": "UnityFramework",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "UnityFramework",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L102"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_rust_dependency_metadata",
+      "callee": "inspect_rust_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_rust_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L107"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_rust_dependency_metadata",
+      "callee": "architecture",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "architecture",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L108"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_rust_dependency_metadata",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L110"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_pe_authenticode_certificate_tables",
+      "callee": "inspect_pe_certificates",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_pe_certificates",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L120"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_pe_authenticode_certificate_tables",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L122"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_pe_authenticode_certificate_tables",
+      "callee": "subject_key_identifier_hex",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "subject_key_identifier_hex",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L126"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_pe_authenticode_certificate_tables",
+      "callee": "IMAGE_DIRECTORY_ENTRY_SECURITY",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "IMAGE_DIRECTORY_ENTRY_SECURITY",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L127"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_pe_import_and_delay_load_tables",
+      "callee": "inspect_pe_imports",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_pe_imports",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L134"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_pe_import_and_delay_load_tables",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L136"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_pe_import_and_delay_load_tables",
+      "callee": "IMAGE_DIRECTORY_ENTRY_IMPORT",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "IMAGE_DIRECTORY_ENTRY_IMPORT",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L139"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_pe_tls_callbacks_and_load_configuration",
+      "callee": "inspect_pe_load_config",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_pe_load_config",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L147"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_pe_tls_callbacks_and_load_configuration",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L150"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_pe_tls_callbacks_and_load_configuration",
+      "callee": "Size",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "Size",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L153"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_pe_tls_callbacks_and_load_configuration",
+      "callee": "null",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "null",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L153"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_binary_hardening",
+      "callee": "inspect_binary_hardening",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_binary_hardening",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L160"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_binary_hardening",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L162"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_binary_hardening",
+      "callee": "unknown",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "unknown",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L165"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_binary_hardening",
+      "callee": "hardened_runtime",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "hardened_runtime",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L167"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_binary_hardening",
+      "callee": "inspect_signature",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_signature",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L167"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_elf_note_tables",
+      "callee": "inspect_elf_notes",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_elf_notes",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L172"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_elf_note_tables",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L174"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_apple_ips_crash_reports",
+      "callee": "inspect_apple_ips",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_apple_ips",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L183"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_apple_ips_crash_reports",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L185"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_apple_ips_crash_reports",
+      "callee": "bug_type",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "bug_type",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L187"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_linux_kernel_modules",
+      "callee": "inspect_kernel_module",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_kernel_module",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L195"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_linux_kernel_modules",
+      "callee": "__versions",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "__versions",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L197"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_linux_kernel_modules",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L198"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_linux_kernel_modules",
+      "callee": "modinfo",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "modinfo",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L198"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_linux_kernel_modules",
+      "callee": "__ksymtab",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "__ksymtab",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L204"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_linux_kernel_modules",
+      "callee": "external_decompression",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "external_decompression",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L208"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_cpython_pyc_files",
+      "callee": "inspect_python_pyc",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_python_pyc",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L214"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_cpython_pyc_files",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L216"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_erlang_beam_files",
+      "callee": "inspect_erlang_beam",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_erlang_beam",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L224"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_erlang_beam_files",
+      "callee": "FOR1",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "FOR1",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L224"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_erlang_beam_files",
+      "callee": "BEAM",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "BEAM",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L224"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_erlang_beam_files",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L226"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_erlang_beam_files",
+      "callee": "beam",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "beam",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L230"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_erlang_beam_files",
+      "callee": "parent_evidence_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "parent_evidence_id",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L231"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_sqlite_snapshots",
+      "callee": "inspect_sqlite_database",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_sqlite_database",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L238"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_sqlite_snapshots",
+      "callee": "limits",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "DatabaseSync.limits",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L240",
+      "qualifiers": ["DatabaseSync"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_sqlite_snapshots",
+      "callee": "columns",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "columns",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L243"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_sqlite_snapshots",
+      "callee": "row_limit",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "row_limit",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L245"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_recorded_linux_crashes",
+      "callee": "inspect_recorded_crash",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_recorded_crash",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L253"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_recorded_linux_crashes",
+      "callee": "include_debugger_context",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "include_debugger_context",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L260"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_elf_layout",
+      "callee": "inspect_binary_layout",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_binary_layout",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L269"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_elf_layout",
+      "callee": "inspect_analysis_view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_view",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L272"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_wasm",
+      "callee": "inspect_wasm_artifact",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_wasm_artifact",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L278"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_wasm",
+      "callee": "parent_evidence_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "normalized_result.parent_evidence_id",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L281",
+      "qualifiers": ["normalized_result"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_wasm",
+      "callee": "inspect_analysis_view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_view",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L283"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_wasm",
+      "callee": "next_offset",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "next_offset",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L286"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_apk_signatures",
+      "callee": "inspect_apk_signature",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_apk_signature",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L292"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_apk_signatures",
+      "callee": "inspect_analysis_view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_view",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L294"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_apk_signatures",
+      "callee": "posture",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "posture",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L306"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_apk_signatures",
+      "callee": "false",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "false",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L308"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L316"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "binary_overview",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "binary_overview",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L317"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "procedure_pseudo_code",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "procedure_pseudo_code",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L323"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "parent_evidence_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "normalized_result.parent_evidence_id",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L326",
+      "qualifiers": ["normalized_result"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "inspect_analysis_view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_view",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L326"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "next_offset",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "coverage.next_offset",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L328",
+      "qualifiers": ["coverage"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "complete",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "complete",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L332"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "analyze_function",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "analyze_function",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L335"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "next_offset",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "next_offset",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L344"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "inspect_macho",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_macho",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L347"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "observe_native_calls",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "observe_native_calls",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L356"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "duration_ms",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "duration_ms",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L357"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "max_events",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "max_events",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L357"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "runtime_name",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "runtime_name",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L361"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "main",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "main",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L361"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "name",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "name",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L361"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "_main",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "_main",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L361"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "module",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "module",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L362"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "binary_session",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "binary_session",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L366"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "tool_availability",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "result.tool_availability",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L367",
+      "qualifiers": ["result"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "names",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "names",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L369"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "omitted_fields",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "omitted_fields",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L372"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "effects",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "effects",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L374"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "annotations",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "annotations",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L375"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "shared_limitations",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "shared_limitations",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L380"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "limitations",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "limitations",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L380"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_native_targets",
+      "callee": "analysis_provider_binding",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "analysis_provider_binding",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L383"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_continue_editable_ghidra_analysis_across_processes",
+      "callee": "binary_session",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "binary_session",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L387"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_continue_editable_ghidra_analysis_across_processes",
+      "callee": "REA_GHIDRA_CHECKPOINT_DIR",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "REA_GHIDRA_CHECKPOINT_DIR",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L394"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_continue_editable_ghidra_analysis_across_processes",
+      "callee": "close_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "close_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L400"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_reuse_caller_selected_ghidra_analysis",
+      "callee": "REA_GHIDRA_PROJECT_PATH",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "REA_GHIDRA_PROJECT_PATH",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L409"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_reuse_caller_selected_ghidra_analysis",
+      "callee": "REA_GHIDRA_PROGRAM_NAME",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "REA_GHIDRA_PROGRAM_NAME",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L410"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_reuse_caller_selected_ghidra_analysis",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L411"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_ghidra_startup_deadline_recovery",
+      "callee": "provider_timeout",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "provider_timeout",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L422"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_ghidra_startup_deadline_recovery",
+      "callee": "REA_GHIDRA_STARTUP_TIMEOUT_MS",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "REA_GHIDRA_STARTUP_TIMEOUT_MS",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L424"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_ghidra_startup_deadline_recovery",
+      "callee": "startup_timeout_ms",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "ghidra.startup_timeout_ms",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L426",
+      "qualifiers": ["ghidra"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_ghidra_startup_deadline_recovery",
+      "callee": "update_analysis_settings",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "update_analysis_settings",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L427"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_ghidra_startup_deadline_recovery",
+      "callee": "decompile_timeout_seconds",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "ghidra.decompile_timeout_seconds",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L433",
+      "qualifiers": ["ghidra"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_ghidra_startup_deadline_recovery",
+      "callee": "null",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "null",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L434"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_bridge_request_ceiling",
+      "callee": "REA_BRIDGE_MAX_REQUEST_BYTES",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "REA_BRIDGE_MAX_REQUEST_BYTES",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L456"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_bridge_request_ceiling",
+      "callee": "output_truncated",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "output_truncated",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L474"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_bridge_request_ceiling",
+      "callee": "completed_connection",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "completed_connection",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L477"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_selected_native_facts_and_call_graphs",
+      "callee": "get_call_graph",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "get_call_graph",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L485"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_selected_native_facts_and_call_graphs",
+      "callee": "procedure_address",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "procedure_address",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L485"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_selected_native_facts_and_call_graphs",
+      "callee": "procedure_callees",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "procedure_callees",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L486"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_selected_native_facts_and_call_graphs",
+      "callee": "procedure_callers",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "procedure_callers",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L486"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_selected_native_facts_and_call_graphs",
+      "callee": "resolve_containing_procedure",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "resolve_containing_procedure",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L486"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_selected_native_facts_and_call_graphs",
+      "callee": "overview",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "overview",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L491"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_selected_native_facts_and_call_graphs",
+      "callee": "limitations",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "limitations",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L492"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_static_memory_and_original_file_bytes",
+      "callee": "read_bytes",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "read_bytes",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L500"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_static_memory_and_original_file_bytes",
+      "callee": "returned_bytes",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "returned_bytes",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L501"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_static_memory_and_original_file_bytes",
+      "callee": "complete",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "complete",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L501"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_static_memory_and_original_file_bytes",
+      "callee": "list_segments",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "list_segments",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L503"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_static_memory_and_original_file_bytes",
+      "callee": "address_to_file_offset",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "address_to_file_offset",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L506"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_static_memory_and_original_file_bytes",
+      "callee": "xrefs",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "xrefs",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L513"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_dos_mz_with_ghidra",
+      "callee": "inspect_native_load_image",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_native_load_image",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L520"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_dos_mz_with_ghidra",
+      "callee": "mismatch",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "mismatch",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L522"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_dos_mz_with_ghidra",
+      "callee": "unsupported",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "unsupported",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L522"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_dos_mz_with_ghidra",
+      "callee": "parent_evidence_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "parent_evidence_id",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L526"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_dos_mz_with_ghidra",
+      "callee": "inspect_analysis_view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_view",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L526"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_dos_mz_with_ghidra",
+      "callee": "relocations",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "relocations",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L527"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_dos_mz_with_ghidra",
+      "callee": "mappings",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "mappings",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L527"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_dos_mz_with_ghidra",
+      "callee": "procedure_pseudo_code",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "procedure_pseudo_code",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L533"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_dos_mz_with_ghidra",
+      "callee": "atomicity",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "atomicity",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L544"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_dos_mz_with_ghidra",
+      "callee": "N",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "N",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L544"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "callee": "inspect_managed_artifact",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_managed_artifact",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L551"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "callee": "inspect_analysis_view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_view",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L562"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "callee": "parent_evidence_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "normalized_result.parent_evidence_id",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L562",
+      "qualifiers": ["normalized_result"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "callee": "references",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "references",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L564"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "callee": "resources",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "resources",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L564"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "callee": "attributes",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "attributes",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L564"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "callee": "inspect_managed_members",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_managed_members",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L569"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "callee": "member_refs",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "member_refs",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L569"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "callee": "type_names",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "type_names",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L571"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "callee": "types",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "types",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L574"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "callee": "exported_types",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "exported_types",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L574"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "callee": "fields",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "fields",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L574"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "callee": "methods",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "methods",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L574"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "callee": "call_edges",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "call_edges",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L574"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "callee": "field_accesses",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "field_accesses",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L575"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "callee": "user_strings",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "user_strings",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L575"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "callee": "names",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "names",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L576"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "callee": "declaring_types",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "declaring_types",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L576"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "callee": "source_index",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "source_index",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L579"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_managed_pe_cli",
+      "callee": "unresolved_filter_rows",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "unresolved_filter_rows",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L580"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_net_nativeaot",
+      "callee": "search_strings",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "search_strings",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L602"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "callee": "inspect_artifact",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_artifact",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L611"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "callee": "project_apple_application_graph",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "project_apple_application_graph",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L617"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "callee": "info_plist_path",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "info_plist_path",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L620"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "callee": "inspect_plist",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_plist",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L622"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L624"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "callee": "trace_dylib_resolution",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "trace_dylib_resolution",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L624"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "callee": "roots",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "roots",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L627"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "callee": "architecture",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "architecture",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L628"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "callee": "extract_artifact",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "extract_artifact",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L631"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "callee": "integrity_policy",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "integrity_policy",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L632"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "callee": "reconstruction",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "ines.reconstruction",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L641",
+      "qualifiers": ["ines"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "callee": "inspect_byte_entropy",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_byte_entropy",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L662"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "callee": "x86",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "x86",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L665"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "callee": "x86_64",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "x86_64",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L665"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "callee": "arm",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "arm",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L666"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "callee": "arm64",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "arm64",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L666"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "callee": "m68k",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "m68k",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L666"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "callee": "entry_point",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "entry_point",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L666"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_packages_and_extraction",
+      "callee": "BinaryLoader",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "BinaryLoader",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L668"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_function_annotations_in_ghidra",
+      "callee": "annotate_native_function",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "annotate_native_function",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L686"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_function_annotations_in_ghidra",
+      "callee": "set_address_name",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "set_address_name",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L686"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_function_annotations_in_ghidra",
+      "callee": "set_addresses_names",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "set_addresses_names",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L686"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_function_annotations_in_ghidra",
+      "callee": "failures",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "raw_result.failures",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L686",
+      "qualifiers": ["raw_result"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_function_annotations_in_ghidra",
+      "callee": "compare_functions",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "compare_functions",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L693"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_function_annotations_in_ghidra",
+      "callee": "analyze_function",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "analyze_function",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L693"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_function_annotations_in_ghidra",
+      "callee": "entry_address",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "entry_address",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L697"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_pe_resource_inventory",
+      "callee": "inspect_pe_resources",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_pe_resources",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L705"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_pe_resource_inventory",
+      "callee": "path",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "path",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L705"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_pe_and_elf_export_tables",
+      "callee": "inspect_native_exports",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_native_exports",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L717"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_pe_and_elf_export_tables",
+      "callee": "path",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "path",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L717"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_pe_and_elf_export_tables",
+      "callee": "inspect_macho",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_macho",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L722"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_offline_pe_and_elf_export_tables",
+      "callee": "compare_wasm_interfaces",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "compare_wasm_interfaces",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L725"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_godot_pck",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L735"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_godot_pck",
+      "callee": "inspect_artifact",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_artifact",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L735"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_godot_pck",
+      "callee": "parent_evidence_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "parent_evidence_id",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L737"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_godot_pck",
+      "callee": "inspect_analysis_view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_view",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L737"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_godot_pck",
+      "callee": "logical_paths",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "logical_paths",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L738"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_godot_pck",
+      "callee": "occurrence_ids",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "occurrence_ids",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L738"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_godot_pck",
+      "callee": "artifact_id",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "artifact_id",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L738"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_godot_pck",
+      "callee": "artifact_ids",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "artifact_ids",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L739"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_godot_pck",
+      "callee": "source_coverage",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "source_coverage",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L745"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_godot_pck",
+      "callee": "V1MMWX",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "V1MMWX",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L764"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_godot_pck",
+      "callee": "encrypted",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "encrypted",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L764"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L778"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "inspect_artifact",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_artifact",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L779"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "root_format_metadata",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "root_format_metadata",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L779"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "header",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "header",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L780"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "descriptor",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "descriptor",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L780"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "kind",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "kind",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L780"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "chip",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "chip",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L781"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "checksum",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "checksum",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L781"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "appended_sha256",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "appended_sha256",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L781"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "undescribed_trailing",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "undescribed_trailing",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L782"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "load_addr",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "load_addr",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L783"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "classification",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "classification",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L783"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "mapped",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "mapped",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L783"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "loaded",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "loaded",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L783"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "unknown",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "unknown",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L783"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "should_map",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "should_map",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L784"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "should_load",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "should_load",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L784"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "source_location",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "source_location",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L785"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "inspect_analysis_view",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_view",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L785"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "logical_paths",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "logical_paths",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L786"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "unverified",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "unverified",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L786"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "public_key_sha256",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "public_key_sha256",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L786"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_images",
+      "callee": "source_coverage",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "source_coverage",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L789"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "root_format_metadata",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "root_format_metadata",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L799"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "partition_table",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "partition_table",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L800"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "method",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "method",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L800"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "default",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "default",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L800"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "caller",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "caller",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L800"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "scan",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "scan",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L801"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "bootloader",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "bootloader",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L801"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "apps",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "apps",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L801"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "otadata",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "otadata",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L801"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "partitions_outside_dump",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "partitions_outside_dump",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L802"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "boot_selection",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "boot_selection",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L802"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "basis",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "basis",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L803"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "none",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "none",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L804"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "unknown",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "unknown",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L804"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "assumptions",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "assumptions",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L805"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "running_partition",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "running_partition",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L806"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "path",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "path",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L807"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "summary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "summary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L808"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "type",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "type",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L811"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "subtype",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "subtype",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L811"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "flash_address",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "flash_address",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L812"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "size",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "size",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L812"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "encrypted",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "encrypted",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L812"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "written_offset",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "written_offset",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L813"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "written_end",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "written_end",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L813"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "erased",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "erased",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L814"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L816"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "flash_offset",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "flash_offset",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L816"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "flash_dump",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "flash_dump",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L817"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "partition_table_offset",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "partition_table_offset",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L818"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_esp_flash_images",
+      "callee": "nvs_keys",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "nvs_keys",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L819"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_bun_standalone_executables",
+      "callee": "open_binary",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "open_binary",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L827"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_bun_standalone_executables",
+      "callee": "inspect_artifact",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_artifact",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L827"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_bun_standalone_executables",
+      "callee": "entry_point_logical_path",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "entry_point_logical_path",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L831"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_bun_standalone_executables",
+      "callee": "logical_paths",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "logical_paths",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L832"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_native_and_artifacts_bun_standalone_executables",
+      "callee": "analyze_javascript_application",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "analyze_javascript_application",
+      "source_file": "reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_location": "L834"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,647 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_md",
+      "label": "connection-and-recovery.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_connection_and_task_recovery",
+      "label": "Connection and task recovery",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_choose_the_remedy_from_the_observed_failure",
+      "label": "Choose the remedy from the observed failure",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_distinguish_client_and_server_deadlines",
+      "label": "Distinguish client and server deadlines",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L42"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_recovery_ladder",
+      "label": "Recovery ladder",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L88"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_rea_installed_as_a_client_plugin",
+      "label": "REA installed as a client plugin",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L119"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "label": "Repair registration when needed",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L145"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_codex_tool_approval_is_separate_from_rea_readiness",
+      "label": "Codex tool approval is separate from REA readiness",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L172"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_an_editable_rea_limit",
+      "label": "Repair an editable REA limit",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L207"
+    },
+    {
+      "id": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_continue_through_an_installed_cli",
+      "label": "Continue through an installed CLI",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L218"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_md",
+      "target": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_connection_and_task_recovery",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_connection_and_task_recovery",
+      "target": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_choose_the_remedy_from_the_observed_failure",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_connection_and_task_recovery",
+      "target": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_distinguish_client_and_server_deadlines",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_connection_and_task_recovery",
+      "target": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_recovery_ladder",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_connection_and_task_recovery",
+      "target": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_rea_installed_as_a_client_plugin",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_connection_and_task_recovery",
+      "target": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_connection_and_task_recovery",
+      "target": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_codex_tool_approval_is_separate_from_rea_readiness",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_connection_and_task_recovery",
+      "target": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_an_editable_rea_limit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L207",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_connection_and_task_recovery",
+      "target": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_continue_through_an_installed_cli",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L218",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_md",
+      "target": "$graphify-root$_reverse_engineer_anything_references_javascript_applications_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L247",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/reverse-engineer-anything/references/javascript-applications.md"
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_connection_and_task_recovery",
+      "callee": "rea",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "rea",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L7"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_choose_the_remedy_from_the_observed_failure",
+      "callee": "provider_unavailable",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "provider_unavailable",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_choose_the_remedy_from_the_observed_failure",
+      "callee": "tool_availability",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "binary_session.result.tool_availability",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L25",
+      "qualifiers": ["binary_session", "result"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_choose_the_remedy_from_the_observed_failure",
+      "callee": "rea",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "rea",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_distinguish_client_and_server_deadlines",
+      "callee": "binary_session",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "binary_session",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L48"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_distinguish_client_and_server_deadlines",
+      "callee": "startup_timeout_sec",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "startup_timeout_sec",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L54"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_distinguish_client_and_server_deadlines",
+      "callee": "provider_timeout",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "provider_timeout",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L62"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_distinguish_client_and_server_deadlines",
+      "callee": "action",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "remediation.action",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L63",
+      "qualifiers": ["remediation"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_distinguish_client_and_server_deadlines",
+      "callee": "analysis_timeout_ms",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "analysis_timeout_ms",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L71"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_distinguish_client_and_server_deadlines",
+      "callee": "source_paths",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "source_paths",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L74"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_recovery_ladder",
+      "callee": "NODE_OPTIONS",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "NODE_OPTIONS",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L94"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_recovery_ladder",
+      "callee": "cleanup_incomplete",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "cleanup_incomplete",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L104"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_recovery_ladder",
+      "callee": "resource_constraint",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "resource_constraint",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L108"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_recovery_ladder",
+      "callee": "retryable",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "retryable",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L108"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_recovery_ladder",
+      "callee": "configuration_invalid",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "configuration_invalid",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L111"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_recovery_ladder",
+      "callee": "invalid_request",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "invalid_request",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L116"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_rea_installed_as_a_client_plugin",
+      "callee": "rea",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "rea",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L121"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_rea_installed_as_a_client_plugin",
+      "callee": "missing",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "missing",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L123"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_rea_installed_as_a_client_plugin",
+      "callee": "tool_availability",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "binary_session.result.tool_availability",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L135",
+      "qualifiers": ["binary_session", "result"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "claude_code",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "claude_code",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L154"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "claude_desktop",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "claude_desktop",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L154"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "codex",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "codex",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L154"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "cursor",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "cursor",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L155"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "gemini_cli",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "gemini_cli",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L155"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "windsurf",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "windsurf",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L155"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "devin",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "devin",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L155"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "opencode",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "opencode",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L155"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "antigravity",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "antigravity",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L155"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "copilot_cli",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "copilot_cli",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L156"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "commandcode",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "commandcode",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L156"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "qwen_code",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "qwen_code",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L156"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "vscode",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "vscode",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L156"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "trae",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "trae",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L156"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "grok_build",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "grok_build",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L156"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "omp",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "omp",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L156"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "pi",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "pi",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L156"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "hermes",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "hermes",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L157"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "qoder",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "qoder",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L157"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "droid",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "droid",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L157"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "zcode",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "zcode",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L157"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "dsh",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "dsh",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L157"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "freebuff",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "freebuff",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L157"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_registration_when_needed",
+      "callee": "grok_bot",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "grok_bot",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L157"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_an_editable_rea_limit",
+      "callee": "limit",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "details.limit",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L209",
+      "qualifiers": ["details"]
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_an_editable_rea_limit",
+      "callee": "update_analysis_settings",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "update_analysis_settings",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L210"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_an_editable_rea_limit",
+      "callee": "changes",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "changes",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L210"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_an_editable_rea_limit",
+      "callee": "setting",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "setting",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L210"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_an_editable_rea_limit",
+      "callee": "value",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "value",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L211"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_repair_an_editable_rea_limit",
+      "callee": "inspect_analysis_settings",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "inspect_analysis_settings",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L211"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_continue_through_an_installed_cli",
+      "callee": "rea",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "rea",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L232"
+    },
+    {
+      "caller_nid": "$graphify-root$_reverse_engineer_anything_references_connection_and_recovery_continue_through_an_installed_cli",
+      "callee": "jq",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "jq",
+      "source_file": "reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_location": "L245"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "_cached_target_files": [
+    "$graphify-root$/reverse-engineer-anything/references/javascript-applications.md"
+  ]
+}

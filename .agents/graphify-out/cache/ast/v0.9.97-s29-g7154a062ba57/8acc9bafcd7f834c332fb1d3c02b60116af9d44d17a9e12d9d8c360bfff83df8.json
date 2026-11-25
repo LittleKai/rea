@@ -1,0 +1,420 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_md",
+      "label": "kotlin-and-api-recovery.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_r8_proguard_kotlin_name_recovery_android_api_extraction",
+      "label": "R8/ProGuard Kotlin Name Recovery & Android API Extraction",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_1_why_r8_proguard_leaves_kotlin_metadata_intact",
+      "label": "1. Why R8/ProGuard Leaves Kotlin Metadata Intact",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_2_step_by_step_workflow_with_scripts_kotlin_apk_inspector_py",
+      "label": "2. Step-by-Step Workflow with `scripts/kotlin_apk_inspector.py`",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L15"
+    },
+    {
+      "id": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_1_container_framework_triage_fingerprint",
+      "label": "Step 1: Container & Framework Triage (`fingerprint`)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L17"
+    },
+    {
+      "id": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_2_recover_obfuscated_kotlin_names_recover_kotlin",
+      "label": "Step 2: Recover Obfuscated Kotlin Names (`recover-kotlin`)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L29"
+    },
+    {
+      "id": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_3_navigate_and_grep_with_deobfuscated_context_lookup",
+      "label": "Step 3: Navigate and Grep with Deobfuscated Context (`lookup`)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L43"
+    },
+    {
+      "id": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_4_extract_network_api_layer_find_api",
+      "label": "Step 4: Extract Network & API Layer (`find-api`)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L52"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_md",
+      "target": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_r8_proguard_kotlin_name_recovery_android_api_extraction",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_r8_proguard_kotlin_name_recovery_android_api_extraction",
+      "target": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_1_why_r8_proguard_leaves_kotlin_metadata_intact",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_r8_proguard_kotlin_name_recovery_android_api_extraction",
+      "target": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_2_step_by_step_workflow_with_scripts_kotlin_apk_inspector_py",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_2_step_by_step_workflow_with_scripts_kotlin_apk_inspector_py",
+      "target": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_1_container_framework_triage_fingerprint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_2_step_by_step_workflow_with_scripts_kotlin_apk_inspector_py",
+      "target": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_2_recover_obfuscated_kotlin_names_recover_kotlin",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_2_step_by_step_workflow_with_scripts_kotlin_apk_inspector_py",
+      "target": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_3_navigate_and_grep_with_deobfuscated_context_lookup",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_2_step_by_step_workflow_with_scripts_kotlin_apk_inspector_py",
+      "target": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_4_extract_network_api_layer_find_api",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L52",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_1_why_r8_proguard_leaves_kotlin_metadata_intact",
+      "callee": "d2",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "d2",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L9"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_1_why_r8_proguard_leaves_kotlin_metadata_intact",
+      "callee": "kotlinc",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "kotlinc",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L13"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_1_container_framework_triage_fingerprint",
+      "callee": "fingerprint",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "fingerprint",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L17"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_1_container_framework_triage_fingerprint",
+      "callee": "primary_framework",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "primary_framework",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_1_container_framework_triage_fingerprint",
+      "callee": "flutter",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "flutter",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_1_container_framework_triage_fingerprint",
+      "callee": "react_native",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "react_native",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_1_container_framework_triage_fingerprint",
+      "callee": "unity",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "unity",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_1_container_framework_triage_fingerprint",
+      "callee": "xamarin",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "xamarin",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_1_container_framework_triage_fingerprint",
+      "callee": "cordova_capacitor",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "cordova_capacitor",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_1_container_framework_triage_fingerprint",
+      "callee": "kotlin",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "kotlin",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_1_container_framework_triage_fingerprint",
+      "callee": "native_android",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "native_android",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_1_container_framework_triage_fingerprint",
+      "callee": "has_kotlin_metadata",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "has_kotlin_metadata",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_1_container_framework_triage_fingerprint",
+      "callee": "true",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "true",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_1_container_framework_triage_fingerprint",
+      "callee": "split_apks",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "split_apks",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L27"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_1_container_framework_triage_fingerprint",
+      "callee": "abis",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "abis",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L27"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_2_recover_obfuscated_kotlin_names_recover_kotlin",
+      "callee": "tsv",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "mapping.tsv",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L39",
+      "qualifiers": ["mapping"]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_2_recover_obfuscated_kotlin_names_recover_kotlin",
+      "callee": "obf_fqn",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "obf_fqn",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L39"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_2_recover_obfuscated_kotlin_names_recover_kotlin",
+      "callee": "real_fqn",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "real_fqn",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L39"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_3_navigate_and_grep_with_deobfuscated_context_lookup",
+      "callee": "lookup",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "lookup",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L43"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_3_navigate_and_grep_with_deobfuscated_context_lookup",
+      "callee": "real_fqn",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "real_fqn",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L49"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_4_extract_network_api_layer_find_api",
+      "callee": "retrofit",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "retrofit",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L60"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_4_extract_network_api_layer_find_api",
+      "callee": "okhttp",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "okhttp",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L61"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_4_extract_network_api_layer_find_api",
+      "callee": "Builder",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "Request.Builder",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L61",
+      "qualifiers": ["Request"]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_4_extract_network_api_layer_find_api",
+      "callee": "parse",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "HttpUrl.parse",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L61",
+      "qualifiers": ["HttpUrl"]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_4_extract_network_api_layer_find_api",
+      "callee": "addHeader",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "addHeader",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L61"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_4_extract_network_api_layer_find_api",
+      "callee": "addInterceptor",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "addInterceptor",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L61"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_4_extract_network_api_layer_find_api",
+      "callee": "CertificatePinner",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "CertificatePinner",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L61"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_4_extract_network_api_layer_find_api",
+      "callee": "ktor",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "ktor",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L62"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_4_extract_network_api_layer_find_api",
+      "callee": "ktor",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "io.ktor",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L62",
+      "qualifiers": ["io"]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_4_extract_network_api_layer_find_api",
+      "callee": "HttpClient",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "HttpClient",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L62"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_android_kotlin_recovery_references_kotlin_and_api_recovery_step_4_extract_network_api_layer_find_api",
+      "callee": "urls",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "urls",
+      "source_file": "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md",
+      "source_location": "L63"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

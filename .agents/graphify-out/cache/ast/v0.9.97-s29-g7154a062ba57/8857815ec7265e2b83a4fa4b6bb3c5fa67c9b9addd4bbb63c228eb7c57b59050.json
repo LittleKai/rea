@@ -1,0 +1,95 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_rea_ci_tests_audit_references_measurement_and_ci_md",
+      "label": "measurement-and-ci.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "rea-ci-tests-audit/references/measurement-and-ci.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_rea_ci_tests_audit_references_measurement_and_ci_measurement_and_ci_checks",
+      "label": "Measurement and CI checks",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-ci-tests-audit/references/measurement-and-ci.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_rea_ci_tests_audit_references_measurement_and_ci_equivalent_completed_work",
+      "label": "Equivalent completed work",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-ci-tests-audit/references/measurement-and-ci.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "$graphify-root$_rea_ci_tests_audit_references_measurement_and_ci_workflow_caches_and_shared_artifacts",
+      "label": "Workflow, caches, and shared artifacts",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-ci-tests-audit/references/measurement-and-ci.md",
+      "source_location": "L27"
+    },
+    {
+      "id": "$graphify-root$_rea_ci_tests_audit_references_measurement_and_ci_runner_waits_and_console_noise",
+      "label": "Runner waits and console noise",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-ci-tests-audit/references/measurement-and-ci.md",
+      "source_location": "L50"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_rea_ci_tests_audit_references_measurement_and_ci_md",
+      "target": "$graphify-root$_rea_ci_tests_audit_references_measurement_and_ci_measurement_and_ci_checks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-ci-tests-audit/references/measurement-and-ci.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_ci_tests_audit_references_measurement_and_ci_measurement_and_ci_checks",
+      "target": "$graphify-root$_rea_ci_tests_audit_references_measurement_and_ci_equivalent_completed_work",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-ci-tests-audit/references/measurement-and-ci.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_ci_tests_audit_references_measurement_and_ci_measurement_and_ci_checks",
+      "target": "$graphify-root$_rea_ci_tests_audit_references_measurement_and_ci_workflow_caches_and_shared_artifacts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-ci-tests-audit/references/measurement-and-ci.md",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_ci_tests_audit_references_measurement_and_ci_measurement_and_ci_checks",
+      "target": "$graphify-root$_rea_ci_tests_audit_references_measurement_and_ci_runner_waits_and_console_noise",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-ci-tests-audit/references/measurement-and-ci.md",
+      "source_location": "L50",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_rea_ci_tests_audit_references_measurement_and_ci_workflow_caches_and_shared_artifacts",
+      "callee": "always",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "always()",
+      "source_file": "rea-ci-tests-audit/references/measurement-and-ci.md",
+      "source_location": "L44"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

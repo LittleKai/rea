@@ -1,0 +1,1022 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_py",
+      "label": "project_baseline.py",
+      "file_type": "code",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_is_within",
+      "label": "_is_within()",
+      "file_type": "code",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L16",
+      "_callable": true
+    },
+    {
+      "id": "path",
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/rea-js-reverse-lab/scripts/project_baseline.py"
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_relative_posix",
+      "label": "_relative_posix()",
+      "file_type": "code",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L22",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_snapshot",
+      "label": "snapshot()",
+      "file_type": "code",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L30",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_current_skill_version",
+      "label": "current_skill_version()",
+      "file_type": "code",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L45",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_parse_identities",
+      "label": "parse_identities()",
+      "file_type": "code",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L54",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L64",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_rationale_3",
+      "label": "Create and check portable project baselines without storing source or\u2026",
+      "file_type": "rationale",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_py",
+      "target": "argparse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "argparse",
+      "_python_import_bindings": [["argparse", "argparse"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_py",
+      "target": "hashlib",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "hashlib",
+      "_python_import_bindings": [["hashlib", "hashlib"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "json",
+      "_python_import_bindings": [["json", "json"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_py",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "os",
+      "_python_import_bindings": [["os", "os"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_py",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "re",
+      "_python_import_bindings": [["re", "re"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_py",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_python_import_module": "pathlib",
+      "_python_import_bindings": [["Path", "Path"]]
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_py",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_is_within",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_is_within",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_py",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_relative_posix",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_relative_posix",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_py",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_snapshot",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_snapshot",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_py",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_current_skill_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_py",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_parse_identities",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_py",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_snapshot",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_is_within",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_snapshot",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_relative_posix",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_current_skill_version",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_is_within",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_snapshot",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_parse_identities",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_relative_posix",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_rationale_3",
+      "target": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L3",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_is_within",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L17",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [450, 493]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_is_within",
+      "callee": "normcase",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L17",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [455, 492]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_is_within",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L17",
+      "receiver": "path",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Path",
+      "_python_call_site": [476, 490]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_is_within",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L18",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [510, 553]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_is_within",
+      "callee": "normcase",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L18",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [515, 552]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_is_within",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L18",
+      "receiver": "root",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Path",
+      "_python_call_site": [536, 550]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_is_within",
+      "callee": "is_relative_to",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L19",
+      "receiver": "norm_path",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Path",
+      "_python_call_site": [565, 600]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_relative_posix",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L23",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [671, 714]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_relative_posix",
+      "callee": "normcase",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L23",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [676, 713]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_relative_posix",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L23",
+      "receiver": "path",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Path",
+      "_python_call_site": [697, 711]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_relative_posix",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L24",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [731, 774]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_relative_posix",
+      "callee": "normcase",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L24",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [736, 773]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_relative_posix",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L24",
+      "receiver": "root",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Path",
+      "_python_call_site": [757, 771]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_relative_posix",
+      "callee": "relative_to",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L25",
+      "receiver": "norm_path",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Path",
+      "_python_call_site": [791, 823]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_relative_posix",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L26",
+      "receiver": "path",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Path",
+      "_python_call_site": [847, 861]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_relative_posix",
+      "callee": "as_posix",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L27",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [919, 947]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_relative_posix",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L27",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [919, 936]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_snapshot",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L33",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1105, 1128]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_snapshot",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L35",
+      "receiver": null,
+      "_python_call_site": [1186, 1248]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_snapshot",
+      "callee": "sha256",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L37",
+      "receiver": "hashlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [1308, 1324]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_snapshot",
+      "callee": "open",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L38",
+      "receiver": "path",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [1105, 1128],
+      "_python_call_site": [1338, 1353]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_snapshot",
+      "callee": "read",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L39",
+      "receiver": "stream",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1403, 1421]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_snapshot",
+      "callee": "update",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L40",
+      "receiver": "digest",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [1308, 1324],
+      "_python_call_site": [1445, 1465]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_snapshot",
+      "callee": "hexdigest",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L41",
+      "receiver": "digest",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [1308, 1324],
+      "_python_call_site": [1488, 1506]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_current_skill_version",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L46",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1578, 1602]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_current_skill_version",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L46",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [1578, 1592]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_current_skill_version",
+      "callee": "__file__",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L46"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_current_skill_version",
+      "callee": "exists",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L47",
+      "receiver": "skill_md",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1638, 1655]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_current_skill_version",
+      "callee": "VERSION",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "return",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L48"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_current_skill_version",
+      "callee": "read_text",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L49",
+      "receiver": "skill_md",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1691, 1727]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_current_skill_version",
+      "callee": "search",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L50",
+      "receiver": "re",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [1740, 1805]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_current_skill_version",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L51",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1817, 1839]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_current_skill_version",
+      "callee": "group",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L51",
+      "receiver": "match",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [1740, 1805],
+      "_python_call_site": [1817, 1831]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_parse_identities",
+      "callee": "partition",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L57",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2010, 2029]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_parse_identities",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L59",
+      "receiver": null,
+      "_python_call_site": [2099, 2142]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "ArgumentParser",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L65",
+      "receiver": "argparse",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [2224, 2315]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L66",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [2320, 2401]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L67",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [2406, 2464]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L68",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [2469, 2511]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L69",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [2516, 2582]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L70",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [2587, 2628]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L71",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [2633, 2704]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L72",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [2709, 2764]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L73",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [2769, 2828]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L74",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [2833, 3003]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "parse_args",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L80",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [3015, 3034]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L81",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3046, 3071]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L81",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [3046, 3061]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L82",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3087, 3119]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L84",
+      "receiver": null,
+      "_python_call_site": [3173, 3225]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "error",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L88",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [3298, 3337]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L102"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L103",
+      "receiver": null,
+      "_python_call_site": [3903, 3944]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "mkdir",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L104",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3953, 4003]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "open",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L105",
+      "receiver": "manifest",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [3087, 3119],
+      "_python_call_site": [4017, 4053]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "dump",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L106",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [4077, 4130]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "stream",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L106"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L108",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [4158, 4390]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L112"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L118",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [4430, 4478]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "read_text",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L118",
+      "receiver": "manifest",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [3087, 3119],
+      "_python_call_site": [4441, 4477]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L119",
+      "receiver": "data",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4486, 4512]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L120",
+      "receiver": null,
+      "_python_call_site": [4533, 4574]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L123",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4657, 4678]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L126",
+      "receiver": "changed",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4766, 4786]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L128",
+      "receiver": "missing",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4833, 4853]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L130",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [4873, 5215]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L135",
+      "receiver": "data",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [5075, 5099]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_scripts_project_baseline_main",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "rea-js-reverse-lab/scripts/project_baseline.py",
+      "source_location": "L136",
+      "receiver": "data",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [5131, 5157]
+    }
+  ]
+}

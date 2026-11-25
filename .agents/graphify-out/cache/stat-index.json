@@ -1,0 +1,266 @@
+{
+  "anti-rea/SKILL.md": {
+    "size": 10117,
+    "mtime_ns": 1794799182612188500,
+    "indexed_at_ns": 1794800079374627600,
+    "hashes": {
+      "anti-rea/skill.md": "c7a1a195f3377129ff610c723b8538b0272a68365100f398b18cc63c3657178c"
+    }
+  },
+  "anti-rea/references/desktop-mobile-native-hardening.md": {
+    "size": 6373,
+    "mtime_ns": 1794799142190231500,
+    "indexed_at_ns": 1794800089525220800,
+    "hashes": {
+      "anti-rea/references/desktop-mobile-native-hardening.md": "f381144e7ac233f37ccbc755ce7498f802ebad21f4010f996267aa77588c0cee"
+    }
+  },
+  "anti-rea/references/web-and-js-hardening.md": {
+    "size": 8657,
+    "mtime_ns": 1794799182612188500,
+    "indexed_at_ns": 1794800089533221400,
+    "hashes": {
+      "anti-rea/references/web-and-js-hardening.md": "847cd10d77df0a9b2491e04b789d117e16063e63a21b9f2bd7f3308a0448aa4e"
+    }
+  },
+  "anti-rea/scripts/audit_anti_rea.py": {
+    "size": 29876,
+    "mtime_ns": 1794799451496220600,
+    "indexed_at_ns": 1794800089541223200,
+    "hashes": {
+      "anti-rea/scripts/audit_anti_rea.py": "ed6220330292af40d9a243ebd9ca384ecb5dc54403bc527e5a5e7086a9b98a6d"
+    }
+  },
+  "rea-analysis-optimization/SKILL.md": {
+    "size": 7762,
+    "mtime_ns": 1794155398072873400,
+    "indexed_at_ns": 1794800089546222600,
+    "hashes": {
+      "rea-analysis-optimization/skill.md": "76202e744c883f39ccbcebac7e546f5d68d7da3ae29eaf35ce4720b5fdeafa8f"
+    }
+  },
+  "rea-analysis-optimization/agents/openai.yaml": {
+    "size": 283,
+    "mtime_ns": 1792484611461151500,
+    "indexed_at_ns": 1794800089551222700,
+    "hashes": {
+      "rea-analysis-optimization/agents/openai.yaml": "f6093282bacb6ecc380492beb5e8daa19ebf80136ee3903f23f0710d8083cd7b"
+    }
+  },
+  "rea-analysis-optimization/references/kuna-case-study.md": {
+    "size": 6520,
+    "mtime_ns": 1792484611462151800,
+    "indexed_at_ns": 1794800089556223100,
+    "hashes": {
+      "rea-analysis-optimization/references/kuna-case-study.md": "ab91a80b41382819c7e726cd4bbd69b8dacd4f9e107160005af754af58444512"
+    }
+  },
+  "rea-android-kotlin-recovery/SKILL.md": {
+    "size": 2639,
+    "mtime_ns": 1794063009014033400,
+    "indexed_at_ns": 1794800089561222900,
+    "hashes": {
+      "rea-android-kotlin-recovery/skill.md": "1a00744848d28a47a62131fecdfe379a3075674f6173289f054d3cc0cd954745"
+    }
+  },
+  "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md": {
+    "size": 3415,
+    "mtime_ns": 1794065770775977300,
+    "indexed_at_ns": 1794800089566223000,
+    "hashes": {
+      "rea-android-kotlin-recovery/references/kotlin-and-api-recovery.md": "8acc9bafcd7f834c332fb1d3c02b60116af9d44d17a9e12d9d8c360bfff83df8"
+    }
+  },
+  "rea-android-kotlin-recovery/scripts/kotlin_apk_inspector.py": {
+    "size": 14621,
+    "mtime_ns": 1794062205370938600,
+    "indexed_at_ns": 1794800089571223000,
+    "hashes": {
+      "rea-android-kotlin-recovery/scripts/kotlin_apk_inspector.py": "aa44ecf9e277ac8de52ca60d2929567c1998b1a38d153bd07148de0b49bca719"
+    }
+  },
+  "rea-case-review/SKILL.md": {
+    "size": 2360,
+    "mtime_ns": 1794062390655436100,
+    "indexed_at_ns": 1794800089576222400,
+    "hashes": {
+      "rea-case-review/skill.md": "d66cd717c05611d09d4fa17f3d6859716b6e81ec8befac93d3a8243251af304d"
+    }
+  },
+  "rea-case-review/scripts/review_case.py": {
+    "size": 25321,
+    "mtime_ns": 1794062367326134100,
+    "indexed_at_ns": 1794800089581223200,
+    "hashes": {
+      "rea-case-review/scripts/review_case.py": "20417a63c9c0da3f0f35e17506cf94b1e83144a7b8867bee1977634e588f3bb8"
+    }
+  },
+  "rea-changelog-update/SKILL.md": {
+    "size": 7626,
+    "mtime_ns": 1794155398073866200,
+    "indexed_at_ns": 1794800089586223000,
+    "hashes": {
+      "rea-changelog-update/skill.md": "a4b9339f2619c38fd61dae1efa8085a06fbee291ab3454ab0e72ae3a212893c6"
+    }
+  },
+  "rea-ci-tests-audit/SKILL.md": {
+    "size": 6798,
+    "mtime_ns": 1794155398074986100,
+    "indexed_at_ns": 1794800089591222500,
+    "hashes": {
+      "rea-ci-tests-audit/skill.md": "11beab6f8517699afbd36cf8415ff8e994a1caaeb4ea42dd6a48c94de23517ba"
+    }
+  },
+  "rea-ci-tests-audit/agents/openai.yaml": {
+    "size": 259,
+    "mtime_ns": 1792484611464652100,
+    "indexed_at_ns": 1794800089596725400,
+    "hashes": {
+      "rea-ci-tests-audit/agents/openai.yaml": "981e080dd69bf3582915e6926ea9fd5967e0e39967f7df35a740d19d67f8faa3"
+    }
+  },
+  "rea-ci-tests-audit/references/measurement-and-ci.md": {
+    "size": 3894,
+    "mtime_ns": 1792484611465184700,
+    "indexed_at_ns": 1794800089603959100,
+    "hashes": {
+      "rea-ci-tests-audit/references/measurement-and-ci.md": "8857815ec7265e2b83a4fa4b6bb3c5fa67c9b9addd4bbb63c228eb7c57b59050"
+    }
+  },
+  "rea-js-reverse-lab/SKILL.md": {
+    "size": 3353,
+    "mtime_ns": 1794744385126983400,
+    "indexed_at_ns": 1794800089609335000,
+    "hashes": {
+      "rea-js-reverse-lab/skill.md": "cb2920f5e3f2c9706a13a8e2ec877a3404caf93807d845aff02d61e89c138ddd"
+    }
+  },
+  "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md": {
+    "size": 5376,
+    "mtime_ns": 1794065770777143800,
+    "indexed_at_ns": 1794800089615111400,
+    "hashes": {
+      "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md": "1b36d9bd24668ded43ce20992fc8c9e3a4a6bac70cea3cfcac7d9971d68a567b"
+    }
+  },
+  "rea-js-reverse-lab/scripts/experiment_ledger.py": {
+    "size": 12711,
+    "mtime_ns": 1794062030420024700,
+    "indexed_at_ns": 1794800089620297700,
+    "hashes": {
+      "rea-js-reverse-lab/scripts/experiment_ledger.py": "bee0e1186448b1be7199c4a9138c275059d4e8dec2479ed36fac88907b12e1a8"
+    }
+  },
+  "rea-js-reverse-lab/scripts/opaque_token_inspect.py": {
+    "size": 15386,
+    "mtime_ns": 1794061964612736200,
+    "indexed_at_ns": 1794800089625602800,
+    "hashes": {
+      "rea-js-reverse-lab/scripts/opaque_token_inspect.py": "33a6fa4aa04a0a65f5a422feb559737d8b95dc5d5996fced64c5042e189add36"
+    }
+  },
+  "rea-js-reverse-lab/scripts/project_baseline.py": {
+    "size": 5322,
+    "mtime_ns": 1794062059475440400,
+    "indexed_at_ns": 1794800089630219200,
+    "hashes": {
+      "rea-js-reverse-lab/scripts/project_baseline.py": "d0acb20c3a9088049b7b682ec2040ef7e2223956488b126f007f071abb731294"
+    }
+  },
+  "rea-tool-design/SKILL.md": {
+    "size": 2071,
+    "mtime_ns": 1794155398075629500,
+    "indexed_at_ns": 1794800089634970500,
+    "hashes": {
+      "rea-tool-design/skill.md": "42660bec2b24f34300aadd803b18f47f09700e31e6973f47ba03386485b30696"
+    }
+  },
+  "rea-upstream-sync/SKILL.md": {
+    "size": 4517,
+    "mtime_ns": 1794059152671826100,
+    "indexed_at_ns": 1794800089640897300,
+    "hashes": {
+      "rea-upstream-sync/skill.md": "0b3cb29584a87ac01d70fd8eb258c2cd640ef71873ddc7bc736402056f10567b"
+    }
+  },
+  "reverse-engineer-anything/SKILL.md": {
+    "size": 39451,
+    "mtime_ns": 1794155398078366800,
+    "indexed_at_ns": 1794800089646066500,
+    "hashes": {
+      "reverse-engineer-anything/skill.md": "d2ae1c1e9ff326dead3c6af70cb5c25a2204320de85fd81fe27e01b5dd73db29"
+    }
+  },
+  "reverse-engineer-anything/references/android-applications.md": {
+    "size": 4092,
+    "mtime_ns": 1794155398079366100,
+    "indexed_at_ns": 1794800089651942800,
+    "hashes": {
+      "reverse-engineer-anything/references/android-applications.md": "2aa40c074591a9f689fba1b4a94630f22390422f143671b429b26d7003ad3859"
+    }
+  },
+  "reverse-engineer-anything/references/connection-and-recovery.md": {
+    "size": 19020,
+    "mtime_ns": 1794155398080910900,
+    "indexed_at_ns": 1794800089657173700,
+    "hashes": {
+      "reverse-engineer-anything/references/connection-and-recovery.md": "ab8adb47a623e187a94b50119606fa3e1e521b9178b94c3d1cc9a83a96729657"
+    }
+  },
+  "reverse-engineer-anything/references/desktop-build.md": {
+    "size": 15879,
+    "mtime_ns": 1794155398080910900,
+    "indexed_at_ns": 1794800089662250100,
+    "hashes": {
+      "reverse-engineer-anything/references/desktop-build.md": "b94de5ba7f2279f6750258f8bde81901620d1ca2bf5ff928dca9e3e1fb9fefc6"
+    }
+  },
+  "reverse-engineer-anything/references/environments.md": {
+    "size": 20498,
+    "mtime_ns": 1794155398082557100,
+    "indexed_at_ns": 1794800089669646800,
+    "hashes": {
+      "reverse-engineer-anything/references/environments.md": "1e0705c879fa05f7f5a597d7b51a1030f4bf71bb320ea64a9d552c618834fbd6"
+    }
+  },
+  "reverse-engineer-anything/references/evidence-workflows.md": {
+    "size": 11340,
+    "mtime_ns": 1794155398083511300,
+    "indexed_at_ns": 1794800089677647400,
+    "hashes": {
+      "reverse-engineer-anything/references/evidence-workflows.md": "3212fd875e79b58c8ff3a329e9f41d0c676db09a252b9a94a8a5a7c71ad0e46b"
+    }
+  },
+  "reverse-engineer-anything/references/javascript-applications.md": {
+    "size": 15437,
+    "mtime_ns": 1794155398084671500,
+    "indexed_at_ns": 1794800089685520900,
+    "hashes": {
+      "reverse-engineer-anything/references/javascript-applications.md": "0ef6330dbabab2b189c743084da635af28c0a229a5a6f888be0217576581b179"
+    }
+  },
+  "reverse-engineer-anything/references/native-and-artifacts.md": {
+    "size": 53727,
+    "mtime_ns": 1794155398085599900,
+    "indexed_at_ns": 1794800089694515200,
+    "hashes": {
+      "reverse-engineer-anything/references/native-and-artifacts.md": "f68fe65a8fb458c5df52ee3a2249fa545ef13f18f4d13b54a092029f6a19a3fd"
+    }
+  },
+  "reverse-engineer-anything/references/runtime-observation.md": {
+    "size": 11960,
+    "mtime_ns": 1794155398086599000,
+    "indexed_at_ns": 1794800089702516600,
+    "hashes": {
+      "reverse-engineer-anything/references/runtime-observation.md": "b0dd7581ebea6e72335a174333848d57a6b9ee0cfa359587a37ca0bfa2fe04a5"
+    }
+  },
+  "tests/test_rea_skills.py": {
+    "size": 28112,
+    "mtime_ns": 1794799374199869500,
+    "indexed_at_ns": 1794800089710519300,
+    "hashes": {
+      "tests/test_rea_skills.py": "852831c595c08f63c2fca3feb254c1b2a222bde559c0689ac8afaf156d316e99"
+    }
+  }
+}

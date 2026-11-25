@@ -1,0 +1,390 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_md",
+      "label": "jsvmp-and-token-workflows.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_opaque_token_forensics_controlled_replay_jsvmp_workflows",
+      "label": "Opaque Token Forensics, Controlled Replay & JSVMP Workflows",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_1_opaque_token_batch_inspection_scripts_opaque_token_inspect_py",
+      "label": "1. Opaque Token Batch Inspection (`scripts/opaque_token_inspect.py`)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_workflow",
+      "label": "Workflow",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L9"
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_2_controlled_single_variable_replay_scripts_experiment_ledger_py",
+      "label": "2. Controlled Single-Variable Replay (`scripts/experiment_ledger.py`)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L20"
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_outcome_taxonomy",
+      "label": "Outcome Taxonomy",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L24"
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_workflow_34",
+      "label": "Workflow",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L34"
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_3_portable_bundle_baseline_fixity_scripts_project_baseline_py",
+      "label": "3. Portable Bundle Baseline Fixity (`scripts/project_baseline.py`)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L46"
+    },
+    {
+      "id": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_4_jsvmp_javascript_virtual_machine_protection_analysis_playbook",
+      "label": "4. JSVMP (JavaScript Virtual Machine Protection) Analysis Playbook",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L53"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_md",
+      "target": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_opaque_token_forensics_controlled_replay_jsvmp_workflows",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_opaque_token_forensics_controlled_replay_jsvmp_workflows",
+      "target": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_1_opaque_token_batch_inspection_scripts_opaque_token_inspect_py",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_1_opaque_token_batch_inspection_scripts_opaque_token_inspect_py",
+      "target": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_workflow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_opaque_token_forensics_controlled_replay_jsvmp_workflows",
+      "target": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_2_controlled_single_variable_replay_scripts_experiment_ledger_py",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_2_controlled_single_variable_replay_scripts_experiment_ledger_py",
+      "target": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_outcome_taxonomy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_2_controlled_single_variable_replay_scripts_experiment_ledger_py",
+      "target": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_workflow_34",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_opaque_token_forensics_controlled_replay_jsvmp_workflows",
+      "target": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_3_portable_bundle_baseline_fixity_scripts_project_baseline_py",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_opaque_token_forensics_controlled_replay_jsvmp_workflows",
+      "target": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_4_jsvmp_javascript_virtual_machine_protection_analysis_playbook",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L53",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_workflow",
+      "callee": "base64",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "base64",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L13"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_workflow",
+      "callee": "base64url",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "base64url",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L13"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_workflow",
+      "callee": "hex",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "hex",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L13"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_workflow",
+      "callee": "head_stable_positions",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "head_stable_positions",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L14"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_workflow",
+      "callee": "tail_stable_positions",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "tail_stable_positions",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L14"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_workflow",
+      "callee": "length_field_candidates",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "length_field_candidates",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L15"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_workflow",
+      "callee": "adler32",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "adler32",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L18"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_workflow",
+      "callee": "checksum_key_candidates",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "checksum_key_candidates",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L18"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_outcome_taxonomy",
+      "callee": "not_sent",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "not_sent",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L28"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_outcome_taxonomy",
+      "callee": "transport_error",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "transport_error",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L29"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_outcome_taxonomy",
+      "callee": "rejected",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "rejected",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L30"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_outcome_taxonomy",
+      "callee": "accepted",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "accepted",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L31"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_outcome_taxonomy",
+      "callee": "target_ok",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "target_ok",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L32"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_workflow_34",
+      "callee": "audit",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "audit",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L39"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_4_jsvmp_javascript_virtual_machine_protection_analysis_playbook",
+      "callee": "search_js_bundle",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "search_js_bundle",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L55"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_4_jsvmp_javascript_virtual_machine_protection_analysis_playbook",
+      "callee": "trace_js_function",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "trace_js_function",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L55"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_4_jsvmp_javascript_virtual_machine_protection_analysis_playbook",
+      "callee": "while",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "while",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L57"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_4_jsvmp_javascript_virtual_machine_protection_analysis_playbook",
+      "callee": "switch",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "switch",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L57"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_4_jsvmp_javascript_virtual_machine_protection_analysis_playbook",
+      "callee": "IP",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "IP",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L57"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_4_jsvmp_javascript_virtual_machine_protection_analysis_playbook",
+      "callee": "apply",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "Function.prototype.apply",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L58",
+      "qualifiers": ["Function", "prototype"]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_4_jsvmp_javascript_virtual_machine_protection_analysis_playbook",
+      "callee": "CryptoSubtle",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "CryptoSubtle",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_4_jsvmp_javascript_virtual_machine_protection_analysis_playbook",
+      "callee": "send",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "XMLHttpRequest.prototype.send",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L58",
+      "qualifiers": ["XMLHttpRequest", "prototype"]
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_4_jsvmp_javascript_virtual_machine_protection_analysis_playbook",
+      "callee": "fetch",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "fetch",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_4_jsvmp_javascript_virtual_machine_protection_analysis_playbook",
+      "callee": "window",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "window",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_4_jsvmp_javascript_virtual_machine_protection_analysis_playbook",
+      "callee": "navigator",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "navigator",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "$graphify-root$_rea_js_reverse_lab_references_jsvmp_and_token_workflows_4_jsvmp_javascript_virtual_machine_protection_analysis_playbook",
+      "callee": "document",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "document",
+      "source_file": "rea-js-reverse-lab/references/jsvmp-and-token-workflows.md",
+      "source_location": "L58"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
